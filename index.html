@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OSINT4ME</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OSINT4Me</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+
     <header>
         <div class="container">
-            <h1>🔍 OSINT4ME</h1>
-            <input type="text" id="searchInput" placeholder="Rechercher un outil...">
-            <div id="categoryFilters" class="filter-group"></div>
+            <h1>🕵️ OSINT4Me</h1>
+            <p class="subtitle">Annuaire d'outils pour enquêtes en sources ouvertes</p>
         </div>
     </header>
 
-    <main class="container">
-        <div id="stats"></div>
-        <div id="toolsGrid"></div>
-        <div id="noResults" style="display:none;">Aucun outil trouvé</div>
+    <main class="container" id="app">
+        <div id="loading">⏳ Chargement des outils...</div>
+        <div id="categories-container"></div>
     </main>
+
+    <footer>
+        <div class="container">
+            <p>Données mises à jour le <span id="update-date"></span></p>
+        </div>
+    </footer>
 
     <script src="js/main.js"></script>
 </body>
