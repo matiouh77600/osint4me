@@ -1,215 +1,50 @@
-/* --- RESET & BASE --- */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* ===== AJOUTER À LA FIN DU FICHIER ===== */
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #0d1117;
-    color: #e6edf3;
-    min-height: 100vh;
+/* Langue switcher */
+.lang-switcher {
     display: flex;
-    flex-direction: column;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* --- HEADER --- */
-header {
-    background: #161b22;
-    padding: 30px 0 20px;
-    border-bottom: 1px solid #30363d;
-}
-
-header h1 {
-    font-size: 2.2rem;
-    font-weight: 700;
-    background: linear-gradient(135deg, #58a6ff, #8b5cf6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-header .subtitle {
-    color: #8b949e;
-    font-size: 1rem;
-    margin-top: 4px;
-}
-
-/* --- MAIN --- */
-main {
-    flex: 1;
-    padding: 30px 0;
-}
-
-#loading {
-    text-align: center;
-    color: #8b949e;
-    font-size: 1.2rem;
-    padding: 50px 0;
-}
-
-/* --- CATÉGORIES --- */
-.category-block {
-    margin-bottom: 25px;
-    border: 1px solid #30363d;
-    border-radius: 12px;
-    background: #161b22;
-    overflow: hidden;
-    transition: border-color 0.2s;
-}
-
-.category-block:hover {
-    border-color: #58a6ff;
-}
-
-.category-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 14px 20px;
-    cursor: pointer;
-    user-select: none;
-    transition: background 0.2s;
-}
-
-.category-header:hover {
-    background: #1c2333;
-}
-
-.category-header h2 {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #f0f6fc;
-}
-
-.category-header .badge {
-    background: #1f6feb;
-    color: #fff;
-    font-size: 0.7rem;
-    font-weight: 600;
-    padding: 2px 12px;
+    gap: 4px;
+    background: var(--bg-primary);
     border-radius: 30px;
-    margin-left: 12px;
+    padding: 4px;
+    border: 1px solid var(--border-color);
 }
 
-.category-header .arrow {
-    font-size: 1.2rem;
-    color: #8b949e;
-    transition: transform 0.3s ease;
+.lang-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    padding: 4px 14px;
+    border-radius: 30px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition);
 }
 
-.category-header .arrow.open {
-    transform: rotate(180deg);
+.lang-btn:hover {
+    color: var(--text-primary);
 }
 
-/* --- LISTE DES OUTILS --- */
-.tool-list {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease, padding 0.3s ease;
-    padding: 0 20px;
+.lang-btn.active {
+    background: var(--accent-blue);
+    color: #fff;
 }
 
-.tool-list.open {
-    max-height: 5000px;
-    padding: 0 20px 20px 20px;
-}
-
-.tool-item {
+.header-right {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 12px;
-    border-bottom: 1px solid #21262d;
-    transition: background 0.15s;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
-.tool-item:last-child {
-    border-bottom: none;
-}
-
-.tool-item:hover {
-    background: #1c2333;
-    border-radius: 8px;
-}
-
-.tool-item .name {
-    font-weight: 500;
-    color: #e6edf3;
-}
-
-.tool-item .desc {
-    color: #8b949e;
-    font-size: 0.85rem;
-    margin-left: 15px;
-    flex: 1;
-}
-
-.tool-item a {
-    color: #58a6ff;
-    text-decoration: none;
-    border: 1px solid #58a6ff;
-    padding: 3px 14px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 500;
-    transition: all 0.2s;
-    white-space: nowrap;
-}
-
-.tool-item a:hover {
-    background: #58a6ff;
-    color: #0d1117;
-}
-
-/* --- FOOTER --- */
-footer {
-    border-top: 1px solid #30363d;
-    padding: 16px 0;
-    background: #161b22;
-    text-align: center;
-    color: #8b949e;
-    font-size: 0.85rem;
-    margin-top: 20px;
-}
-
-/* --- RESPONSIVE --- */
 @media (max-width: 700px) {
-    .tool-item {
-        flex-wrap: wrap;
-        gap: 8px;
+    .header-right {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
     }
-    .tool-item .desc {
-        margin-left: 0;
-        flex-basis: 100%;
-        order: 1;
-        font-size: 0.8rem;
-    }
-    .tool-item a {
-        order: 2;
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 1.6rem;
-    }
-    .category-header {
-        padding: 12px 16px;
-    }
-    .category-header h2 {
-        font-size: 0.95rem;
-    }
-    .tool-list.open {
-        padding: 0 12px 16px 12px;
-    }
-    .tool-item {
-        padding: 8px 6px;
+    .lang-switcher {
+        align-self: center;
     }
 }
