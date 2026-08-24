@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSINT4ME - Recherche d'outils</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🔍 OSINT4ME</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Rechercher un outil...">
+                <div class="filter-group" id="categoryFilters">
+                    <!-- Les boutons de filtre seront générés par JS -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="toolsGrid" class="tools-grid">
+            <!-- Les cartes d'outils seront générées par JS -->
+        </div>
+        <p id="noResults" style="display: none; text-align: center; color: #aaa;">Aucun outil trouvé.</p>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
