@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Onlinesim.net",
+    "url": "https://onlinesim.net",
+    "category": "Téléphone & SMS",
+    "description": "Recevoir des SMS temporaires pour vérifications"
+  },
+  {
+    "name": "DoNotPay",
+    "url": "https://donotpay.com",
+    "category": "Assistant IA",
+    "description": "Robot avocat pour contester des amendes et plus"
+  },
+  {
+    "name": "10minutemail.com",
+    "url": "https://10minutemail.com",
+    "category": "Email temporaire",
+    "description": "Adresse email jetable valable 10 minutes"
+  },
+  {
+    "name": "AnonAddy",
+    "url": "https://anonaddy.com",
+    "category": "Email temporaire",
+    "description": "Créez des alias email anonymes"
+  },
+  {
+    "name": "SimpleLogin",
+    "url": "https://simplelogin.io",
+    "category": "Email temporaire",
+    "description": "Protégez votre vraie adresse email"
+  },
+  {
+    "name": "MailDrop",
+    "url": "https://maildrop.cc",
+    "category": "Email temporaire",
+    "description": "Boîte mail jetable sans inscription"
+  },
+  {
+    "name": "Send text free",
+    "url": "https://www.textnow.com",
+    "category": "Téléphone & SMS",
+    "description": "Envoyez des SMS gratuits depuis le web"
+  },
+  {
+    "name": "SendaText",
+    "url": "https://sendatext.com",
+    "category": "Téléphone & SMS",
+    "description": "Envoyez un SMS à un numéro américain"
+  },
+  {
+    "name": "Free Fax",
+    "url": "https://www.faxzero.com",
+    "category": "Téléphone & SMS",
+    "description": "Envoyez un fax gratuitement"
+  },
+  {
+    "name": "Receive SMS Online",
+    "url": "https://receive-sms-online.info",
+    "category": "Téléphone & SMS",
+    "description": "Recevez des SMS en ligne sans inscription"
+  },
+  {
+    "name": "Smstome.com",
+    "url": "https://smstome.com",
+    "category": "Téléphone & SMS",
+    "description": "Numéro de téléphone temporaire"
+  },
+  {
+    "name": "Amazon SNS",
+    "url": "https://aws.amazon.com/sns",
+    "category": "Développement",
+    "description": "Service de notifications d'Amazon Web Services"
+  },
+  {
+    "name": "Twilio",
+    "url": "https://www.twilio.com",
+    "category": "Développement",
+    "description": "API pour SMS, voix et authentification"
+  }
+]
