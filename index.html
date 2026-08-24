@@ -1,28 +1,156 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OSINT4Me</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 <body>
 
+    <!-- ===== NAVIGATION ===== -->
     <header>
         <div class="container">
-            <h1>🕵️ OSINT4Me</h1>
-            <p class="subtitle">Annuaire d'outils pour enquêtes en sources ouvertes</p>
+            <div class="header-row">
+                <div class="logo">
+                    <span class="icon">🕵️</span>
+                    <span class="title">OSINT4Me</span>
+                </div>
+                <div class="header-right">
+                    <div class="lang-switcher">
+                        <button class="lang-btn active" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="fr">FR</button>
+                    </div>
+                    <nav>
+                        <button class="nav-btn active" data-page="home">
+                            <i class="fas fa-home"></i> <span data-i18n="nav.home">Home</span>
+                        </button>
+                        <button class="nav-btn" data-page="ai">
+                            <i class="fas fa-robot"></i> <span data-i18n="nav.ai">AI</span>
+                        </button>
+                        <button class="nav-btn" data-page="suggest">
+                            <i class="fas fa-lightbulb"></i> <span data-i18n="nav.suggest">Suggest</span>
+                        </button>
+                        <button class="nav-btn" data-page="admin">
+                            <i class="fas fa-lock"></i> <span data-i18n="nav.admin">Admin</span>
+                        </button>
+                        <a href="https://www.linkedin.com/in/votreprofil" target="_blank" class="contact-link">
+                            <i class="fab fa-linkedin"></i> <span data-i18n="nav.contact">Contact</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
         </div>
     </header>
 
-    <main class="container" id="app">
-        <div id="loading">⏳ Chargement des outils...</div>
-        <div id="categories-container"></div>
+    <!-- ===== CONTENU PRINCIPAL ===== -->
+    <main>
+        <div class="container">
+
+            <!-- PAGE ACCUEIL -->
+            <div id="page-home" class="page active">
+                <div class="page-header">
+                    <h2><i class="fas fa-compass"></i> <span data-i18n="home.title">OSINT Directory</span></h2>
+                    <p class="subtitle" data-i18n="home.subtitle">Browse tools by category</p>
+                    <div class="visitor-counter">
+                        <i class="fas fa-eye"></i>
+                        <span id="visitor-count">0</span> <span data-i18n="home.visitors">visitors</span>
+                    </div>
+                </div>
+                <div id="categories-container"></div>
+            </div>
+
+            <!-- PAGE IA -->
+            <div id="page-ai" class="page">
+                <div class="page-header">
+                    <h2><i class="fas fa-robot"></i> <span data-i18n="ai.title">Artificial Intelligence</span></h2>
+                    <p class="subtitle" data-i18n="ai.subtitle">AI tools classified by role</p>
+                </div>
+                <div id="ai-container"></div>
+            </div>
+
+            <!-- PAGE SUGGESTION -->
+            <div id="page-suggest" class="page">
+                <div class="page-header">
+                    <h2><i class="fas fa-lightbulb"></i> <span data-i18n="suggest.title">Suggest a change</span></h2>
+                    <p class="subtitle" data-i18n="suggest.subtitle">Propose a new tool or report a broken link</p>
+                </div>
+                <form id="suggest-form">
+                    <div class="form-group">
+                        <label data-i18n="suggest.type">Suggestion type</label>
+                        <select id="suggest-type" required>
+                            <option value="new" data-i18n="suggest.type_new">➕ New tool</option>
+                            <option value="broken" data-i18n="suggest.type_broken">🔗 Broken link</option>
+                            <option value="update" data-i18n="suggest.type_update">📝 Update tool</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label data-i18n="suggest.name">Tool name</label>
+                        <input type="text" id="suggest-name" placeholder="Ex: ChatGPT" />
+                    </div>
+                    <div class="form-group">
+                        <label data-i18n="suggest.url">URL (if applicable)</label>
+                        <input type="url" id="suggest-url" placeholder="https://..." />
+                    </div>
+                    <div class="form-group">
+                        <label data-i18n="suggest.category">Category</label>
+                        <select id="suggest-category">
+                            <option value="" data-i18n="suggest.category_choose">Choose a category...</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label data-i18n="suggest.message">Message / Description</label>
+                        <textarea id="suggest-message" rows="4" placeholder="Describe your suggestion..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">
+                        <i class="fas fa-paper-plane"></i> <span data-i18n="suggest.submit">Submit suggestion</span>
+                    </button>
+                    <div id="suggest-feedback"></div>
+                </form>
+            </div>
+
+            <!-- PAGE ADMIN -->
+            <div id="page-admin" class="page">
+                <div class="page-header">
+                    <h2><i class="fas fa-lock"></i> <span data-i18n="admin.title">Administration</span></h2>
+                    <p class="subtitle" data-i18n="admin.subtitle">Manage tools on the fly</p>
+                </div>
+                <div class="admin-panel">
+                    <div class="admin-tools">
+                        <button id="admin-refresh" class="btn-secondary">
+                            <i class="fas fa-sync"></i> <span data-i18n="admin.refresh">Reload data</span>
+                        </button>
+                        <button id="admin-export" class="btn-secondary">
+                            <i class="fas fa-download"></i> <span data-i18n="admin.export">Export JSON</span>
+                        </button>
+                        <button id="admin-import" class="btn-secondary">
+                            <i class="fas fa-upload"></i> <span data-i18n="admin.import">Import JSON</span>
+                        </button>
+                        <input type="file" id="admin-file-input" accept=".json" style="display:none;" />
+                    </div>
+                    <div class="admin-editor">
+                        <h3><i class="fas fa-code"></i> <span data-i18n="admin.editor">JSON Editor</span></h3>
+                        <textarea id="admin-editor" rows="20" spellcheck="false"></textarea>
+                        <button id="admin-save" class="btn-primary">
+                            <i class="fas fa-save"></i> <span data-i18n="admin.save">Save</span>
+                        </button>
+                        <div id="admin-feedback"></div>
+                    </div>
+                    <div class="admin-stats">
+                        <p><strong data-i18n="admin.total">Total tools :</strong> <span id="admin-total">0</span></p>
+                        <p><strong data-i18n="admin.categories">Categories :</strong> <span id="admin-categories">0</span></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </main>
 
+    <!-- ===== FOOTER ===== -->
     <footer>
         <div class="container">
-            <p>Données mises à jour le <span id="update-date"></span></p>
+            <p>© 2026 OSINT4Me · <span data-i18n="footer.updated">Data updated</span> <span id="update-date"></span></p>
         </div>
     </footer>
 
