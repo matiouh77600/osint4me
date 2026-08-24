@@ -1,105 +1,87 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let toolsData = [];
-    const grid = document.getElementById('toolsGrid');
-    const searchInput = document.getElementById('searchInput');
-    const filterGroup = document.getElementById('categoryFilters');
-    const noResults = document.getElementById('noResults');
-    const stats = document.getElementById('stats');
+    const container = document.getElementById('categories-container');
+    const loading = document.getElementById('loading');
 
+    // Chargement des données
     async function loadTools() {
         try {
-            // CHEMIN CORRECT pour GitHub Pages
             const response = await fetch('/osint4me/data/tools.json');
-            
-            if (!response.ok) {
-                throw new Error('Fichier non trouvé');
-            }
-            
-            toolsData = await response.json();
-            console.log('Outils chargés :', toolsData.length);
-            
-            populateFilters();
-            displayTools(toolsData);
+            if (!response.ok) throw new Error('Fichier non trouvé');
+            const data = await response.json();
+            loading.style.display = 'none';
+            renderCategories(data);
         } catch (error) {
-            console.error('Erreur :', error);
-            grid.innerHTML = '<p style="color:#f87171;">⚠️ Erreur de chargement des données</p>';
+            loading.innerHTML = '❌ Erreur de chargement des données. Vérifiez le fichier tools.json.';
+            console.error(error);
         }
     }
 
-    function populateFilters() {
-        const categories = [...new Set(toolsData.map(t => t.category))];
-        
-        // Bouton "Tous"
-        const allBtn = document.createElement('button');
-        allBtn.className = 'filter-btn active';
-        allBtn.textContent = '📌 Tous';
-        allBtn.dataset.category = 'all';
-        filterGroup.appendChild(allBtn);
-
-        // Boutons par catégorie
-        categories.forEach(cat => {
-            const btn = document.createElement('button');
-            btn.className = 'filter-btn';
-            btn.textContent = cat;
-            btn.dataset.category = cat;
-            filterGroup.appendChild(btn);
-        });
-
-        // Événements pour les filtres
-        filterGroup.addEventListener('click', (e) => {
-            if (e.target.classList.contains('filter-btn')) {
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
-                applyFilters();
-            }
-        });
-
-        // Recherche en direct
-        searchInput.addEventListener('input', applyFilters);
-    }
-
-    function applyFilters() {
-        const searchTerm = searchInput.value.toLowerCase().trim();
-        const activeFilter = document.querySelector('.filter-btn.active');
-        const selectedCategory = activeFilter ? activeFilter.dataset.category : 'all';
-
-        const filtered = toolsData.filter(tool => {
-            const matchSearch = tool.name.toLowerCase().includes(searchTerm) ||
-                               (tool.description && tool.description.toLowerCase().includes(searchTerm));
-            const matchCategory = selectedCategory === 'all' || tool.category === selectedCategory;
-            return matchSearch && matchCategory;
-        });
-
-        displayTools(filtered);
-        updateStats(filtered.length);
-    }
-
-    function displayTools(tools) {
-        grid.innerHTML = '';
-        noResults.style.display = 'none';
-
-        if (tools.length === 0) {
-            noResults.style.display = 'block';
-            return;
-        }
-
+    // Regrouper par catégorie
+    function groupByCategory(tools) {
+        const groups = {};
         tools.forEach(tool => {
-            const card = document.createElement('div');
-            card.className = 'tool-card';
-            card.innerHTML = `
-                <h3>${tool.name}</h3>
-                <span class="category">${tool.category}</span>
-                ${tool.description ? `<p class="description">${tool.description}</p>` : ''}
-                <a href="${tool.url}" target="_blank" rel="noopener noreferrer">🔗 Visiter</a>
+            const cat = tool.category || 'Autres';
+            if (!groups[cat]) groups[cat] = [];
+            groups[cat].push(tool);
+        });
+        return groups;
+    }
+
+    // Afficher les catégories
+    function renderCategories(tools) {
+        const groups = groupByCategory(tools);
+        const sortedCategories = Object.keys(groups).sort();
+
+        // Compter le total
+        const total = tools.length;
+        document.getElementById('update-date').textContent =
+            new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+
+        // Créer chaque bloc
+        sortedCategories.forEach((cat, index) => {
+            const items = groups[cat];
+            const block = document.createElement('div');
+            block.className = 'category-block';
+
+            // En-tête cliquable
+            const header = document.createElement('div');
+            header.className = 'category-header';
+            header.innerHTML = `
+                <span>
+                    <h2>${cat}</h2>
+                    <span class="badge">${items.length}</span>
+                </span>
+                <span class="arrow ${index === 0 ? 'open' : ''}">▼</span>
             `;
-            grid.appendChild(card);
+
+            // Liste des outils
+            const list = document.createElement('div');
+            list.className = `tool-list ${index === 0 ? 'open' : ''}`;
+
+            items.forEach(tool => {
+                const item = document.createElement('div');
+                item.className = 'tool-item';
+                item.innerHTML = `
+                    <span class="name">${tool.name}</span>
+                    ${tool.description ? `<span class="desc">${tool.description}</span>` : ''}
+                    <a href="${tool.url}" target="_blank" rel="noopener noreferrer">Visiter</a>
+                `;
+                list.appendChild(item);
+            });
+
+            // Ouvrir/fermer au clic
+            header.addEventListener('click', () => {
+                const isOpen = list.classList.contains('open');
+                list.classList.toggle('open');
+                header.querySelector('.arrow').classList.toggle('open');
+            });
+
+            block.appendChild(header);
+            block.appendChild(list);
+            container.appendChild(block);
         });
     }
 
-    function updateStats(count) {
-        stats.textContent = `📊 ${count} outil${count > 1 ? 's' : ''} sur ${toolsData.length}`;
-    }
-
-    // Lancer le chargement
+    // Lancer
     loadTools();
 });
