@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Getting Started with OSINT",
+        "description": "A beginner-friendly introduction to open-source intelligence.",
+        "category": "Beginner",
+        "duration": "15 min",
+        "url": "#"
+    },
+    {
+        "title": "Advanced Google Searching",
+        "description": "Learn how to use advanced search operators to improve your research.",
+        "category": "Search",
+        "duration": "10 min",
+        "url": "#"
+    },
+    {
+        "title": "Reverse Image Search",
+        "description": "Discover techniques for researching images and their origins.",
+        "category": "Images",
+        "duration": "20 min",
+        "url": "#"
+    },
+    {
+        "title": "OSINT Methodology",
+        "description": "Build a structured methodology for conducting online investigations.",
+        "category": "Methodology",
+        "duration": "25 min",
+        "url": "#"
+    }
+]

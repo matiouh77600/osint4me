@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Google",
+        "description": "Search engine for general web research.",
+        "url": "https://www.google.com/",
+        "category": "Search Engines",
+        "icon": "fa-brands fa-google"
+    },
+    {
+        "name": "Google Lens",
+        "description": "Visual search and reverse image research.",
+        "url": "https://lens.google.com/",
+        "category": "Images",
+        "icon": "fa-solid fa-camera"
+    },
+    {
+        "name": "Wayback Machine",
+        "description": "Explore archived versions of websites.",
+        "url": "https://web.archive.org/",
+        "category": "Archives",
+        "icon": "fa-solid fa-box-archive"
+    },
+    {
+        "name": "Google Maps",
+        "description": "Maps, satellite imagery and geographic research.",
+        "url": "https://maps.google.com/",
+        "category": "Geolocation",
+        "icon": "fa-solid fa-map"
+    },
+    {
+        "name": "Have I Been Pwned",
+        "description": "Check whether an email address appeared in known breaches.",
+        "url": "https://haveibeenpwned.com/",
+        "category": "Emails",
+        "icon": "fa-solid fa-envelope"
+    },
+    {
+        "name": "Hunter",
+        "description": "Find and verify professional email addresses.",
+        "url": "https://hunter.io/",
+        "category": "Emails",
+        "icon": "fa-solid fa-at"
+    },
+    {
+        "name": "TinEye",
+        "description": "Reverse image search engine.",
+        "url": "https://tineye.com/",
+        "category": "Images",
+        "icon": "fa-solid fa-image"
+    },
+    {
+        "name": "Shodan",
+        "description": "Search engine for internet-connected devices and services.",
+        "url": "https://www.shodan.io/",
+        "category": "Cyber",
+        "icon": "fa-solid fa-server"
+    },
+    {
+        "name": "URLScan",
+        "description": "Analyze websites and URLs.",
+        "url": "https://urlscan.io/",
+        "category": "Cyber",
+        "icon": "fa-solid fa-link"
+    },
+    {
+        "name": "DNSDumpster",
+        "description": "Discover DNS information and infrastructure.",
+        "url": "https://dnsdumpster.com/",
+        "category": "Domains",
+        "icon": "fa-solid fa-globe"
+    },
+    {
+        "name": "Google News",
+        "description": "Search and monitor news sources.",
+        "url": "https://news.google.com/",
+        "category": "News",
+        "icon": "fa-solid fa-newspaper"
+    },
+    {
+        "name": "OpenStreetMap",
+        "description": "Open geographic database and mapping platform.",
+        "url": "https://www.openstreetmap.org/",
+        "category": "Maps",
+        "icon": "fa-solid fa-map-location-dot"
+    }
+]

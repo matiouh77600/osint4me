@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="OSINT4ALL - Open Source Intelligence Resource Hub"
+    >
+
+    <title>OSINT4ALL — Resource Hub</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="background-glow glow-one"></div>
+<div class="background-glow glow-two"></div>
+
+<header class="header">
+
+    <div class="container header-inner">
+
+        <a href="/" class="logo">
+            <span class="logo-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+
+            <span>
+                <strong>OSINT</strong>4ALL
+            </span>
+        </a>
+
+        <nav class="nav">
+
+            <a href="#tools">
+                <i class="fa-solid fa-toolbox"></i>
+                Tools
+            </a>
+
+            <a href="#tutorials">
+                <i class="fa-solid fa-book"></i>
+                Tutorials
+            </a>
+
+            <a href="#categories">
+                <i class="fa-solid fa-layer-group"></i>
+                Categories
+            </a>
+
+            <a href="/admin/" class="admin-link">
+                <i class="fa-solid fa-lock"></i>
+                Admin
+            </a>
+
+        </nav>
+
+        <button
+            class="mobile-menu"
+            id="mobileMenu"
+            aria-label="Menu"
+        >
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="hero">
+
+    <div class="container">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                <span class="status-dot"></span>
+                OSINT RESOURCE HUB
+            </div>
+
+            <h1>
+                Discover the
+                <span>OSINT world.</span>
+            </h1>
+
+            <p>
+                A curated collection of tools, resources and
+                tutorials for open-source intelligence.
+            </p>
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="search"
+                    id="search"
+                    placeholder="Search tools, categories, tutorials..."
+                    autocomplete="off"
+                >
+
+                <kbd>CTRL K</kbd>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="categories" class="section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <div>
+                <span class="eyebrow">EXPLORE</span>
+
+                <h2>Categories</h2>
+            </div>
+
+            <p>
+                Explore our collection by topic.
+            </p>
+
+        </div>
+
+        <div id="categoriesGrid" class="category-grid"></div>
+
+    </div>
+
+</section>
+
+
+<section id="tools" class="section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <div>
+                <span class="eyebrow">COLLECTION</span>
+
+                <h2>OSINT Tools</h2>
+            </div>
+
+            <span id="resultCount" class="result-count"></span>
+
+        </div>
+
+        <div id="toolsGrid" class="tools-grid"></div>
+
+    </div>
+
+</section>
+
+
+<section id="tutorials" class="section tutorials-section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <div>
+                <span class="eyebrow">LEARN</span>
+
+                <h2>Tutorials</h2>
+            </div>
+
+            <p>
+                Learn OSINT techniques and methodologies.
+            </p>
+
+        </div>
+
+        <div id="tutorialsGrid" class="tutorials-grid"></div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="container footer-inner">
+
+        <div>
+
+            <a href="/" class="logo">
+                <span class="logo-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+
+                <span>
+                    <strong>OSINT</strong>4ALL
+                </span>
+            </a>
+
+            <p>
+                Open-source intelligence resources.
+            </p>
+
+        </div>
+
+        <div class="footer-right">
+            Built for the OSINT community · 2026
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
