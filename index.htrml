@@ -1,0 +1,60 @@
+<section class="tools-section">
+
+  <div class="tools-header">
+
+    <h2>OSINT Tools</h2>
+
+    <input
+      type="search"
+      id="tool-search"
+      placeholder="Search tools, tags, categories..."
+      autocomplete="off"
+    >
+
+  </div>
+
+  <div
+    id="category-filters"
+    class="category-filters"
+  >
+
+    <button onclick="setCategory('all')">
+      All
+    </button>
+
+    <button onclick="setCategory('people')">
+      People
+    </button>
+
+    <button onclick="setCategory('email')">
+      Email
+    </button>
+
+    <button onclick="setCategory('social-media')">
+      Social Media
+    </button>
+
+    <button onclick="setCategory('images')">
+      Images
+    </button>
+
+    <button onclick="setCategory('geolocation')">
+      Geolocation
+    </button>
+
+    <button onclick="setCategory('domains')">
+      Domains & IP
+    </button>
+
+  </div>
+
+  <div
+    id="tools-container"
+    class="tools-grid"
+  >
+    Loading tools...
+  </div>
+
+</section>
+
+<script src="./js/tools.js"></script>
