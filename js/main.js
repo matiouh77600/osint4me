@@ -6,21 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const noResults = document.getElementById('noResults');
     const stats = document.getElementById('resultsStats');
 
-    // Couleurs par catégorie (pour les cartes)
-    const categoryColors = {
-        'Email temporaire': 'var(--color-email)',
-        'Téléphone & SMS': 'var(--color-phone)',
-        'Assistant IA': 'var(--color-ai)',
-        'Développement': 'var(--color-dev)',
-        'Général': 'var(--color-general)'
-    };
-
+    // Chargement des données
     async function loadTools() {
         try {
             const response = await fetch('data/tools.json');
             if (!response.ok) throw new Error('Erreur de chargement');
             toolsData = await response.json();
             
+            // Ajouter une catégorie par défaut si nécessaire
             toolsData = toolsData.map(tool => ({
                 ...tool,
                 category: tool.category || 'Général',
@@ -30,21 +23,25 @@ document.addEventListener('DOMContentLoaded', () => {
             populateFilters();
             applyFilters();
         } catch (error) {
+            console.error(error);
             grid.innerHTML = `<p style="grid-column:1/-1; text-align:center; color:#f87171;">
                 ⚠️ Erreur : impossible de charger les outils.
             </p>`;
         }
     }
 
+    // Générer les filtres
     function populateFilters() {
         const categories = [...new Set(toolsData.map(t => t.category))].sort();
         
+        // Bouton "Tous"
         const allBtn = document.createElement('button');
         allBtn.className = 'filter-btn active';
         allBtn.textContent = '📌 Tous';
         allBtn.dataset.category = 'all';
         filterGroup.appendChild(allBtn);
 
+        // Boutons par catégorie
         categories.forEach(cat => {
             const btn = document.createElement('button');
             btn.className = 'filter-btn';
@@ -54,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Filtrer et afficher
     function applyFilters() {
         const searchTerm = searchInput.value.toLowerCase().trim();
         const activeFilter = document.querySelector('.filter-btn.active');
@@ -67,9 +65,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         displayTools(filtered);
-        stats.textContent = `📊 ${filtered.length} outil${filtered.length > 1 ? 's' : ''} affiché${filtered.length > 1 ? 's' : ''} sur ${toolsData.length}`;
+        updateStats(filtered.length);
     }
 
+    // Afficher les outils
     function displayTools(tools) {
         grid.innerHTML = '';
         noResults.style.display = 'none';
@@ -82,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
         tools.forEach(tool => {
             const card = document.createElement('div');
             card.className = 'tool-card';
-            card.dataset.category = tool.category; // Pour le CSS
+            card.dataset.category = tool.category; // Pour la couleur CSS
 
             card.innerHTML = `
                 <h3>${tool.name}</h3>
@@ -96,8 +95,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Événements
+    function updateStats(count) {
+        stats.textContent = `📊 ${count} outil${count > 1 ? 's' : ''} affiché${count > 1 ? 's' : ''} sur ${toolsData.length}`;
+    }
+
+    // --- Événements ---
     searchInput.addEventListener('input', applyFilters);
+
     filterGroup.addEventListener('click', (e) => {
         const btn = e.target.closest('.filter-btn');
         if (!btn) return;
@@ -106,5 +110,14 @@ document.addEventListener('DOMContentLoaded', () => {
         applyFilters();
     });
 
+    // Mettre à jour la date dans le pied de page
+    const dateElement = document.getElementById('updateDate');
+    if (dateElement) {
+        dateElement.textContent = new Date().toLocaleDateString('fr-FR', {
+            day: 'numeric', month: 'long', year: 'numeric'
+        });
+    }
+
+    // Lancer l'application
     loadTools();
 });
