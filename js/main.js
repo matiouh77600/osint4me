@@ -32,7 +32,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Générer les filtres
     function populateFilters() {
+        // Récupérer toutes les catégories uniques
         const categories = [...new Set(toolsData.map(t => t.category))].sort();
+        
+        // Vider les filtres existants
+        filterGroup.innerHTML = '';
         
         // Bouton "Tous"
         const allBtn = document.createElement('button');
@@ -59,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const filtered = toolsData.filter(tool => {
             const matchSearch = tool.name.toLowerCase().includes(searchTerm) ||
-                               tool.description.toLowerCase().includes(searchTerm);
+                               (tool.description && tool.description.toLowerCase().includes(searchTerm));
             const matchCategory = selectedCategory === 'all' || tool.category === selectedCategory;
             return matchSearch && matchCategory;
         });
