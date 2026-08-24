@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Chargement des données
     async function loadTools() {
         try {
-            const response = await fetch('/osint4me/data/tools.json');
+            const response = await fetch('/osint4me/data/data/tools.json');
             if (!response.ok) throw new Error('Erreur de chargement');
             toolsData = await response.json();
             
