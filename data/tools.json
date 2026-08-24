@@ -1,86 +1,4167 @@
 [
-    {
-        "name": "Google",
-        "description": "Search engine for general web research.",
-        "url": "https://www.google.com/",
-        "category": "Search Engines",
-        "icon": "fa-brands fa-google"
-    },
-    {
-        "name": "Google Lens",
-        "description": "Visual search and reverse image research.",
-        "url": "https://lens.google.com/",
-        "category": "Images",
-        "icon": "fa-solid fa-camera"
-    },
-    {
-        "name": "Wayback Machine",
-        "description": "Explore archived versions of websites.",
-        "url": "https://web.archive.org/",
-        "category": "Archives",
-        "icon": "fa-solid fa-box-archive"
-    },
-    {
-        "name": "Google Maps",
-        "description": "Maps, satellite imagery and geographic research.",
-        "url": "https://maps.google.com/",
-        "category": "Geolocation",
-        "icon": "fa-solid fa-map"
-    },
-    {
-        "name": "Have I Been Pwned",
-        "description": "Check whether an email address appeared in known breaches.",
-        "url": "https://haveibeenpwned.com/",
-        "category": "Emails",
-        "icon": "fa-solid fa-envelope"
-    },
-    {
-        "name": "Hunter",
-        "description": "Find and verify professional email addresses.",
-        "url": "https://hunter.io/",
-        "category": "Emails",
-        "icon": "fa-solid fa-at"
-    },
-    {
-        "name": "TinEye",
-        "description": "Reverse image search engine.",
-        "url": "https://tineye.com/",
-        "category": "Images",
-        "icon": "fa-solid fa-image"
-    },
-    {
-        "name": "Shodan",
-        "description": "Search engine for internet-connected devices and services.",
-        "url": "https://www.shodan.io/",
-        "category": "Cyber",
-        "icon": "fa-solid fa-server"
-    },
-    {
-        "name": "URLScan",
-        "description": "Analyze websites and URLs.",
-        "url": "https://urlscan.io/",
-        "category": "Cyber",
-        "icon": "fa-solid fa-link"
-    },
-    {
-        "name": "DNSDumpster",
-        "description": "Discover DNS information and infrastructure.",
-        "url": "https://dnsdumpster.com/",
-        "category": "Domains",
-        "icon": "fa-solid fa-globe"
-    },
-    {
-        "name": "Google News",
-        "description": "Search and monitor news sources.",
-        "url": "https://news.google.com/",
-        "category": "News",
-        "icon": "fa-solid fa-newspaper"
-    },
-    {
-        "name": "OpenStreetMap",
-        "description": "Open geographic database and mapping platform.",
-        "url": "https://www.openstreetmap.org/",
-        "category": "Maps",
-        "icon": "fa-solid fa-map-location-dot"
-    }
+  {
+    "name": "Onlinesim.net",
+    "url": "https://onlinesim.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "DoNotPay",
+    "url": "https://donotpay.com/learn/temporary-phone-number/",
+    "category": "À classer"
+  },
+  {
+    "name": "VoIP Guide: VoIPSuite",
+    "url": "https://inteltechniques.com/voip.suite.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Twilio CLI Guide",
+    "url": "https://inteltechniques.com/voip.twilio.cli.html",
+    "category": "À classer"
+  },
+  {
+    "name": "10minutemail.com",
+    "url": "https://10minutemail.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "AnonAddy",
+    "url": "https://anonaddy.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "SimpleLogin",
+    "url": "https://simplelogin.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "MailDrop",
+    "url": "https://maildrop.cc/",
+    "category": "À classer"
+  },
+  {
+    "name": "Send text free",
+    "url": "https://globfone.com/send-text/",
+    "category": "À classer"
+  },
+  {
+    "name": "SendaText",
+    "url": "https://www.sendatext.co/",
+    "category": "À classer"
+  },
+  {
+    "name": "Free Fax",
+    "url": "https://faxzero.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Receive SMS Online",
+    "url": "https://hs3x.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Receive SMS Online for FREE",
+    "url": "http://freesmsverification.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Smstome.com",
+    "url": "https://smstome.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Amazon SNS",
+    "url": "https://aws.amazon.com/sns/",
+    "category": "À classer"
+  },
+  {
+    "name": "Twilio",
+    "url": "https://www.twilio.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "One-time Mobile by @OsintStash",
+    "url": "https://threader.app/thread/1199785692274077696",
+    "category": "À classer"
+  },
+  {
+    "name": "Username Generator",
+    "url": "https://www.lastpass.com/features/username-generator",
+    "category": "À classer"
+  },
+  {
+    "name": "Fake Name Generator",
+    "url": "https://www.fakenamegenerator.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Resume Generator",
+    "url": "https://thisresumedoesnotexist.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "International Name Generator",
+    "url": "https://www.behindthename.com/random/",
+    "category": "À classer"
+  },
+  {
+    "name": "Windows Phone IMEI Generator",
+    "url": "https://wpimeigenerator.github.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "IMEI Number Generator",
+    "url": "https://dyrk.org/tools/imei/",
+    "category": "À classer"
+  },
+  {
+    "name": "US SSN / Driver License / State ID / Passport / Ta",
+    "url": "https://www.elfqrin.com/usssndriverlicenseidgen.php",
+    "category": "À classer"
+  },
+  {
+    "name": "Washington State Driver's License Generator",
+    "url": "https://mmarvick.github.io/wa-drivers-license/",
+    "category": "À classer"
+  },
+  {
+    "name": "Fake Drivers License Generator",
+    "url": "https://fakeinfo.net/drivers-license-generator",
+    "category": "À classer"
+  },
+  {
+    "name": "This Rental Does Not Exist",
+    "url": "https://thisrentaldoesnotexist.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Face Photo Generator",
+    "url": "https://thispersondoesnotexist.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Random Face Generator",
+    "url": "https://fakeinfo.net/random-face-generator",
+    "category": "À classer"
+  },
+  {
+    "name": "Credit Card Generator",
+    "url": "https://www.fakenamegenerator.com/credit-card-validator.php",
+    "category": "À classer"
+  },
+  {
+    "name": "PIC/CIC Code Database",
+    "url": "https://www.allredtech.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "SIN Generator",
+    "url": "https://www.fakenamegenerator.com/social-insurance-number.php",
+    "category": "À classer"
+  },
+  {
+    "name": "ABA Generator",
+    "url": "https://www.fakenamegenerator.com/aba-validator.php",
+    "category": "À classer"
+  },
+  {
+    "name": "VIN Generator",
+    "url": "https://www.fakenamegenerator.com/vehicle-identification-number.php",
+    "category": "À classer"
+  },
+  {
+    "name": "NINO Generator",
+    "url": "https://www.fakenamegenerator.com/national-insurance-number.php",
+    "category": "À classer"
+  },
+  {
+    "name": "SSN Generator",
+    "url": "https://www.fakenamegenerator.com/social-security-number.php",
+    "category": "À classer"
+  },
+  {
+    "name": "IID Generator by Georgy Bunin",
+    "url": "https://georgybu.github.io/IID_Generator/",
+    "category": "À classer"
+  },
+  {
+    "name": "GUID/UUID and short GUID generator",
+    "url": "https://richardkundl.github.io/shortguid/",
+    "category": "À classer"
+  },
+  {
+    "name": "Nano ID CC",
+    "url": "https://zelark.github.io/nano-id-cc/",
+    "category": "À classer"
+  },
+  {
+    "name": "Generate SA ID Numbers",
+    "url": "https://chris927.github.io/generate-sa-idnumbers/",
+    "category": "À classer"
+  },
+  {
+    "name": "Decoding Social Security Numbers",
+    "url": "https://stevemorse.org/ssn/ssn.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Encoding and Decoding Driver's License Numbers",
+    "url": "https://stevemorse.org/dl/dl.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Dating Profile Generator",
+    "url": "https://www.dating-profile-generator.org.uk/",
+    "category": "À classer"
+  },
+  {
+    "name": "Fake Identity ID Random Name Generator",
+    "url": "https://www.elfqrin.com/fakeid.php",
+    "category": "À classer"
+  },
+  {
+    "name": "Fake Company Name Generator",
+    "url": "https://fakeinfo.net/company-name-generator",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitter Profile Generator",
+    "url": "https://fakeinfo.net/fake-twitter-profile-generator",
+    "category": "À classer"
+  },
+  {
+    "name": "Fake Tiktok Profile Generator",
+    "url": "https://fakeinfo.net/fake-tiktok-profile-gererator",
+    "category": "À classer"
+  },
+  {
+    "name": "Fake Youtube Channel Generator",
+    "url": "https://fakeinfo.net/fake-youtube-channel-generator",
+    "category": "À classer"
+  },
+  {
+    "name": "Resume Builder",
+    "url": "https://vinaysomawat.github.io/Resume-Builder/",
+    "category": "À classer"
+  },
+  {
+    "name": "Fake Generator Tools",
+    "url": "https://fauxid.com/tools",
+    "category": "À classer"
+  },
+  {
+    "name": "Kasm",
+    "url": "https://kasmweb.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Bluestacks",
+    "url": "https://www.bluestacks.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Genymotion",
+    "url": "https://www.genymotion.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "PrimeOS",
+    "url": "https://www.primeos.in/",
+    "category": "À classer"
+  },
+  {
+    "name": "BigNox",
+    "url": "https://www.bignox.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Memuplay.com",
+    "url": "https://www.memuplay.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Ldplayer.net",
+    "url": "https://www.ldplayer.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "unfurl",
+    "url": "https://dfir.blog/unfurl/",
+    "category": "À classer"
+  },
+  {
+    "name": "Wolfram|Alpha",
+    "url": "https://www.wolframalpha.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Cryptpad.fr",
+    "url": "https://cryptpad.fr/",
+    "category": "À classer"
+  },
+  {
+    "name": "Recontool.org",
+    "url": "https://recontool.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "MindMup 2",
+    "url": "https://app.mindmup.com/map/new",
+    "category": "À classer"
+  },
+  {
+    "name": "Dotspotter",
+    "url": "https://www.forensicdots.de/",
+    "category": "À classer"
+  },
+  {
+    "name": "Encrypted Pastebin",
+    "url": "https://defuse.ca/pastebin.htm",
+    "category": "À classer"
+  },
+  {
+    "name": "PrivateBin",
+    "url": "https://privatebin.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "Bin.disroot.org",
+    "url": "https://bin.disroot.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Framadrop",
+    "url": "https://framadrop.org/en/",
+    "category": "À classer"
+  },
+  {
+    "name": "Pad.riseup.net",
+    "url": "https://pad.riseup.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "EtherCalc",
+    "url": "https://ethercalc.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "Proofread Bot",
+    "url": "https://proofreadbot.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Write.as",
+    "url": "https://write.as/",
+    "category": "À classer"
+  },
+  {
+    "name": "Cryptee",
+    "url": "https://crypt.ee/",
+    "category": "À classer"
+  },
+  {
+    "name": "dudle",
+    "url": "https://dudle.inf.tu-dresden.de/anonymous/",
+    "category": "À classer"
+  },
+  {
+    "name": "Airborn.io",
+    "url": "https://www.airborn.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "ZOOM URL Generator",
+    "url": "https://skyzh.github.io/zoom-url-generator/",
+    "category": "À classer"
+  },
+  {
+    "name": "Tor2web",
+    "url": "https://www.tor2web.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "archive.is",
+    "url": "https://archive.is/",
+    "category": "À classer"
+  },
+  {
+    "name": "Wayback Machine",
+    "url": "https://web.archive.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "waybackpy",
+    "url": "https://pypi.org/project/waybackpy/",
+    "category": "À classer"
+  },
+  {
+    "name": "CachedPages",
+    "url": "http://www.cachedpages.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Google Cached Pages of Any Website",
+    "url": "https://cachedview.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Oldweb.today",
+    "url": "http://oldweb.today/",
+    "category": "À classer"
+  },
+  {
+    "name": "Unpaywall",
+    "url": "https://unpaywall.org/products/extension",
+    "category": "À classer"
+  },
+  {
+    "name": "DeepL",
+    "url": "https://www.deepl.com/translator",
+    "category": "À classer"
+  },
+  {
+    "name": "Project CSV",
+    "url": "https://projectcsv.github.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "CSV to HTML",
+    "url": "https://codepen.io/RYJASM/pen/LVEWgV",
+    "category": "À classer"
+  },
+  {
+    "name": "Monaco Editor",
+    "url": "https://microsoft.github.io/monaco-editor/playground.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Online FlowChart Editor",
+    "url": "https://mermaid-js.github.io/mermaid-live-editor/",
+    "category": "À classer"
+  },
+  {
+    "name": "Markdown Editor",
+    "url": "https://markdown-editor.github.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "SQL Editor",
+    "url": "https://www.mycompiler.io/new/sql",
+    "category": "À classer"
+  },
+  {
+    "name": "SQLite Viewer",
+    "url": "https://inloop.github.io/sqlite-viewer/",
+    "category": "À classer"
+  },
+  {
+    "name": "OCR Text Extractor",
+    "url": "https://osint.sh/ocr/",
+    "category": "À classer"
+  },
+  {
+    "name": "Wetranscriber",
+    "url": "https://www.wetranscriber.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Tophonetics.com",
+    "url": "https://tophonetics.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Google Translate",
+    "url": "https://translate.google.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Multi Translate",
+    "url": "https://translate.mix.pink/",
+    "category": "À classer"
+  },
+  {
+    "name": "Yandex.Translate",
+    "url": "https://translate.yandex.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Bing Microsoft Translator",
+    "url": "https://www.bing.com/translator",
+    "category": "À classer"
+  },
+  {
+    "name": "Reverso",
+    "url": "https://www.reverso.net/text_translation.aspx?lang=EN",
+    "category": "À classer"
+  },
+  {
+    "name": "Translate",
+    "url": "https://www.translatedict.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "text to speech online",
+    "url": "https://www.naturalreaders.com/online/",
+    "category": "À classer"
+  },
+  {
+    "name": "TTSReader",
+    "url": "https://ttsreader.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Online Sequencer",
+    "url": "https://onlinesequencer.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "FetchRSS",
+    "url": "https://fetchrss.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Sci-hub",
+    "url": "https://sci-hub.st/",
+    "category": "À classer"
+  },
+  {
+    "name": "Libgen.fun",
+    "url": "https://libgen.fun/",
+    "category": "À classer"
+  },
+  {
+    "name": "Z-lib.org",
+    "url": "https://z-lib.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "PDF Drive",
+    "url": "https://www.pdfdrive.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "arXiv.org",
+    "url": "https://arxiv.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "bioRxiv.org",
+    "url": "https://www.biorxiv.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Trantor.is",
+    "url": "https://trantor.is/",
+    "category": "À classer"
+  },
+  {
+    "name": "Shadowlibraries.github.io",
+    "url": "https://shadowlibraries.github.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Editor.typely.com",
+    "url": "https://editor.typely.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "MEGA",
+    "url": "https://mega.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "transfer.sh",
+    "url": "https://transfer.sh/",
+    "category": "À classer"
+  },
+  {
+    "name": "Send",
+    "url": "https://send.actionsack.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Keep.sh",
+    "url": "https://keep.sh/",
+    "category": "À classer"
+  },
+  {
+    "name": "Upload | Disroot",
+    "url": "https://disroot.org/en/services/upload",
+    "category": "À classer"
+  },
+  {
+    "name": "BlackHole",
+    "url": "https://blackhole.run/",
+    "category": "À classer"
+  },
+  {
+    "name": "CyberChef",
+    "url": "https://gchq.github.io/CyberChef/",
+    "category": "À classer"
+  },
+  {
+    "name": "mitaka",
+    "url": "https://github.com/ninoseki/mitaka",
+    "category": "À classer"
+  },
+  {
+    "name": "Frack",
+    "url": "https://github.com/sensepost/Frack",
+    "category": "À classer"
+  },
+  {
+    "name": "pywhat",
+    "url": "https://pypi.org/project/pywhat/",
+    "category": "À classer"
+  },
+  {
+    "name": "theHarvester",
+    "url": "https://pypi.org/project/theHarvester/",
+    "category": "À classer"
+  },
+  {
+    "name": "Online Tools",
+    "url": "https://emn178.github.io/online-tools/",
+    "category": "À classer"
+  },
+  {
+    "name": "Graphviz Online",
+    "url": "https://dreampuf.github.io/GraphvizOnline/",
+    "category": "À classer"
+  },
+  {
+    "name": "CodePen",
+    "url": "https://codepen.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Diceware Generator",
+    "url": "https://www.rempe.us/diceware/#eff",
+    "category": "À classer"
+  },
+  {
+    "name": "Checkphish.ai",
+    "url": "https://checkphish.ai/",
+    "category": "À classer"
+  },
+  {
+    "name": "x86 and x64 Intel Assembler",
+    "url": "https://defuse.ca/online-x86-assembler.htm",
+    "category": "À classer"
+  },
+  {
+    "name": "Big Number Calculator",
+    "url": "https://defuse.ca/big-number-calculator.htm",
+    "category": "À classer"
+  },
+  {
+    "name": "Text and File Hash Calculator",
+    "url": "https://defuse.ca/checksums.htm",
+    "category": "À classer"
+  },
+  {
+    "name": "HTML Sanitizer Tool",
+    "url": "https://defuse.ca/html-sanitize.htm",
+    "category": "À classer"
+  },
+  {
+    "name": "URL Decoder/Encoder",
+    "url": "https://meyerweb.com/eric/tools/dencoder/",
+    "category": "À classer"
+  },
+  {
+    "name": "ODA - The Online Disassembler",
+    "url": "https://onlinedisassembler.com/odaweb/",
+    "category": "À classer"
+  },
+  {
+    "name": "Disasm.pro",
+    "url": "https://disasm.pro/",
+    "category": "À classer"
+  },
+  {
+    "name": "Fotor",
+    "url": "https://www.fotor.com/photo-editor-app/editor/basic",
+    "category": "À classer"
+  },
+  {
+    "name": "Decompiler.com",
+    "url": "http://www.decompiler.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Google Colaboratory",
+    "url": "https://colab.research.google.com/notebooks/intro.ipynb",
+    "category": "À classer"
+  },
+  {
+    "name": "Compiler Explorer",
+    "url": "https://godbolt.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "HTML editor",
+    "url": "https://onlinehtmleditor.dev/",
+    "category": "À classer"
+  },
+  {
+    "name": "Online Color Picker",
+    "url": "https://colorpicker.me/",
+    "category": "À classer"
+  },
+  {
+    "name": "Convert text to image file",
+    "url": "https://text2image.com/en/",
+    "category": "À classer"
+  },
+  {
+    "name": "relational algebra calculator",
+    "url": "https://dbis-uibk.github.io/relax/calc/local/uibk/local/0",
+    "category": "À classer"
+  },
+  {
+    "name": "Data Structure : Infix Postfix Prefix - Converter ",
+    "url": "https://raj457036.github.io/Simple-Tools/prefixAndPostfixConvertor.html",
+    "category": "À classer"
+  },
+  {
+    "name": "RSA encryption, decryption and prime calculator",
+    "url": "https://canihavesomecoffee.github.io/js-rsa-tool/",
+    "category": "À classer"
+  },
+  {
+    "name": "Tools.digitalmethods.net",
+    "url": "https://tools.digitalmethods.net/beta/searchEngineScraper/",
+    "category": "À classer"
+  },
+  {
+    "name": "Steganography Online",
+    "url": "https://stylesuxx.github.io/steganography/",
+    "category": "À classer"
+  },
+  {
+    "name": "Torrent to Magnet",
+    "url": "https://nutbread.github.io/t2m/",
+    "category": "À classer"
+  },
+  {
+    "name": "Anonymous YouTube Playlists",
+    "url": "https://neverducky.github.io/anonymous-youtube-playlists/",
+    "category": "À classer"
+  },
+  {
+    "name": "Vega Editor",
+    "url": "https://vega.github.io/editor/#/",
+    "category": "À classer"
+  },
+  {
+    "name": "DISA Code Template Generator",
+    "url": "https://duncanford.github.io/disa-code-generator",
+    "category": "À classer"
+  },
+  {
+    "name": "Canary Tokens",
+    "url": "http://canarytokens.org/generate",
+    "category": "À classer"
+  },
+  {
+    "name": "explainshell.com",
+    "url": "https://explainshell.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Google Colaboratory",
+    "url": "https://colab.research.google.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "osint-cli-tool-skeleton",
+    "url": "https://pypi.org/project/osint-cli-tool-skeleton/",
+    "category": "À classer"
+  },
+  {
+    "name": "CrackStation",
+    "url": "https://crackstation.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "Hashmob Community",
+    "url": "https://hashmob.net/search",
+    "category": "À classer"
+  },
+  {
+    "name": "Hashes.com",
+    "url": "https://hashes.com/en/decrypt/hash",
+    "category": "À classer"
+  },
+  {
+    "name": "Online Password Hash Crack",
+    "url": "https://www.onlinehashcrack.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Md5 Decrypt & Encrypt",
+    "url": "https://md5decrypt.net/en/",
+    "category": "À classer"
+  },
+  {
+    "name": "MD5 reverse lookup",
+    "url": "https://md5.gromweb.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Ultimate Hashing",
+    "url": "https://md5hashing.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "Hashes.org",
+    "url": "https://hashes.org/search.php",
+    "category": "À classer"
+  },
+  {
+    "name": "Media-downloader.net",
+    "url": "https://media-downloader.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "Imgur Album Downloader",
+    "url": "https://dschep.github.io/imgur-album-downloader/#/",
+    "category": "À classer"
+  },
+  {
+    "name": "Export Comments",
+    "url": "https://exportcomments.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Image Extractor",
+    "url": "https://extract.pics/",
+    "category": "À classer"
+  },
+  {
+    "name": "Loader.to",
+    "url": "https://loader.to/",
+    "category": "À classer"
+  },
+  {
+    "name": "Commentexporter.com",
+    "url": "https://www.commentexporter.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Link Gopher",
+    "url": "https://sites.google.com/site/linkgopher/",
+    "category": "À classer"
+  },
+  {
+    "name": "Page Links Extractor Tool",
+    "url": "https://shadowcrypt.net/tools/pagelinks",
+    "category": "À classer"
+  },
+  {
+    "name": "Online Tool to Extract Links from any Web Page",
+    "url": "https://hackertarget.com/extract-links/",
+    "category": "À classer"
+  },
+  {
+    "name": "Privacy Services by Michael Bazzell",
+    "url": "https://inteltechniques.com/workbook.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Privacy Guides",
+    "url": "https://privacyguides.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Surveillance Self-Defense",
+    "url": "https://ssd.eff.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "gofoss.net",
+    "url": "https://gofoss.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "Consumer Reports Security Planner",
+    "url": "https://securityplanner.consumerreports.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Security in a Box",
+    "url": "https://securityinabox.org/en/",
+    "category": "À classer"
+  },
+  {
+    "name": "Counter-OSINT guide for Russians",
+    "url": "https://github.com/soxoj/counter-osint-guide-ru",
+    "category": "À classer"
+  },
+  {
+    "name": "PRISM Break",
+    "url": "https://prism-break.org/en/",
+    "category": "À classer"
+  },
+  {
+    "name": "Security First - Umbrella",
+    "url": "https://secfirst.org/umbrella/",
+    "category": "À classer"
+  },
+  {
+    "name": "Matweb.info",
+    "url": "https://matweb.info/",
+    "category": "À classer"
+  },
+  {
+    "name": "Metacleaner.com",
+    "url": "https://metacleaner.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Image Scrubber",
+    "url": "https://everestpipkin.github.io/image-scrubber/",
+    "category": "À classer"
+  },
+  {
+    "name": "View Exif data online, remove Exif online",
+    "url": "http://www.verexif.com/en/",
+    "category": "À classer"
+  },
+  {
+    "name": "Bitcoinprivacy.guide",
+    "url": "https://bitcoinprivacy.guide/",
+    "category": "À classer"
+  },
+  {
+    "name": "LocalBitcoins",
+    "url": "https://localbitcoins.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Localmonero.co",
+    "url": "https://localmonero.co/",
+    "category": "À classer"
+  },
+  {
+    "name": "Bitonic",
+    "url": "https://bitonic.nl/en/",
+    "category": "À classer"
+  },
+  {
+    "name": "Paxful",
+    "url": "https://paxful.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Speech Jammer",
+    "url": "https://mynoise.net/NoiseMachines/audioJammerNoiseGenerator.php",
+    "category": "À classer"
+  },
+  {
+    "name": "Stutterbox",
+    "url": "https://www.stutterbox.co.uk/",
+    "category": "À classer"
+  },
+  {
+    "name": "StegOnline",
+    "url": "https://stegonline.georgeom.net/upload",
+    "category": "À classer"
+  },
+  {
+    "name": "The Hitchhiker’s Guide to Online Anonymity",
+    "url": "https://anonymousplanet.org/guide.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Signal",
+    "url": "https://signal.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Element",
+    "url": "https://element.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Briar",
+    "url": "https://briarproject.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Jami.net",
+    "url": "https://jami.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "Jitsi Meet",
+    "url": "https://meet.jit.si/",
+    "category": "À classer"
+  },
+  {
+    "name": "Rocket.Chat",
+    "url": "https://rocket.chat/",
+    "category": "À classer"
+  },
+  {
+    "name": "Wire",
+    "url": "https://wire.com/en/",
+    "category": "À classer"
+  },
+  {
+    "name": "Nekogram.app",
+    "url": "https://nekogram.app/",
+    "category": "À classer"
+  },
+  {
+    "name": "Telegram",
+    "url": "https://www.telegram.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Brave Talk",
+    "url": "https://talk.brave.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "The Tor Project",
+    "url": "https://www.torproject.org/download/",
+    "category": "À classer"
+  },
+  {
+    "name": "Brave Browser",
+    "url": "https://brave.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Psiphon",
+    "url": "https://www.psiphon.ca/",
+    "category": "À classer"
+  },
+  {
+    "name": "ProtonVPN",
+    "url": "https://protonvpn.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "hide.me VPN",
+    "url": "https://hide.me/en/",
+    "category": "À classer"
+  },
+  {
+    "name": "AdGuard VPN",
+    "url": "https://adguard-vpn.com/en/welcome.html",
+    "category": "À classer"
+  },
+  {
+    "name": "I2P",
+    "url": "https://geti2p.net/en/download",
+    "category": "À classer"
+  },
+  {
+    "name": "VPN Services",
+    "url": "https://privacyguides.org/providers/vpn/",
+    "category": "À classer"
+  },
+  {
+    "name": "Browser Recommendations",
+    "url": "https://privacyguides.org/browsers/",
+    "category": "À classer"
+  },
+  {
+    "name": "Getsession.org",
+    "url": "https://getsession.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "OH SHINT! Welcome Aboard",
+    "url": "https://ohshint.gitbook.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "OSINT Is A State Of Mind",
+    "url": "https://medium.com/secjuice/osint-as-a-mindset-7d42ad72113d",
+    "category": "À classer"
+  },
+  {
+    "name": "sinwindie/OSINT",
+    "url": "https://github.com/sinwindie/OSINT",
+    "category": "À classer"
+  },
+  {
+    "name": "New Online Investigation (OSINT) Resources – Intel",
+    "url": "https://inteltechniques.com/blog/2019/04/09/new-online-investigation-osint-resources/",
+    "category": "À classer"
+  },
+  {
+    "name": "Technisette",
+    "url": "https://www.technisette.com/p/home",
+    "category": "À classer"
+  },
+  {
+    "name": "OSINT Framework",
+    "url": "https://osintframework.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "jivoi/awesome-osint",
+    "url": "https://github.com/jivoi/awesome-osint",
+    "category": "À classer"
+  },
+  {
+    "name": "START CARING STOP SHARING",
+    "url": "https://medium.com/@Dutchosintguy/start-caring-stop-sharing-9c108d957b2c",
+    "category": "À classer"
+  },
+  {
+    "name": "Osint Curious OSINT Resource List",
+    "url": "https://docs.google.com/document/d/14li22wAG2Wh2y0UhgBjbqEvZJCDsNZY8vpUAJ_jJ5X8/edit",
+    "category": "À classer"
+  },
+  {
+    "name": "OSINT Tools",
+    "url": "https://www.osinttechniques.com/osint-tools.html",
+    "category": "À classer"
+  },
+  {
+    "name": "OSINT tools for investigating websites",
+    "url": "https://www.aware-online.com/en/osint-tools/website-tools/",
+    "category": "À classer"
+  },
+  {
+    "name": "Shodan Cheat Sheet",
+    "url": "https://thedarksource.com/shodan-cheat-sheet/",
+    "category": "À classer"
+  },
+  {
+    "name": "Week in OSINT",
+    "url": "https://sector035.nl/articles/category:week-in-osint",
+    "category": "À classer"
+  },
+  {
+    "name": "Osint.team",
+    "url": "https://osint.team/",
+    "category": "À classer"
+  },
+  {
+    "name": "QueryTool",
+    "url": "https://github.com/oryon-osint/querytool",
+    "category": "À classer"
+  },
+  {
+    "name": "Investigating the source code of a website",
+    "url": "https://www.aware-online.com/en/osint-tutorials/investigating-the-source-code-of-a-website/",
+    "category": "À classer"
+  },
+  {
+    "name": "Find open FTP Servers",
+    "url": "https://www.aware-online.com/en/osint-tutorials/find-open-ftp-servers/",
+    "category": "À classer"
+  },
+  {
+    "name": "Choose your wallet",
+    "url": "https://bitcoin.org/en/choose-your-wallet",
+    "category": "À classer"
+  },
+  {
+    "name": "10 Minute Tips",
+    "url": "https://osintcurio.us/10-minute-tips/",
+    "category": "À classer"
+  },
+  {
+    "name": "Webint Master",
+    "url": "https://webintmaster.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "DFIR Diva",
+    "url": "https://dfirdiva.com/hooked-on-osint/",
+    "category": "À classer"
+  },
+  {
+    "name": "Boolean Strings | Tools",
+    "url": "https://booleanstrings.com/tools/",
+    "category": "À classer"
+  },
+  {
+    "name": "osintme.com",
+    "url": "https://www.osintme.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Jake Creps",
+    "url": "https://jakecreps.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "reKnowledge",
+    "url": "https://www.reknowledge.tech/",
+    "category": "À classer"
+  },
+  {
+    "name": "Bellingcat's Online Investigation Toolkit [bit.ly/",
+    "url": "https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ/edit#gid=930747607",
+    "category": "À classer"
+  },
+  {
+    "name": "@Ivan30394639 OSINT tools collection",
+    "url": "https://cipher387.github.io/osint_stuff_tool_collection/",
+    "category": "À classer"
+  },
+  {
+    "name": "The Top 132 Osint Open Source Projects",
+    "url": "https://awesomeopensource.com/projects/osint",
+    "category": "À classer"
+  },
+  {
+    "name": "30 best OSINT extensions for Google Chrome – osint",
+    "url": "https://www.osintme.com/index.php/2021/06/30/30-best-osint-extensions-for-google-chrome/",
+    "category": "À classer"
+  },
+  {
+    "name": "Where Can I Find... - Free DFIR Related Training",
+    "url": "https://freetraining.dfirdiva.com/where-can-i-find",
+    "category": "À classer"
+  },
+  {
+    "name": "Awesome Deblurring",
+    "url": "https://github.com/subeeshvasu/Awesome-Deblurring",
+    "category": "À classer"
+  },
+  {
+    "name": "OSINT.SH",
+    "url": "https://osint.sh/",
+    "category": "À classer"
+  },
+  {
+    "name": "OSINT Techniques",
+    "url": "https://www.osinttechniques.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "OSINT aka Atvirųjų šaltinių žvalgyba",
+    "url": "https://blog.parakomanai.lt/osint-387e80bdc901",
+    "category": "À classer"
+  },
+  {
+    "name": "CTI & OSINT Online Resources",
+    "url": "https://docs.google.com/spreadsheets/d/1klugQqw6POlBtuzon8S0b18-gpsDwX-5OYRrB7TyNEw/edit#gid=0",
+    "category": "À classer"
+  },
+  {
+    "name": "Emsisoft Decryptor for Avaddon",
+    "url": "https://www.emsisoft.com/ransomware-decryption-tools/avaddon",
+    "category": "À classer"
+  },
+  {
+    "name": "hwosint (@harrywald80)",
+    "url": "https://twitter.com/harrywald80",
+    "category": "À classer"
+  },
+  {
+    "name": "Stefanie Proto 🔍 (@sprp77)",
+    "url": "https://twitter.com/sprp77",
+    "category": "À classer"
+  },
+  {
+    "name": "Awesomelists.top",
+    "url": "http://awesomelists.top/",
+    "category": "À classer"
+  },
+  {
+    "name": "GitHub Awesome Search",
+    "url": "https://github.motakasoft.com/awesome/",
+    "category": "À classer"
+  },
+  {
+    "name": "Ph055a OSINT_Collection",
+    "url": "https://github.com/Ph055a/OSINT_Collection",
+    "category": "À classer"
+  },
+  {
+    "name": "MetaOSINT",
+    "url": "https://metaosint.github.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Osint.support",
+    "url": "https://osint.support/",
+    "category": "À classer"
+  },
+  {
+    "name": "Sprp77/My-Google-CSE",
+    "url": "https://github.com/Sprp77/My-Google-CSE/blob/master/List%201",
+    "category": "À classer"
+  },
+  {
+    "name": "How to Build an OSINT Super Machine for People Sur",
+    "url": "https://outline.com/GZbkZA",
+    "category": "À classer"
+  },
+  {
+    "name": "How to find anyone with an advanced LinkedIn Peopl",
+    "url": "https://nubela.co/blog/how-to-find-anyone-with-an-advanced-linkedin-people-search/",
+    "category": "À classer"
+  },
+  {
+    "name": "OpenWeatherMap",
+    "url": "https://openweathermap.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Weather History & Data Archive",
+    "url": "https://www.wunderground.com/history",
+    "category": "À classer"
+  },
+  {
+    "name": "World Temperatures — Weather Around The World",
+    "url": "https://www.timeanddate.com/weather/",
+    "category": "À classer"
+  },
+  {
+    "name": "AccuWeather",
+    "url": "https://www.accuweather.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Threatbutt",
+    "url": "https://threatbutt.com/map/",
+    "category": "À classer"
+  },
+  {
+    "name": "Cyberthreat Real-Time Map",
+    "url": "https://cybermap.kaspersky.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Live Cyber Attack Threat Map",
+    "url": "https://www.checkpoint.com/ThreatPortal/livemap.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Digital Attack Map",
+    "url": "https://www.digitalattackmap.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Cyber Threat Map",
+    "url": "https://www.fireeye.com/cyber-map/threat-map.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Bitdefender Threat Map",
+    "url": "https://threatmap.bitdefender.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Cyber Threat Intelligence",
+    "url": "https://pulsedive.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Cisco Talos Intelligence Group",
+    "url": "https://talosintelligence.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Fortinet Threat Map",
+    "url": "https://threatmap.fortiguard.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "FortiGuard",
+    "url": "http://www.fortiguard.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "ThreatMiner",
+    "url": "https://www.threatminer.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "cymon",
+    "url": "https://cymon.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "intelowlproject/IntelOwl",
+    "url": "https://github.com/intelowlproject/IntelOwl",
+    "category": "À classer"
+  },
+  {
+    "name": "Visualizing Global Internet Performance",
+    "url": "https://www.akamai.com/us/en/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp",
+    "category": "À classer"
+  },
+  {
+    "name": "THREAT MAP by LookingGlass",
+    "url": "https://map.lookingglasscyber.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "NETSCOUT Cyber Threat Horizon",
+    "url": "https://horizon.netscout.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "APTnotes",
+    "url": "https://github.com/aptnotes/data",
+    "category": "À classer"
+  },
+  {
+    "name": "https://cryptome.wikileaks.org/",
+    "url": "https://cryptome.wikileaks.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Nextstrain",
+    "url": "https://nextstrain.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "How ICE Is Using Your Data — and What You Can Do A",
+    "url": "https://old.reddit.com/r/opsec/comments/1vws85o/how_ice_is_using_your_data_and_what_you_can_do/",
+    "category": "À classer"
+  },
+  {
+    "name": "How to Opt-Out of Airlines Selling Your Travel Dat",
+    "url": "https://old.reddit.com/r/opsec/comments/1vws35s/how_to_optout_of_airlines_selling_your_travel/",
+    "category": "À classer"
+  },
+  {
+    "name": "Spare tire or other projections hide license plate",
+    "url": "https://old.reddit.com/r/opsec/comments/1vwoufj/spare_tire_or_other_projections_hide_license/",
+    "category": "À classer"
+  },
+  {
+    "name": "Secret Service visits man after instagram ~DM0:37",
+    "url": "https://old.reddit.com/r/opsec/comments/1vwl7w2/secret_service_visits_man_after_instagram_dm/",
+    "category": "À classer"
+  },
+  {
+    "name": "Anyone here actually get value from CALI?23 août",
+    "url": "https://old.reddit.com/r/PrivateInvestigators/comments/1vwgyk7/anyone_here_actually_get_value_from_cali/",
+    "category": "À classer"
+  },
+  {
+    "name": "Can hacker find the email address of my youtube or",
+    "url": "https://old.reddit.com/r/opsec/comments/1vvx7lv/can_hacker_find_the_email_address_of_my_youtube/",
+    "category": "À classer"
+  },
+  {
+    "name": "compartmentalisation question22 août",
+    "url": "https://old.reddit.com/r/opsec/comments/1vvli53/compartmentalisation_question/",
+    "category": "À classer"
+  },
+  {
+    "name": "California has to be one of the hardest states to ",
+    "url": "https://old.reddit.com/r/PrivateInvestigators/comments/1vuot7n/california_has_to_be_one_of_the_hardest_states_to/",
+    "category": "À classer"
+  },
+  {
+    "name": "How to locate21 août",
+    "url": "https://old.reddit.com/r/PrivateInvestigators/comments/1vujnkb/how_to_locate/",
+    "category": "À classer"
+  },
+  {
+    "name": "Can I hire a PI for assistance?21 août",
+    "url": "https://old.reddit.com/r/PrivateInvestigators/comments/1vu5hk9/can_i_hire_a_pi_for_assistance/",
+    "category": "À classer"
+  },
+  {
+    "name": "What OSINT tools do PI use when they conduct backg",
+    "url": "https://old.reddit.com/r/OSINT/comments/1vu4j8k/what_osint_tools_do_pi_use_when_they_conduct/",
+    "category": "À classer"
+  },
+  {
+    "name": "Hello! Help finding stalker!21 août",
+    "url": "https://old.reddit.com/r/PrivateInvestigators/comments/1vu2d4r/hello_help_finding_stalker/",
+    "category": "À classer"
+  },
+  {
+    "name": "VPN21 août",
+    "url": "https://old.reddit.com/r/PrivacySecurityOSINT/comments/1vtxo57/vpn/",
+    "category": "À classer"
+  },
+  {
+    "name": "Opsec question20 août",
+    "url": "https://old.reddit.com/r/opsec/comments/1vtr2f6/opsec_question/",
+    "category": "À classer"
+  },
+  {
+    "name": "How can I get arrest records?20 août",
+    "url": "https://old.reddit.com/r/PrivateInvestigators/comments/1vtpgl7/how_can_i_get_arrest_records/",
+    "category": "À classer"
+  },
+  {
+    "name": "Clearbit [Registration]",
+    "url": "https://dashboard.clearbit.com/lookup",
+    "category": "À classer"
+  },
+  {
+    "name": "FullContact API [Registration]",
+    "url": "https://dashboard.fullcontact.com/login",
+    "category": "À classer"
+  },
+  {
+    "name": "Aeroleads.com [Registration]",
+    "url": "https://aeroleads.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Skype Resolver",
+    "url": "http://www.skypeipresolver.net/index.php",
+    "category": "À classer"
+  },
+  {
+    "name": "PSN Resolver",
+    "url": "https://playstationresolver.xyz/",
+    "category": "À classer"
+  },
+  {
+    "name": "Cloudflare Resolver",
+    "url": "http://www.skypeipresolver.net/cloudflare.php",
+    "category": "À classer"
+  },
+  {
+    "name": "Cloudflare Resolver Tool",
+    "url": "https://shadowcrypt.net/tools/cloudflare",
+    "category": "À classer"
+  },
+  {
+    "name": "Discord Resolver",
+    "url": "https://www.leaked.site/index.php?resolver/discord.0/",
+    "category": "À classer"
+  },
+  {
+    "name": "Xboxresolver.com",
+    "url": "https://xboxresolver.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "SEO Resources Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=005797772976587943970:i7q6z1kjm1w",
+    "category": "À classer"
+  },
+  {
+    "name": "Hashatit",
+    "url": "https://www.hashatit.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Social Mentions",
+    "url": "https://www.social-searcher.com/media-monitoring/",
+    "category": "À classer"
+  },
+  {
+    "name": "Social Trends",
+    "url": "https://www.social-searcher.com/social-trends/",
+    "category": "À classer"
+  },
+  {
+    "name": "Mentionmapp Analytics",
+    "url": "https://mentionmapp.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Anonymous Ad Preview Tool",
+    "url": "https://ads.google.com/anon/AdPreview",
+    "category": "À classer"
+  },
+  {
+    "name": "Semrush",
+    "url": "https://www.semrush.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Network Tool",
+    "url": "https://osome.iu.edu/tools/networks/#/",
+    "category": "À classer"
+  },
+  {
+    "name": "Trends Tool",
+    "url": "https://osome.iu.edu/tools/trends/#/",
+    "category": "À classer"
+  },
+  {
+    "name": "CoVaxxy",
+    "url": "https://osome.iu.edu/tools/covaxxy",
+    "category": "À classer"
+  },
+  {
+    "name": "IntelTechniques OSINT",
+    "url": "https://inteltechniques.com/tools/",
+    "category": "À classer"
+  },
+  {
+    "name": "SynapsInt",
+    "url": "https://synapsint.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "InfoTracer",
+    "url": "https://infotracer.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "MetaDefender",
+    "url": "https://metadefender.opswat.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Username Search",
+    "url": "https://usersearch.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "SpyTox",
+    "url": "https://www.spytox.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Effect Group",
+    "url": "https://effectgroup.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "osrframework",
+    "url": "https://pypi.org/project/osrframework/",
+    "category": "À classer"
+  },
+  {
+    "name": "Google Custom Search",
+    "url": "https://cse.google.com/cse?cx=017648920863780530960:lddgpbzqgoi",
+    "category": "À classer"
+  },
+  {
+    "name": "OSINT Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=006290531980334157382:qcaf4enph7i",
+    "category": "À classer"
+  },
+  {
+    "name": "LinkScope",
+    "url": "https://github.com/AccentuSoft/LinkScope_Client",
+    "category": "À classer"
+  },
+  {
+    "name": "IOA",
+    "url": "https://www.io-archive.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Criminal IP",
+    "url": "https://www.criminalip.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "IDCrawl",
+    "url": "https://www.idcrawl.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "WebMii",
+    "url": "https://webmii.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Tools",
+    "url": "https://intelx.io/tools?tab=person",
+    "category": "À classer"
+  },
+  {
+    "name": "TruePeopleSearch",
+    "url": "https://www.truepeoplesearch.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Free People Search",
+    "url": "https://www.peoplefinder.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "fastpeoplesearch",
+    "url": "https://fastpeoplesearch.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Yandex People Search",
+    "url": "https://yandex.ru/people",
+    "category": "À classer"
+  },
+  {
+    "name": "FamilyTree",
+    "url": "https://www.familytreenow.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "People Search",
+    "url": "http://itools.com/search/people-search",
+    "category": "À classer"
+  },
+  {
+    "name": "People Search Engine",
+    "url": "https://cse.google.com/cse?cx=14db36e158cd791c0",
+    "category": "À classer"
+  },
+  {
+    "name": "Dating Sites Search Engine",
+    "url": "https://cse.google.com/cse?cx=c7b340447e1e12653",
+    "category": "À classer"
+  },
+  {
+    "name": "192",
+    "url": "https://www.192.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "International",
+    "url": "https://www.infobel.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "People search Tool",
+    "url": "https://www.aware-online.com/en/osint-tools/people-search-tool/",
+    "category": "À classer"
+  },
+  {
+    "name": "PeekYou",
+    "url": "https://www.peekyou.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "White Pages",
+    "url": "https://www.whitepages.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "New Canada 411",
+    "url": "https://www.canada411.ca/",
+    "category": "À classer"
+  },
+  {
+    "name": "411",
+    "url": "http://411.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "TruthFinder",
+    "url": "https://www.truthfinder.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "zaba search",
+    "url": "https://www.zabasearch.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Thats them",
+    "url": "https://thatsthem.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "People search",
+    "url": "https://radaris.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "No.1 Free People Search",
+    "url": "http://www.yasni.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Gofindwho.com",
+    "url": "https://gofindwho.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "xlek",
+    "url": "https://xlek.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Ufind.name",
+    "url": "https://ufind.name/",
+    "category": "À classer"
+  },
+  {
+    "name": "WhatsMyName Web",
+    "url": "https://whatsmyname.app/",
+    "category": "À classer"
+  },
+  {
+    "name": "Username Checker",
+    "url": "https://analyzeid.com/username/",
+    "category": "À classer"
+  },
+  {
+    "name": "Username Search",
+    "url": "https://www.idcrawl.com/username",
+    "category": "À classer"
+  },
+  {
+    "name": "Tools",
+    "url": "https://intelx.io/tools?tab=username",
+    "category": "À classer"
+  },
+  {
+    "name": "maigret",
+    "url": "https://pypi.org/project/maigret/",
+    "category": "À classer"
+  },
+  {
+    "name": "sherlock",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "category": "À classer"
+  },
+  {
+    "name": "socialscan",
+    "url": "https://pypi.org/project/socialscan/",
+    "category": "À classer"
+  },
+  {
+    "name": "socid-extractor",
+    "url": "https://pypi.org/project/socid-extractor/",
+    "category": "À classer"
+  },
+  {
+    "name": "social-analyzer",
+    "url": "https://pypi.org/project/social-analyzer/",
+    "category": "À classer"
+  },
+  {
+    "name": "KnowEm",
+    "url": "https://knowem.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Check Usernames",
+    "url": "https://checkusernames.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Username Checker",
+    "url": "https://checkuser.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Namechk",
+    "url": "https://namechk.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Lullar Com",
+    "url": "https://com.lullar.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "SearchPOF.com",
+    "url": "https://searchpof.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "OSINT Toolkit",
+    "url": "https://one-plus.github.io/EmailUsername",
+    "category": "À classer"
+  },
+  {
+    "name": "Username search tool",
+    "url": "https://www.aware-online.com/en/osint-tools/username-search-tool/",
+    "category": "À classer"
+  },
+  {
+    "name": "snoop",
+    "url": "https://github.com/snooppr/snoop",
+    "category": "À classer"
+  },
+  {
+    "name": "quidam",
+    "url": "https://pypi.org/project/quidam/",
+    "category": "À classer"
+  },
+  {
+    "name": "Identificator.space",
+    "url": "https://identificator.space/",
+    "category": "À classer"
+  },
+  {
+    "name": "Epieos Email Lookup",
+    "url": "https://epieos.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Intelligence X",
+    "url": "https://intelx.io/tools?tab=email",
+    "category": "À classer"
+  },
+  {
+    "name": "holehe",
+    "url": "https://pypi.org/project/holehe/",
+    "category": "À classer"
+  },
+  {
+    "name": "Infoga",
+    "url": "http://github.com/m4ll0k/Infoga",
+    "category": "À classer"
+  },
+  {
+    "name": "email2phonenumber",
+    "url": "https://github.com/martinvigo/email2phonenumber",
+    "category": "À classer"
+  },
+  {
+    "name": "Trumail",
+    "url": "https://trumail.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Email Verifier",
+    "url": "https://hunter.io/email-verifier",
+    "category": "À classer"
+  },
+  {
+    "name": "Verify Email",
+    "url": "https://verify-email.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Reverse Whois",
+    "url": "https://osint.sh/reversewhois/",
+    "category": "À classer"
+  },
+  {
+    "name": "Email Dossier",
+    "url": "https://centralops.net/co/emaildossier.aspx",
+    "category": "À classer"
+  },
+  {
+    "name": "Email Format",
+    "url": "https://www.email-format.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Email Header Analyzer",
+    "url": "https://mxtoolbox.com/EmailHeaders.aspx",
+    "category": "À classer"
+  },
+  {
+    "name": "E-mail search tool",
+    "url": "https://www.aware-online.com/osint-tools/e-mail-search-tool/",
+    "category": "À classer"
+  },
+  {
+    "name": "Proofy",
+    "url": "https://proofy.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Email Permutator",
+    "url": "http://metricsparrow.com/toolkit/email-permutator/",
+    "category": "À classer"
+  },
+  {
+    "name": "Phonebook.cz",
+    "url": "https://phonebook.cz/",
+    "category": "À classer"
+  },
+  {
+    "name": "Email Breach Analysis",
+    "url": "https://www.hotsheet.com/inoitsu/",
+    "category": "À classer"
+  },
+  {
+    "name": "Emailrep.io",
+    "url": "https://emailrep.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Email Finder",
+    "url": "https://osint.sh/email/",
+    "category": "À classer"
+  },
+  {
+    "name": "EmailHarvester",
+    "url": "https://pypi.org/project/EmailHarvester/",
+    "category": "À classer"
+  },
+  {
+    "name": "h8mail",
+    "url": "https://pypi.org/project/h8mail/",
+    "category": "À classer"
+  },
+  {
+    "name": "WhatBreach",
+    "url": "https://github.com/Ekultek/WhatBreach",
+    "category": "À classer"
+  },
+  {
+    "name": "buster",
+    "url": "https://github.com/sham00n/buster",
+    "category": "À classer"
+  },
+  {
+    "name": "Anymailfinder.com",
+    "url": "https://anymailfinder.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "ProtOSINT",
+    "url": "https://github.com/pixelbubble/ProtOSINT",
+    "category": "À classer"
+  },
+  {
+    "name": "IntelTechniques Telephone",
+    "url": "https://inteltechniques.com/tools/Telephone.html",
+    "category": "À classer"
+  },
+  {
+    "name": "PhoneInfoga",
+    "url": "https://demo.phoneinfoga.crvx.fr/",
+    "category": "À classer"
+  },
+  {
+    "name": "Reverse Phone Lookup",
+    "url": "https://www.idcrawl.com/phone",
+    "category": "À classer"
+  },
+  {
+    "name": "ignorant",
+    "url": "https://pypi.org/project/ignorant/",
+    "category": "À classer"
+  },
+  {
+    "name": "PhoneInfoga",
+    "url": "https://github.com/sundowndev/PhoneInfoga",
+    "category": "À classer"
+  },
+  {
+    "name": "Moriarty-Project",
+    "url": "https://github.com/AzizKpln/Moriarty-Project",
+    "category": "À classer"
+  },
+  {
+    "name": "collector",
+    "url": "https://github.com/galihap76/collector",
+    "category": "À classer"
+  },
+  {
+    "name": "Truecaller Search Engine",
+    "url": "https://cse.google.com/cse?cx=c46b76bce1848d976",
+    "category": "À classer"
+  },
+  {
+    "name": "Nuwber",
+    "url": "https://nuwber.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Who Called Me",
+    "url": "https://www.whocalledme.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Phone number search Tool",
+    "url": "https://www.aware-online.com/en/osint-tools/phone-number-search-tool/",
+    "category": "À classer"
+  },
+  {
+    "name": "Validnumber.com",
+    "url": "https://validnumber.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Reverse Phone Lookup",
+    "url": "https://www.zlookup.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Reverse Phone Lookup",
+    "url": "https://www.reversephonecheck.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Truecaller",
+    "url": "https://www.truecaller.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Phone Number Lookup Tool",
+    "url": "https://shadowcrypt.net/tools/phone",
+    "category": "À classer"
+  },
+  {
+    "name": "SYNC.me",
+    "url": "https://sync.me/",
+    "category": "À classer"
+  },
+  {
+    "name": "OpenCelliD",
+    "url": "https://opencellid.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "CellTower Locator",
+    "url": "http://www.cell2gps.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Find GSM base stations cell id coordinates",
+    "url": "https://cellidfinder.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Phone Scoop",
+    "url": "https://www.phonescoop.com/phones/",
+    "category": "À classer"
+  },
+  {
+    "name": "GSM Arena",
+    "url": "https://www.gsmarena.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Fcc.io",
+    "url": "http://fcc.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Oldphonebook.com",
+    "url": "http://www.oldphonebook.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "carrier lookup",
+    "url": "https://www.carrierlookup.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Free Reverse Phone Lookup",
+    "url": "https://spydialer.com/default.aspx",
+    "category": "À classer"
+  },
+  {
+    "name": "Phonerator",
+    "url": "https://www.martinvigo.com/tools/phonerator/",
+    "category": "À classer"
+  },
+  {
+    "name": "Hunt Intelligence",
+    "url": "https://www.huntintel.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "snscrape",
+    "url": "https://pypi.org/project/snscrape/",
+    "category": "À classer"
+  },
+  {
+    "name": "Social Profiles Finder",
+    "url": "https://www.social-searcher.com/search-users/",
+    "category": "À classer"
+  },
+  {
+    "name": "Who posted what?",
+    "url": "https://whopostedwhat.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "VK Search Engine",
+    "url": "https://cse.google.com/cse?cx=f5e7cd4c6e33954ec",
+    "category": "À classer"
+  },
+  {
+    "name": "Skype Search Engine",
+    "url": "https://www.skypli.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Vimeo search tool",
+    "url": "https://www.aware-online.com/en/osint-tools/vimeo-search-tool/",
+    "category": "À classer"
+  },
+  {
+    "name": "Kribrum.io",
+    "url": "https://kribrum.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Graphtreon.com",
+    "url": "https://graphtreon.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Social Search Engine",
+    "url": "https://www.socialsearchengine.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Instagram, Reddit & Snapchat",
+    "url": "https://one-plus.github.io/Instagram",
+    "category": "À classer"
+  },
+  {
+    "name": "Google to search profiles on Dribbble",
+    "url": "https://recruitin.net/dribbble.php",
+    "category": "À classer"
+  },
+  {
+    "name": "Google to search profiles on Xing",
+    "url": "https://recruitin.net/xing.php",
+    "category": "À classer"
+  },
+  {
+    "name": "OSINT & SOCMINT Tooling",
+    "url": "https://osint.support/chrome-extensions/2019/09/29/osint-socmint-tooling.html",
+    "category": "À classer"
+  },
+  {
+    "name": "IntelTechniques Facebook",
+    "url": "https://inteltechniques.com/tools/Facebook.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Facebook Search Engine",
+    "url": "https://cse.google.com/cse?cx=95ae46262a5f2958e",
+    "category": "À classer"
+  },
+  {
+    "name": "Facebook Photo Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=013991603413798772546:jyvyp2ppxma",
+    "category": "À classer"
+  },
+  {
+    "name": "Facebook Scraped Data search",
+    "url": "http://4wbwa6vcpvcr3vvf4qkhppgy56urmjcj2vagu2iqgp3z656xcmfdbiqd.onion.pet/",
+    "category": "À classer"
+  },
+  {
+    "name": "Facebook Search",
+    "url": "https://www.sowsearch.info/",
+    "category": "À classer"
+  },
+  {
+    "name": "Facebook Search",
+    "url": "https://www.social-searcher.com/facebook-search/",
+    "category": "À classer"
+  },
+  {
+    "name": "Facebook Video Downloader",
+    "url": "https://fbdown.github.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Facebook Search Tool",
+    "url": "https://www.aware-online.com/osint-tools/facebook-search-tool/",
+    "category": "À classer"
+  },
+  {
+    "name": "Find My Facebook ID",
+    "url": "https://commentpicker.com/find-facebook-id.php",
+    "category": "À classer"
+  },
+  {
+    "name": "Facebook Geo",
+    "url": "https://www.osintcombine.com/facebook-geo-pages",
+    "category": "À classer"
+  },
+  {
+    "name": "Facebook Friends List Generator",
+    "url": "https://osint.support/chrome-extensions/2019/10/20/facebook-friends-list-generator.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Facebook Entity Id Parser",
+    "url": "https://osint.support/chrome-extensions/2019/09/08/facebook-entity-id-parser.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Facebook Profile Id Grabber",
+    "url": "https://osint.support/chrome-extensions/2019/09/01/facebook-profile-id-grabber.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Facebook Email Reverse Lookup",
+    "url": "https://osint.support/chrome-extensions/2019/09/01/facebook-email-reverse-lookup.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Facebook Profile Directory",
+    "url": "https://www.facebook.com/directory/",
+    "category": "À classer"
+  },
+  {
+    "name": "Have I Been Zucked?",
+    "url": "https://haveibeenzucked.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "IntelTechniques Twitter",
+    "url": "https://inteltechniques.com/tools/Twitter.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Nitter.hu",
+    "url": "https://nitter.hu/",
+    "category": "À classer"
+  },
+  {
+    "name": "Nitter.it",
+    "url": "https://nitter.it/",
+    "category": "À classer"
+  },
+  {
+    "name": "BirdHunt",
+    "url": "https://birdhunt.co/",
+    "category": "À classer"
+  },
+  {
+    "name": "Nitter Instances",
+    "url": "https://xnaas.github.io/nitter-instances/",
+    "category": "À classer"
+  },
+  {
+    "name": "twint",
+    "url": "https://pypi.org/project/twint/",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitter Search Engine",
+    "url": "https://cse.google.com/cse?cx=5857bab69c8b8e37e",
+    "category": "À classer"
+  },
+  {
+    "name": "Tweet Finder",
+    "url": "https://cse.google.com/cse/publicurl?cx=016621447308871563343:u4r_fupvs-e",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitter Photo Search",
+    "url": "https://cse.google.com/cse/publicurl?cx=006290531980334157382:_ltcjq0robu",
+    "category": "À classer"
+  },
+  {
+    "name": "Tweet Archive Search",
+    "url": "https://cse.google.com/cse/publicurl?cx=005797772976587943970:kffjgylvzwu",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitter Advanced Search",
+    "url": "https://twitter.com/search-advanced",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitter / Profiles Directory",
+    "url": "https://twitter.com/i/directory/",
+    "category": "À classer"
+  },
+  {
+    "name": "TweetBeaver",
+    "url": "https://tweetbeaver.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitter search tool",
+    "url": "https://www.aware-online.com/en/osint-tools/twitter-search-tool/",
+    "category": "À classer"
+  },
+  {
+    "name": "Google to search profiles on Twitter",
+    "url": "https://recruitin.net/twitter.php",
+    "category": "À classer"
+  },
+  {
+    "name": "Tweettioc.com",
+    "url": "http://tweettioc.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Search Twitter Bios and Profiles",
+    "url": "https://followerwonk.com/bio",
+    "category": "À classer"
+  },
+  {
+    "name": "The one million tweet map",
+    "url": "https://onemilliontweetmap.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Tweet Binder",
+    "url": "https://www.tweetbinder.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitter Search",
+    "url": "https://one-plus.github.io/Twitter",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitter Monitoring",
+    "url": "https://one-plus.github.io/TwitterMonitor",
+    "category": "À classer"
+  },
+  {
+    "name": "Thread Reader",
+    "url": "https://threadreaderapp.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Search Twitter Users",
+    "url": "https://pushshift.io/twitter-user-search/",
+    "category": "À classer"
+  },
+  {
+    "name": "Find Twitter Followers",
+    "url": "http://searchfortweets1.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Getdewey.co",
+    "url": "https://getdewey.co/",
+    "category": "À classer"
+  },
+  {
+    "name": "geosocial footprint",
+    "url": "http://geosocialfootprint.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "tweetmap",
+    "url": "https://www.omnisci.com/demos/tweetmap",
+    "category": "À classer"
+  },
+  {
+    "name": "DoesFollow",
+    "url": "https://doesfollow.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Sleeping Time",
+    "url": "http://sleepingtime.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitter Analytics",
+    "url": "https://foller.me/",
+    "category": "À classer"
+  },
+  {
+    "name": "Tweet Topic Explorer",
+    "url": "http://tweettopicexplorer.neoformix.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "TruthNest",
+    "url": "https://app.truthnest.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "getdaytrends",
+    "url": "https://getdaytrends.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitter Trending Hashtags and Topics",
+    "url": "https://www.trendsmap.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Socialbearing",
+    "url": "https://socialbearing.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Twiangulate: analyzing the connections between fri",
+    "url": "http://twiangulate.com/search/",
+    "category": "À classer"
+  },
+  {
+    "name": "First Tweet",
+    "url": "http://ctrlq.org/first/",
+    "category": "À classer"
+  },
+  {
+    "name": "Twittertrails.com",
+    "url": "http://twittertrails.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Download and Export Twitter Followers into Excel f",
+    "url": "https://www.vicinitas.io/free-tools/download-twitter-followers",
+    "category": "À classer"
+  },
+  {
+    "name": "Simplescraper OSINT",
+    "url": "https://airtable.com/shrceHfvukijgln9q/",
+    "category": "À classer"
+  },
+  {
+    "name": "Invidious Instances",
+    "url": "https://docs.invidious.io/instances/",
+    "category": "À classer"
+  },
+  {
+    "name": "YouTube video upload time",
+    "url": "https://www.aware-online.com/en/osint-tutorials/youtube-video-upload-time/",
+    "category": "À classer"
+  },
+  {
+    "name": "yt-dlp",
+    "url": "https://pypi.org/project/yt-dlp/",
+    "category": "À classer"
+  },
+  {
+    "name": "youtube-dl",
+    "url": "https://ytdl.actionsack.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Location Search",
+    "url": "https://mattw.io/youtube-geofind/location",
+    "category": "À classer"
+  },
+  {
+    "name": "YouTube Metadata Bulk",
+    "url": "https://mattw.io/youtube-metadata/bulk",
+    "category": "À classer"
+  },
+  {
+    "name": "Hadzy.com",
+    "url": "https://hadzy.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Youtube channel ID",
+    "url": "https://commentpicker.com/youtube-channel-id.php",
+    "category": "À classer"
+  },
+  {
+    "name": "Extract Meta Data YouTube",
+    "url": "https://citizenevidence.amnestyusa.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Youtube Geo Search Tool",
+    "url": "https://youtube.github.io/geo-search-tool/search.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Youtube Channel Search",
+    "url": "https://asif633.github.io/youtube-channel-search/",
+    "category": "À classer"
+  },
+  {
+    "name": "YouTube search tool",
+    "url": "https://www.aware-online.com/en/osint-tools/youtube-search-tool/",
+    "category": "À classer"
+  },
+  {
+    "name": "Yout",
+    "url": "https://yout.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "YouTube Comment Finder",
+    "url": "https://ytcomment.kmcat.uk/",
+    "category": "À classer"
+  },
+  {
+    "name": "Youtube, Periscope, Twitch & Dailymotion",
+    "url": "https://one-plus.github.io/Youtube",
+    "category": "À classer"
+  },
+  {
+    "name": "Unlistedvideos.com",
+    "url": "https://unlistedvideos.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Youtube Comments Downloader",
+    "url": "https://youtubecommentsdownloader.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "teddit",
+    "url": "https://teddit.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "Reddit Search",
+    "url": "https://camas.unddit.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Karma Decay",
+    "url": "http://karmadecay.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "redditsfinder",
+    "url": "https://pypi.org/project/redditsfinder/",
+    "category": "À classer"
+  },
+  {
+    "name": "SocialGrep",
+    "url": "https://www.socialgrep.com/search",
+    "category": "À classer"
+  },
+  {
+    "name": "Reddit Search Tool",
+    "url": "https://redditsearchtool.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Search Reddit",
+    "url": "https://bmai.dev/reddit/",
+    "category": "À classer"
+  },
+  {
+    "name": "Reddit Archive",
+    "url": "https://ihsoyct.github.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Chearch",
+    "url": "https://adhesivecheese.github.io/chearch/",
+    "category": "À classer"
+  },
+  {
+    "name": "NY Dolls.org",
+    "url": "https://nydolls.org/author",
+    "category": "À classer"
+  },
+  {
+    "name": "Reveddit.com",
+    "url": "https://www.reveddit.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Reddit Downloader",
+    "url": "https://redditdownloader.github.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Redective",
+    "url": "https://www.redective.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Reddit_Persona",
+    "url": "https://github.com/n2itn/reddit_persona",
+    "category": "À classer"
+  },
+  {
+    "name": "Uncensor.cc",
+    "url": "https://uncensor.cc/",
+    "category": "À classer"
+  },
+  {
+    "name": "Reddit Search Engine",
+    "url": "https://cse.google.com/cse?cx=0728740ab68a619ba",
+    "category": "À classer"
+  },
+  {
+    "name": "Reddit Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=017261104271573007538:bbzhlah6n4o",
+    "category": "À classer"
+  },
+  {
+    "name": "Reddit User Analyser",
+    "url": "https://reddit-user-analyser.netlify.app/",
+    "category": "À classer"
+  },
+  {
+    "name": "reddit search",
+    "url": "https://www.redditsearch.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Reddit search tool",
+    "url": "https://www.aware-online.com/en/osint-tools/reddit-search-tool/",
+    "category": "À classer"
+  },
+  {
+    "name": "Pholder",
+    "url": "https://pholder.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "RedditMetis",
+    "url": "https://redditmetis.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Search Reddit Comments by User",
+    "url": "https://www.redditcommentsearch.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Reddit Investigator",
+    "url": "https://www.redditinvestigator.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "pushshift.io",
+    "url": "https://pushshift.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Pushshift API Guide",
+    "url": "https://github.com/pushshift/api",
+    "category": "À classer"
+  },
+  {
+    "name": "Searcheddit",
+    "url": "http://searcheddit.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Removeddit",
+    "url": "https://removeddit.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Deaditarchive.netlify.app",
+    "url": "https://deaditarchive.netlify.app/",
+    "category": "À classer"
+  },
+  {
+    "name": "Map of Reddit",
+    "url": "https://anvaka.github.io/map-of-reddit/",
+    "category": "À classer"
+  },
+  {
+    "name": "reddit visualization",
+    "url": "https://yasiv.com/reddit",
+    "category": "À classer"
+  },
+  {
+    "name": "ReSavr",
+    "url": "https://www.resavr.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Redditle.com",
+    "url": "https://redditle.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Libredd.it",
+    "url": "https://libredd.it/",
+    "category": "À classer"
+  },
+  {
+    "name": "LinkedIn Search",
+    "url": "https://recruitin.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "LinkedIn X-Ray Search Tool",
+    "url": "https://www.lisearcher.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "LinkedProspect",
+    "url": "https://linkedprospect.com/linkedin-boolean-search-tool/",
+    "category": "À classer"
+  },
+  {
+    "name": "LinkedIn Search Engine",
+    "url": "https://cse.google.com/cse?cx=daaf18e804f81bed0",
+    "category": "À classer"
+  },
+  {
+    "name": "LinkedIn Search Engine (with Images)",
+    "url": "https://cse.google.com/cse?cx=40126f0af1aff84f8",
+    "category": "À classer"
+  },
+  {
+    "name": "Chartloop",
+    "url": "https://buildorgchart.herokuapp.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Proxycurl",
+    "url": "https://nubela.co/proxycurl/",
+    "category": "À classer"
+  },
+  {
+    "name": "nqntnqnqmb",
+    "url": "https://pypi.org/project/nqntnqnqmb/",
+    "category": "À classer"
+  },
+  {
+    "name": "LinkedIn Email Reverse Lookup",
+    "url": "https://osint.support/chrome-extensions/2019/09/03/linkedin-email-reverse-lookup.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Google+ Photo Custom Search",
+    "url": "https://cse.google.com/cse/publicurl?cx=006205189065513216365:uo99tr1fxjq",
+    "category": "À classer"
+  },
+  {
+    "name": "GHunt",
+    "url": "https://github.com/mxrch/GHunt",
+    "category": "À classer"
+  },
+  {
+    "name": "Google Social Search",
+    "url": "https://www.social-searcher.com/google-social-search/",
+    "category": "À classer"
+  },
+  {
+    "name": "Google+ & LinkedIn",
+    "url": "https://one-plus.github.io/G+Link",
+    "category": "À classer"
+  },
+  {
+    "name": "Discord User Search",
+    "url": "https://discordhub.com/user/search",
+    "category": "À classer"
+  },
+  {
+    "name": "Discord Me",
+    "url": "https://discord.me/",
+    "category": "À classer"
+  },
+  {
+    "name": "Enlarge Discord avatars",
+    "url": "https://discordzoom.com/en/",
+    "category": "À classer"
+  },
+  {
+    "name": "Discord History Tracker",
+    "url": "https://dht.chylex.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "DiscordOSINT",
+    "url": "https://github.com/atoncehussein/DiscordOSINT",
+    "category": "À classer"
+  },
+  {
+    "name": "DiscordServers",
+    "url": "https://discordservers.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "DISBOARD",
+    "url": "https://disboard.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Discord Servers Portal",
+    "url": "https://www.discordportal.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Discord ID Lookup",
+    "url": "https://discord.id/",
+    "category": "À classer"
+  },
+  {
+    "name": "Discord Center",
+    "url": "https://discord.center/",
+    "category": "À classer"
+  },
+  {
+    "name": "Discord Bots",
+    "url": "https://discordbotlist.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Discord Bots",
+    "url": "https://top.gg/",
+    "category": "À classer"
+  },
+  {
+    "name": "Discord Bots",
+    "url": "https://discord.bots.gg/",
+    "category": "À classer"
+  },
+  {
+    "name": "TwitchTracker",
+    "url": "https://twitchtracker.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitch.fckdmca.com",
+    "url": "https://twitch.fckdmca.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitch Payout Search",
+    "url": "https://sizeof.cat/project/twitch-payout-search/",
+    "category": "À classer"
+  },
+  {
+    "name": "Search for a Twitch channel",
+    "url": "https://sullygnome.com/channelsearch",
+    "category": "À classer"
+  },
+  {
+    "name": "Searchstream.live",
+    "url": "https://searchstream.live/",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitch Tools",
+    "url": "https://twitch-tools.rootonline.de/",
+    "category": "À classer"
+  },
+  {
+    "name": "Username Availability",
+    "url": "https://cactus.tools/twitch/username",
+    "category": "À classer"
+  },
+  {
+    "name": "Check channel badges",
+    "url": "https://cactus.tools/twitch/badges",
+    "category": "À classer"
+  },
+  {
+    "name": "Check Twitch follow length",
+    "url": "https://cactus.tools/twitch/followage",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitch Following",
+    "url": "https://cactus.tools/twitch/following",
+    "category": "À classer"
+  },
+  {
+    "name": "All Twitch Streamers Search",
+    "url": "https://twitchstats.net/allstreamers",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitchmetrics.net",
+    "url": "https://www.twitchmetrics.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitch Username Search",
+    "url": "https://twitchusernames.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Bibliogram.art",
+    "url": "https://bibliogram.art/",
+    "category": "À classer"
+  },
+  {
+    "name": "Bibliogram",
+    "url": "https://bib.actionsack.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "InstaHunt",
+    "url": "https://instahunt.co/",
+    "category": "À classer"
+  },
+  {
+    "name": "Instagram Deep Photo Search Engine",
+    "url": "https://cse.google.com/cse?cx=017261104271573007538:ffk_jpt64gy",
+    "category": "À classer"
+  },
+  {
+    "name": "Instagram analyzer and viewer",
+    "url": "https://gramho.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Find Instagram User ID",
+    "url": "https://codeofaninja.com/tools/find-instagram-user-id/",
+    "category": "À classer"
+  },
+  {
+    "name": "Instagram User ID",
+    "url": "https://commentpicker.com/instagram-user-id.php",
+    "category": "À classer"
+  },
+  {
+    "name": "Searchmy.bio",
+    "url": "https://www.searchmy.bio/",
+    "category": "À classer"
+  },
+  {
+    "name": "Statflux",
+    "url": "http://statflux.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Gramsize.com",
+    "url": "https://gramsize.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "toutatis",
+    "url": "https://pypi.org/project/toutatis/",
+    "category": "À classer"
+  },
+  {
+    "name": "instalooter",
+    "url": "https://pypi.org/project/instalooter/",
+    "category": "À classer"
+  },
+  {
+    "name": "instaloader",
+    "url": "https://pypi.org/project/instaloader/",
+    "category": "À classer"
+  },
+  {
+    "name": "chatter",
+    "url": "https://github.com/visualbasic6/chatter",
+    "category": "À classer"
+  },
+  {
+    "name": "osi.ig",
+    "url": "https://github.com/th3unkn0n/osi.ig",
+    "category": "À classer"
+  },
+  {
+    "name": "Osintgram",
+    "url": "https://github.com/Datalux/Osintgram",
+    "category": "À classer"
+  },
+  {
+    "name": "SoIG",
+    "url": "https://github.com/yezz123/SoIG",
+    "category": "À classer"
+  },
+  {
+    "name": "yesitsme",
+    "url": "https://github.com/blackeko/yesitsme",
+    "category": "À classer"
+  },
+  {
+    "name": "Instagram Location Search",
+    "url": "https://github.com/bellingcat/instagram-location-search",
+    "category": "À classer"
+  },
+  {
+    "name": "Telegago",
+    "url": "https://cse.google.com/cse?&cx=006368593537057042503:efxu7xprihg#gsc.tab=0",
+    "category": "À classer"
+  },
+  {
+    "name": "Telegram Search",
+    "url": "https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg",
+    "category": "À classer"
+  },
+  {
+    "name": "Telegram Search. Search for posts",
+    "url": "https://tgstat.com/search",
+    "category": "À classer"
+  },
+  {
+    "name": "Lyzem Blog",
+    "url": "https://lyzem.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Search.buzz.im",
+    "url": "https://search.buzz.im/",
+    "category": "À classer"
+  },
+  {
+    "name": "Telegram Usernames Finder",
+    "url": "https://socialfinder.app/list/Telegram",
+    "category": "À classer"
+  },
+  {
+    "name": "Telegram Channels List",
+    "url": "https://tlgrm.eu/channels",
+    "category": "À classer"
+  },
+  {
+    "name": "Readergram.com",
+    "url": "https://readergram.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Ixgram",
+    "url": "https://www.telegramgroup1.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Find Telegram Channels/Bots/Groups",
+    "url": "https://xtea.io/ts_en.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Telegram Group: Find Telegram Channels, Bots & Gro",
+    "url": "https://www.telegram-group.com/en/",
+    "category": "À classer"
+  },
+  {
+    "name": "TelegramDB.org",
+    "url": "https://telegramdb.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Global Telegram Database",
+    "url": "https://t.me/s/privatelinks",
+    "category": "À classer"
+  },
+  {
+    "name": "Telegram Search Engine",
+    "url": "https://clickbee.me/Telegram-Search-Engine.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Nekogram X",
+    "url": "https://f-droid.org/packages/nekox.messenger/",
+    "category": "À classer"
+  },
+  {
+    "name": "telegram-phone-number-checker",
+    "url": "https://github.com/bellingcat/telegram-phone-number-checker",
+    "category": "À classer"
+  },
+  {
+    "name": "Ghostcodes.com",
+    "url": "https://www.ghostcodes.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Snap Map",
+    "url": "https://map.snapchat.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Snapdex",
+    "url": "https://snapdex.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "SnapScraper",
+    "url": "https://rhematt.github.io/Snap-Scraper/",
+    "category": "À classer"
+  },
+  {
+    "name": "snapmap-archiver",
+    "url": "https://pypi.org/project/snapmap-archiver/",
+    "category": "À classer"
+  },
+  {
+    "name": "Snapchat User Search",
+    "url": "https://sovip.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "SnapChat Search (ENTER-USERNAME-HERE)",
+    "url": "https://feelinsonice.appspot.com/web/deeplink/snapcode?username=ENTER-USERNAME-HERE&size=400&type=SVG",
+    "category": "À classer"
+  },
+  {
+    "name": "Search.noc.social",
+    "url": "https://search.noc.social/",
+    "category": "À classer"
+  },
+  {
+    "name": "Mastodon Search Engine",
+    "url": "https://cse.google.com/cse?cx=334aec4c3c73ed945",
+    "category": "À classer"
+  },
+  {
+    "name": "TIKTOK Search Engine",
+    "url": "https://cse.google.com/cse?cx=011444696387487602669:aqf7d9w73om",
+    "category": "À classer"
+  },
+  {
+    "name": "TikTok User Search",
+    "url": "https://vidnice.com/search/",
+    "category": "À classer"
+  },
+  {
+    "name": "TikTok downloader",
+    "url": "https://tiktokd.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "TikTok hashtag analysis toolset",
+    "url": "https://github.com/bellingcat/tiktok-hashtag-analysis",
+    "category": "À classer"
+  },
+  {
+    "name": "Steam Community :: Search",
+    "url": "https://steamcommunity.com/search/users/",
+    "category": "À classer"
+  },
+  {
+    "name": "Steam ID Finder",
+    "url": "https://steamidfinder.com/lookup/",
+    "category": "À classer"
+  },
+  {
+    "name": "steamdb.info/calculator",
+    "url": "https://steamdb.info/calculator/",
+    "category": "À classer"
+  },
+  {
+    "name": "Clubhouse Database",
+    "url": "https://clubhousedb.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Rooms of Clubhouse",
+    "url": "https://roomsofclubhouse.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "ClubSearch -- search Clubhouse rooms",
+    "url": "https://clubsearch.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Onlysearch.co",
+    "url": "https://onlysearch.co/",
+    "category": "À classer"
+  },
+  {
+    "name": "OnlyFinder",
+    "url": "https://onlyfinder.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Search OnlyFans profiles",
+    "url": "https://hubite.com/onlyfans-search/",
+    "category": "À classer"
+  },
+  {
+    "name": "Fansmetrics.com",
+    "url": "https://fansmetrics.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Findr.fans",
+    "url": "https://findr.fans/",
+    "category": "À classer"
+  },
+  {
+    "name": "SimilarFans",
+    "url": "https://similarfans.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Bot Sentinel Dashboard ‹ Bot Sentinel",
+    "url": "https://botsentinel.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Botometer by OSoMe",
+    "url": "https://botometer.osome.iu.edu/",
+    "category": "À classer"
+  },
+  {
+    "name": "FollowerAudit",
+    "url": "https://www.followeraudit.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Twitter Bot Checker",
+    "url": "https://circleboom.com/twitter-management-tool/twitter-circle-tool/twitter-bot-checker",
+    "category": "À classer"
+  },
+  {
+    "name": "BotSlayer",
+    "url": "https://osome.iu.edu/tools/botslayer",
+    "category": "À classer"
+  },
+  {
+    "name": "Blogs Search Engine",
+    "url": "https://cse.google.com/cse?cx=013991603413798772546:8c1g6f0frp8#gsc.tab=0",
+    "category": "À classer"
+  },
+  {
+    "name": "WordPress Custom Search",
+    "url": "https://cse.google.com/cse?cx=011081986282915606282:w8bndhohpi0",
+    "category": "À classer"
+  },
+  {
+    "name": "WordPress Content Snatcher",
+    "url": "https://cse.google.com/cse/publicurl?cx=011081986282915606282:w8bndhohpi0",
+    "category": "À classer"
+  },
+  {
+    "name": "OSINT Blogs Search Engine",
+    "url": "https://cse.google.com/cse?cx=fd4729049350a76d0",
+    "category": "À classer"
+  },
+  {
+    "name": "News Search Engine",
+    "url": "https://cse.google.com/cse?cx=013991603413798772546:fvmtax6anhd",
+    "category": "À classer"
+  },
+  {
+    "name": "Mailing List Archives Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=013991603413798772546:sipriovnbxq",
+    "category": "À classer"
+  },
+  {
+    "name": "Google News",
+    "url": "https://news.google.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "News Search",
+    "url": "https://upstract.com/search",
+    "category": "À classer"
+  },
+  {
+    "name": "Newslookup.com",
+    "url": "http://newslookup.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Welcome to Dealstrap!",
+    "url": "http://correctsearch.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Beautiful News",
+    "url": "https://informationisbeautiful.net/beautifulnews/",
+    "category": "À classer"
+  },
+  {
+    "name": "GoodGopher.com",
+    "url": "https://goodgopher.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Newsnow",
+    "url": "https://www.newsnow.co.uk/",
+    "category": "À classer"
+  },
+  {
+    "name": "Wintria",
+    "url": "http://www.wintria.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Mereku.com",
+    "url": "https://mereku.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Newspapers.com",
+    "url": "https://www.newspapers.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Newspaper Archive",
+    "url": "https://www.gastearsivi.com/en/",
+    "category": "À classer"
+  },
+  {
+    "name": "Talkwalker",
+    "url": "https://www.talkwalker.com/alerts",
+    "category": "À classer"
+  },
+  {
+    "name": "Google Alerts",
+    "url": "https://www.google.com/alerts",
+    "category": "À classer"
+  },
+  {
+    "name": "Paperball.news",
+    "url": "https://paperball.news/",
+    "category": "À classer"
+  },
+  {
+    "name": "Hoaxy: How claims spread online",
+    "url": "https://hoaxy.osome.iu.edu/",
+    "category": "À classer"
+  },
+  {
+    "name": "Snopes",
+    "url": "https://www.snopes.com/?s=",
+    "category": "À classer"
+  },
+  {
+    "name": "ReviewMeta",
+    "url": "https://reviewmeta.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Verification Handbook",
+    "url": "https://datajournalism.com/read/handbook/verification-1",
+    "category": "À classer"
+  },
+  {
+    "name": "Truth or Fiction",
+    "url": "https://www.truthorfiction.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Debunking False Stories Archives",
+    "url": "https://www.factcheck.org/fake-news/",
+    "category": "À classer"
+  },
+  {
+    "name": "Fact-Checking",
+    "url": "https://reporterslab.org/fact-checking/",
+    "category": "À classer"
+  },
+  {
+    "name": "IntelTechniques Search Engine",
+    "url": "https://inteltechniques.com/tools/Search.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Google Advanced Search",
+    "url": "https://www.google.com/advanced_search",
+    "category": "À classer"
+  },
+  {
+    "name": "Searx",
+    "url": "https://searx.info/",
+    "category": "À classer"
+  },
+  {
+    "name": "Bing",
+    "url": "https://www.bing.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Yandex",
+    "url": "https://yandex.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "MetaGer: Privacy Protected Search",
+    "url": "https://metager3.de/en/",
+    "category": "À classer"
+  },
+  {
+    "name": "Duck Duck Go",
+    "url": "https://duckduckgo.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Search Engines Index",
+    "url": "https://www.searchenginesindex.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "carrot2",
+    "url": "https://search.carrot2.org/#/search/web",
+    "category": "À classer"
+  },
+  {
+    "name": "Qwant",
+    "url": "https://www.qwant.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Startpage",
+    "url": "https://startpage.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "swisscows",
+    "url": "https://swisscows.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Crossref",
+    "url": "https://search.crossref.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Brave Search",
+    "url": "https://search.brave.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Mojeek",
+    "url": "https://www.mojeek.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Yahoo Search",
+    "url": "https://search.yahoo.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Baidu",
+    "url": "https://www.baidu.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Ecosia",
+    "url": "https://www.ecosia.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Dogpile",
+    "url": "https://www.dogpile.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Zoo Search",
+    "url": "https://www.metacrawler.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "App Store and iTunes search engine",
+    "url": "https://fnd.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Ask",
+    "url": "https://www.search.ask.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "ZorexEye",
+    "url": "http://zorexeye.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Yassen.com",
+    "url": "http://yassen.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Flippity",
+    "url": "https://www.flippity.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "keys.openpgp.org",
+    "url": "https://keys.openpgp.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "MIT PGP Key Server",
+    "url": "https://pgp.mit.edu/",
+    "category": "À classer"
+  },
+  {
+    "name": "Ipse.io",
+    "url": "https://www.ipse.io/",
+    "category": "À classer"
+  },
+  {
+    "name": "Ipfs-search.com",
+    "url": "https://ipfs-search.com/#/search",
+    "category": "À classer"
+  },
+  {
+    "name": "Debate.cards",
+    "url": "http://debate.cards/",
+    "category": "À classer"
+  },
+  {
+    "name": "Argumentsearch.com",
+    "url": "http://argumentsearch.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Meganzsearch.com",
+    "url": "https://www.meganzsearch.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Engine.presearch.org",
+    "url": "https://engine.presearch.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Blockscan.com",
+    "url": "https://blockscan.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Publc.com",
+    "url": "https://publc.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "GoPit Search Engine - Home",
+    "url": "https://www.gopit.com/socialsearch/index.php?type=Social",
+    "category": "À classer"
+  },
+  {
+    "name": "The best document search engine",
+    "url": "http://www.doc-txt.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "CachedViews.com",
+    "url": "https://cachedviews.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "MAC Address Lookup",
+    "url": "https://maclookup.app/",
+    "category": "À classer"
+  },
+  {
+    "name": "sploitus",
+    "url": "https://sploitus.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "https://vulmon.com/",
+    "url": "https://vulmon.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Vulnerability & Exploit Database",
+    "url": "https://www.rapid7.com/db/",
+    "category": "À classer"
+  },
+  {
+    "name": "Recon",
+    "url": "http://recon222tttn4ob7ujdhbn3s4gjre7netvzybuvbq2bcqwltkiqinhad.onion.pet/",
+    "category": "À classer"
+  },
+  {
+    "name": "Google & Bing",
+    "url": "https://one-plus.github.io/GoogleBing",
+    "category": "À classer"
+  },
+  {
+    "name": "Bookmarks",
+    "url": "https://one-plus.github.io/Bookmarks",
+    "category": "À classer"
+  },
+  {
+    "name": "Boardreader - Forum Search",
+    "url": "https://boardreader.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Libgen.rs",
+    "url": "http://libgen.rs/",
+    "category": "À classer"
+  },
+  {
+    "name": "Stacksearch",
+    "url": "https://stacksear.ch/",
+    "category": "À classer"
+  },
+  {
+    "name": "SearchTempest",
+    "url": "https://www.searchtempest.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "2lingual",
+    "url": "https://2lingual.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "SEQE - Search Engines Query Engine",
+    "url": "https://seqe.me/",
+    "category": "À classer"
+  },
+  {
+    "name": "Milled",
+    "url": "https://milled.com/search",
+    "category": "À classer"
+  },
+  {
+    "name": "btdig",
+    "url": "https://btdig.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Monster Crawler Search",
+    "url": "http://monstercrawler.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Arabo.com",
+    "url": "http://arabo.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Google Scholar",
+    "url": "https://scholar.google.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Million Short",
+    "url": "https://millionshort.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "BeVigil",
+    "url": "https://bevigil.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "WordPress.com",
+    "url": "https://en.search.wordpress.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Octosearch.dootech.com",
+    "url": "https://octosearch.dootech.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Search craigslist",
+    "url": "http://searchcraigslist.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Public AWS S3 & Azure Search",
+    "url": "https://buckets.grayhatwarfare.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Public Buckets",
+    "url": "https://osint.sh/buckets/",
+    "category": "À classer"
+  },
+  {
+    "name": "URL Shorteners Search",
+    "url": "https://shorteners.grayhatwarfare.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Mywoodle.com",
+    "url": "https://mywoodle.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Search Atlas",
+    "url": "https://searchatlas.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Google to search profiles on Stack Overflow",
+    "url": "https://recruitin.net/stackoverflow.php",
+    "category": "À classer"
+  },
+  {
+    "name": "Binparcel.com",
+    "url": "https://binparcel.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Homepage Search Engine",
+    "url": "https://cse.google.com/cse?cx=005797772976587943970:3tu7im1-rdg#gsc.tab=0",
+    "category": "À classer"
+  },
+  {
+    "name": "Amazon Cloud Search Engine",
+    "url": "https://cse.google.com/cse?cx=005797772976587943970:g-6ohngosio#gsc.tab=0",
+    "category": "À classer"
+  },
+  {
+    "name": "Google CSE instances Search Engine",
+    "url": "https://cse.google.com/cse?cx=009462381166450434430:vggeu3dhhgg#gsc.tab=0",
+    "category": "À classer"
+  },
+  {
+    "name": "Robots.txt Search Engine",
+    "url": "https://cse.google.com/cse?cx=013991603413798772546:zu7epjqvunu",
+    "category": "À classer"
+  },
+  {
+    "name": "Short URL Search Engine",
+    "url": "https://cse.google.com/cse?cx=017261104271573007538:magh-vr6t6g#gsc.tab=0",
+    "category": "À classer"
+  },
+  {
+    "name": "Wikispaces Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=005797772976587943970:afbre9pr2ly",
+    "category": "À classer"
+  },
+  {
+    "name": "Dog Bites Search Engine",
+    "url": "https://cse.google.com/cse?cx=partner-pub-8216357153102971:3267723418",
+    "category": "À classer"
+  },
+  {
+    "name": "Google Domain Hacker",
+    "url": "https://cse.google.com/cse/publicurl?cx=005797772976587943970:ca2hiy6hmri",
+    "category": "À classer"
+  },
+  {
+    "name": "Google Drive Folder Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=013991603413798772546:nwzqlcysx_w",
+    "category": "À classer"
+  },
+  {
+    "name": "Chrome Extension Archive Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=000501358716561852263:h-5uyshsclq",
+    "category": "À classer"
+  },
+  {
+    "name": "Github with Awesome-List Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=017261104271573007538:fqn_jyftcdq",
+    "category": "À classer"
+  },
+  {
+    "name": "Better Chrome Web Store Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=006205189065513216365:pn3lumi80ne",
+    "category": "À classer"
+  },
+  {
+    "name": "App Store Custom Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=006205189065513216365:aqogom-kfne",
+    "category": "À classer"
+  },
+  {
+    "name": "*.Google.com Hack Attack",
+    "url": "https://cse.google.com/cse/publicurl?cx=017648920863780530960:lddgpbzqgoi",
+    "category": "À classer"
+  },
+  {
+    "name": "Search by FileType",
+    "url": "https://cse.google.com/cse/publicurl?cx=013991603413798772546:mu-oio3a980",
+    "category": "À classer"
+  },
+  {
+    "name": "Search Engine Finder",
+    "url": "https://cse.google.com/cse?cx=016621447308871563343:nyvaorurd5l",
+    "category": "À classer"
+  },
+  {
+    "name": "Mindmap Search Engine",
+    "url": "http://cse.google.com/cse?cx=013991603413798772546:gj6rx9spox8#gsc.tab=0",
+    "category": "À classer"
+  },
+  {
+    "name": "Slack/Discord/Zoom Invites Search",
+    "url": "https://cse.google.com/cse?cx=8e26eca532ec2cba3",
+    "category": "À classer"
+  },
+  {
+    "name": "Cloud Bucket Search Engine",
+    "url": "https://cse.google.com/cse?cx=d80f8518b11b1438e",
+    "category": "À classer"
+  },
+  {
+    "name": "Google Maps",
+    "url": "https://www.google.com/maps",
+    "category": "À classer"
+  },
+  {
+    "name": "Bing Maps",
+    "url": "https://www.bing.com/maps",
+    "category": "À classer"
+  },
+  {
+    "name": "Yandex.Maps",
+    "url": "https://yandex.com/maps/",
+    "category": "À classer"
+  },
+  {
+    "name": "Generate a panorama",
+    "url": "https://www.udeuschle.de/panoramas/makepanoramas_en.htm",
+    "category": "À classer"
+  },
+  {
+    "name": "Mapillary",
+    "url": "https://www.mapillary.com/app/",
+    "category": "À classer"
+  },
+  {
+    "name": "Geonarra.com",
+    "url": "https://www.geonarra.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Waze",
+    "url": "https://www.waze.com/live-map",
+    "category": "À classer"
+  },
+  {
+    "name": "百度地图",
+    "url": "https://map.baidu.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "DigitalGlobe",
+    "url": "https://discover.digitalglobe.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "MapQuest",
+    "url": "https://www.mapquest.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "OpenStreetMap",
+    "url": "https://www.openstreetmap.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Maps.descarteslabs.com",
+    "url": "https://maps.descarteslabs.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "ArcGIS Wildfire Map",
+    "url": "https://www.arcgis.com/home/webmap/viewer.html?webmap=df8bcc10430f48878b01c96e907a1fc3#!",
+    "category": "À classer"
+  },
+  {
+    "name": "Living Atlas of the World | ArcGIS",
+    "url": "https://livingatlas.arcgis.com/en/browse/",
+    "category": "À classer"
+  },
+  {
+    "name": "FIRMS",
+    "url": "https://firms.modaps.eosdis.nasa.gov/map/",
+    "category": "À classer"
+  },
+  {
+    "name": "COVID-19 Map",
+    "url": "https://coronavirus.jhu.edu/map.html",
+    "category": "À classer"
+  },
+  {
+    "name": "Ukraine Interactive map",
+    "url": "https://liveuamap.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Satellites.pro",
+    "url": "https://satellites.pro/",
+    "category": "À classer"
+  },
+  {
+    "name": "Military bases around the world. - uMap",
+    "url": "https://umap.openstreetmap.fr/en/map/military-bases-around-the-world_510207",
+    "category": "À classer"
+  },
+  {
+    "name": "Wikimapia",
+    "url": "http://wikimapia.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Map of Syrian Civil War",
+    "url": "https://syria.liveuamap.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "Radio Garden",
+    "url": "http://radio.garden/search",
+    "category": "À classer"
+  },
+  {
+    "name": "Windy",
+    "url": "https://www.windy.com/-Webcams/webcams",
+    "category": "À classer"
+  },
+  {
+    "name": "Gpx File Editor",
+    "url": "https://gpx.studio/",
+    "category": "À classer"
+  },
+  {
+    "name": "OALLEY",
+    "url": "https://www.oalley.net/app/",
+    "category": "À classer"
+  },
+  {
+    "name": "fgdc_gp_demos's public fiddles",
+    "url": "https://jsfiddle.net/user/fgdc_gp_demos/fiddles/",
+    "category": "À classer"
+  },
+  {
+    "name": "KartaView",
+    "url": "https://kartaview.org/map/",
+    "category": "À classer"
+  },
+  {
+    "name": "Google Map Search Engine",
+    "url": "https://cse.google.com/cse?cx=013991603413798772546:mofb1uoaebi",
+    "category": "À classer"
+  },
+  {
+    "name": "Power Plants in the United States",
+    "url": "https://www.arcgis.com/apps/dashboards/201fc98c0d74482d8b3acb0c4cc47f16",
+    "category": "À classer"
+  },
+  {
+    "name": "UK Onshore Oil and Gas Activity",
+    "url": "https://www.arcgis.com/apps/webappviewer/index.html?id=29c31fa4b00248418e545d222e57ddaa",
+    "category": "À classer"
+  },
+  {
+    "name": "Walmart Store Status",
+    "url": "https://www.arcgis.com/apps/dashboards/4e573c79e1224081805165d25b4f33c7",
+    "category": "À classer"
+  },
+  {
+    "name": "MODIS Wildfire",
+    "url": "https://www.arcgis.com/apps/dashboards/bf5df3a49a624521844a2e5e1ec7df05",
+    "category": "À classer"
+  },
+  {
+    "name": "Earthquake Watch",
+    "url": "https://www.arcgis.com/apps/dashboards/c8af9c5411814584b460cc87cb7c3780",
+    "category": "À classer"
+  },
+  {
+    "name": "InciWeb",
+    "url": "https://inciweb.nwcg.gov/",
+    "category": "À classer"
+  },
+  {
+    "name": "Earth",
+    "url": "https://earth.nullschool.net/#current",
+    "category": "À classer"
+  },
+  {
+    "name": "US Labor Strike Map",
+    "url": "https://www.google.com/maps/d/viewer?mid=1hE1nDR-Ff_sVgOS67IteJSxGZlvqIP3k",
+    "category": "À classer"
+  },
+  {
+    "name": "Active Agency Map",
+    "url": "https://www.google.com/maps/d/viewer?mid=1eYVDPh5itXq5acDT9b0BVeQwmESBa4cB",
+    "category": "À classer"
+  },
+  {
+    "name": "Ontario GiveSendGo Donors",
+    "url": "https://www.google.com/maps/d/viewer?mid=1heAgrb9bDuk287yqseyvhZ7-U_kz64hM",
+    "category": "À classer"
+  },
+  {
+    "name": "Live-action-map.com",
+    "url": "https://www.live-action-map.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "awesome-maps-ukraine",
+    "url": "https://github.com/Symbian9/awesome-maps-ukraine",
+    "category": "À classer"
+  },
+  {
+    "name": "Допомога",
+    "url": "https://dopomoha.pl/",
+    "category": "À classer"
+  },
+  {
+    "name": "Ukraine Live Cams",
+    "url": "https://nagix.github.io/ukraine-livecams",
+    "category": "À classer"
+  },
+  {
+    "name": "Ukraine War Map/Heatmap",
+    "url": "https://ruarq.github.io/ukraine-war-heatmap",
+    "category": "À classer"
+  },
+  {
+    "name": "Live map of London Underground trains",
+    "url": "https://traintimes.org.uk/map/tube/",
+    "category": "À classer"
+  },
+  {
+    "name": "Livecorona.co.kr",
+    "url": "https://livecorona.co.kr/",
+    "category": "À classer"
+  },
+  {
+    "name": "TfL JamCams",
+    "url": "https://www.tfljamcams.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "Cesium Stories",
+    "url": "https://cesium.com/ion/stories/viewer/?id=8be6f99c-0d4c-46ce-91a3-313e3cac62fe",
+    "category": "À classer"
+  },
+  {
+    "name": "GeoNames",
+    "url": "https://www.geonames.org/",
+    "category": "À classer"
+  },
+  {
+    "name": "Geoseer.net",
+    "url": "https://www.geoseer.net/",
+    "category": "À classer"
+  },
+  {
+    "name": "GeoINT Search",
+    "url": "https://cse.google.com/cse?cx=015328649639895072395:sbv3zyxzmji#gsc.tab=0",
+    "category": "À classer"
+  },
+  {
+    "name": "GeoIP Tracker tool",
+    "url": "https://shadowcrypt.net/tools/geoip",
+    "category": "À classer"
+  },
+  {
+    "name": "Earth Engine Dataset",
+    "url": "https://developers.google.com/earth-engine/datasets/",
+    "category": "À classer"
+  },
+  {
+    "name": "GeoPlatform Portal",
+    "url": "https://www.geoplatform.gov/",
+    "category": "À classer"
+  },
+  {
+    "name": "Inspire-geoportal.eu",
+    "url": "http://www.inspire-geoportal.eu/",
+    "category": "À classer"
+  },
+  {
+    "name": "FAO Map Catalog",
+    "url": "https://data.apps.fao.org/map/catalog/srv/eng/catalog.search#/home",
+    "category": "À classer"
+  },
+  {
+    "name": "Datacore-gn.unepgrid.ch",
+    "url": "https://datacore-gn.unepgrid.ch/",
+    "category": "À classer"
+  },
+  {
+    "name": "ISRIC Data Hub",
+    "url": "https://data.isric.org/geonetwork/srv/eng/catalog.search#/home",
+    "category": "À classer"
+  },
+  {
+    "name": "geocreepy",
+    "url": "http://www.geocreepy.com/",
+    "category": "À classer"
+  },
+  {
+    "name": "US Crisis Monitor",
+    "url": "https://acleddata.com/special-projects/us-crisis-monitor/",
+    "category": "À classer"
+  },
+  {
+    "name": "Toronto Live",
+    "url": "https://apps.esri.ca/torontolive/",
+    "category": "À classer"
+  },
+  {
+    "name": "Residential Fire Fatalities in Indiana",
+    "url": "https://www.arcgis.com/apps/dashboards/4d1289ab105145a1b1f80c1ad3cf19fb",
+    "category": "À classer"
+  },
+  {
+    "name": "geoprotests API",
+    "url": "https://rapidapi.com/gisfromscratch/api/geoprotests/",
+    "category": "À classer"
+  },
+  {
+    "name": "geoint-py",
+    "url": "https://github.com/gisfromscratch/geoint-py",
+    "category": "À classer"
+  },
+  {
+    "name": "geoclustering",
+    "url": "https://pypi.org/project/geoclustering/",
+    "category": "À classer"
+  }
 ]
