@@ -1,17 +1,26 @@
-<div class="container">
-    <!-- ... -->
-    <div class="search-section">
-        <input type="text" id="searchInput" placeholder="Rechercher un outil...">
-        <div id="categoryFilters" class="filter-group"></div>
-    </div>
-</div>
-
-<main class="main-content">
-    <div class="container">
-        <div id="resultsStats" class="results-stats"></div>
-        <div id="toolsGrid" class="tools-grid"></div>
-        <div id="noResults" class="no-results" style="display: none;">
-            <p>Aucun outil ne correspond à votre recherche.</p>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSINT4ME</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🔍 OSINT4ME</h1>
+            <input type="text" id="searchInput" placeholder="Rechercher un outil...">
+            <div id="categoryFilters" class="filter-group"></div>
         </div>
-    </div>
-</main>
+    </header>
+
+    <main class="container">
+        <div id="stats"></div>
+        <div id="toolsGrid"></div>
+        <div id="noResults" style="display:none;">Aucun outil trouvé</div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
