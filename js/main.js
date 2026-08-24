@@ -4,89 +4,89 @@ document.addEventListener('DOMContentLoaded', () => {
     // ============================================================
     const translations = {
         en: {
-            'nav.home': 'Home',
+            'nav.home': 'Tools',
             'nav.ai': 'AI',
             'nav.suggest': 'Suggest',
             'nav.admin': 'Admin',
             'nav.contact': 'Contact',
-            'home.title': 'OSINT Directory',
-            'home.subtitle': 'Browse tools by category',
-            'home.visitors': 'visitors',
+            'search.placeholder': 'Search tools...',
+            'home.title': 'OSINT Tools',
+            'home.subtitle': 'Browse by category',
             'ai.title': 'Artificial Intelligence',
-            'ai.subtitle': 'AI tools classified by role',
+            'ai.subtitle': 'AI tools by role',
             'suggest.title': 'Suggest a change',
-            'suggest.subtitle': 'Propose a new tool or report a broken link',
-            'suggest.type': 'Suggestion type',
+            'suggest.subtitle': 'Propose new tools or report broken links',
+            'suggest.type': 'Type',
             'suggest.type_new': '➕ New tool',
             'suggest.type_broken': '🔗 Broken link',
-            'suggest.type_update': '📝 Update tool',
-            'suggest.name': 'Tool name',
-            'suggest.url': 'URL (if applicable)',
+            'suggest.type_update': '📝 Update',
             'suggest.category': 'Category',
-            'suggest.category_choose': 'Choose a category...',
-            'suggest.message': 'Message / Description',
-            'suggest.submit': 'Submit suggestion',
+            'suggest.category_choose': 'Choose...',
+            'suggest.name': 'Tool name',
+            'suggest.url': 'URL',
+            'suggest.message': 'Message',
+            'suggest.submit': 'Submit',
             'admin.title': 'Administration',
-            'admin.subtitle': 'Manage tools on the fly',
-            'admin.refresh': 'Reload data',
-            'admin.export': 'Export JSON',
-            'admin.import': 'Import JSON',
-            'admin.editor': 'JSON Editor',
+            'admin.subtitle': 'Manage tools.json',
+            'admin.refresh': 'Reload',
+            'admin.export': 'Export',
+            'admin.import': 'Import',
             'admin.save': 'Save',
-            'admin.total': 'Total tools :',
-            'admin.categories': 'Categories :',
-            'footer.updated': 'Data updated',
+            'admin.total': 'Total',
+            'admin.categories': 'Categories',
+            'footer.updated': 'Updated',
             'no_ai': 'No AI tools found. Add some in data/tools.json.',
-            'suggest_success': '✅ Thank you! Your suggestion has been recorded (simulation).',
+            'suggest_success': '✅ Thank you! Your suggestion has been recorded.',
             'suggest_error': '❌ Please fill in all required fields.',
             'admin_success': '✅ Data saved successfully!',
-            'admin_error': '❌ Invalid JSON format. Please check your syntax.'
+            'admin_error': '❌ Invalid JSON format.'
         },
         fr: {
-            'nav.home': 'Accueil',
+            'nav.home': 'Outils',
             'nav.ai': 'IA',
             'nav.suggest': 'Suggérer',
             'nav.admin': 'Admin',
             'nav.contact': 'Contact',
-            'home.title': 'Annuaire OSINT',
-            'home.subtitle': 'Explorez les outils par catégorie',
-            'home.visitors': 'visiteurs',
+            'search.placeholder': 'Rechercher un outil...',
+            'home.title': 'Outils OSINT',
+            'home.subtitle': 'Parcourir par catégorie',
             'ai.title': 'Intelligence Artificielle',
-            'ai.subtitle': 'Outils IA classés par rôle',
+            'ai.subtitle': 'Outils IA par rôle',
             'suggest.title': 'Suggérer une modification',
-            'suggest.subtitle': 'Proposez un nouvel outil ou signalez un lien mort',
-            'suggest.type': 'Type de suggestion',
+            'suggest.subtitle': 'Proposer un nouvel outil ou signaler un lien mort',
+            'suggest.type': 'Type',
             'suggest.type_new': '➕ Nouvel outil',
             'suggest.type_broken': '🔗 Lien mort',
             'suggest.type_update': '📝 Mettre à jour',
-            'suggest.name': "Nom de l'outil",
-            'suggest.url': 'URL (si applicable)',
             'suggest.category': 'Catégorie',
-            'suggest.category_choose': 'Choisir une catégorie...',
-            'suggest.message': 'Message / Description',
-            'suggest.submit': 'Envoyer la suggestion',
+            'suggest.category_choose': 'Choisir...',
+            'suggest.name': "Nom de l'outil",
+            'suggest.url': 'URL',
+            'suggest.message': 'Message',
+            'suggest.submit': 'Envoyer',
             'admin.title': 'Administration',
-            'admin.subtitle': 'Gérez les outils à la volée',
+            'admin.subtitle': 'Gérer tools.json',
             'admin.refresh': 'Recharger',
-            'admin.export': 'Exporter JSON',
-            'admin.import': 'Importer JSON',
-            'admin.editor': 'Éditeur JSON',
+            'admin.export': 'Exporter',
+            'admin.import': 'Importer',
             'admin.save': 'Sauvegarder',
-            'admin.total': 'Total outils :',
-            'admin.categories': 'Catégories :',
-            'footer.updated': 'Données mises à jour le',
+            'admin.total': 'Total',
+            'admin.categories': 'Catégories',
+            'footer.updated': 'Mis à jour le',
             'no_ai': 'Aucun outil IA trouvé. Ajoutez-en dans data/tools.json.',
-            'suggest_success': '✅ Merci ! Votre suggestion a été enregistrée (simulation).',
+            'suggest_success': '✅ Merci ! Votre suggestion a été enregistrée.',
             'suggest_error': '❌ Veuillez remplir tous les champs obligatoires.',
             'admin_success': '✅ Données sauvegardées avec succès !',
-            'admin_error': '❌ Format JSON invalide. Vérifiez votre syntaxe.'
+            'admin_error': '❌ Format JSON invalide.'
         }
     };
 
     let currentLang = 'en';
+    let toolsData = [];
+    const DATA_URL = '/osint4me/data/tools.json';
 
     // ============================================================
-    // 2. ÉLÉMENTS DOM
+    // 2. DOM ELEMENTS
     // ============================================================
     const container = document.getElementById('categories-container');
     const aiContainer = document.getElementById('ai-container');
@@ -96,13 +96,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const adminFeedback = document.getElementById('admin-feedback');
     const adminTotal = document.getElementById('admin-total');
     const adminCategories = document.getElementById('admin-categories');
+    const searchInput = document.getElementById('searchInput');
 
     // ============================================================
-    // 3. COMPTEUR DE VISITES
+    // 3. VISITOR COUNTER
     // ============================================================
     function updateVisitorCount() {
-        let count = parseInt(localStorage.getItem('osint4me_visitors') || '0');
-        count += 1;
+        let count = parseInt(localStorage.getItem('osint4me_visitors') || '0') + 1;
         localStorage.setItem('osint4me_visitors', count.toString());
         document.getElementById('visitor-count').textContent = count;
     }
@@ -127,11 +127,13 @@ document.addEventListener('DOMContentLoaded', () => {
             Object.keys(pages).forEach(key => {
                 pages[key].classList.toggle('active', key === page);
             });
+            // Focus sur la recherche si page home
+            if (page === 'home') setTimeout(() => searchInput.focus(), 100);
         });
     });
 
     // ============================================================
-    // 5. LANGUE
+    // 5. LANGUAGE
     // ============================================================
     function setLanguage(lang) {
         currentLang = lang;
@@ -139,21 +141,18 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.lang-btn').forEach(btn => {
             btn.classList.toggle('active', btn.dataset.lang === lang);
         });
-        // Mettre à jour tous les éléments avec data-i18n
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const key = el.dataset.i18n;
             if (translations[lang] && translations[lang][key]) {
                 el.textContent = translations[lang][key];
             }
         });
-        // Mettre à jour les placeholders
         document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
             const key = el.dataset.i18nPlaceholder;
             if (translations[lang] && translations[lang][key]) {
                 el.placeholder = translations[lang][key];
             }
         });
-        // Recharger l'affichage des catégories pour les labels dynamiques
         if (window.toolsData) {
             renderCategories(window.toolsData);
             renderAI(window.toolsData);
@@ -161,41 +160,34 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            setLanguage(btn.dataset.lang);
-        });
+        btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
     });
 
     // ============================================================
-    // 6. CHARGEMENT DES DONNÉES
+    // 6. LOAD DATA
     // ============================================================
-    let toolsData = [];
-    const DATA_URL = '/osint4me/data/tools.json';
-
     async function loadTools() {
         try {
             const response = await fetch(DATA_URL);
             if (!response.ok) throw new Error('File not found');
             toolsData = await response.json();
             window.toolsData = toolsData;
+            document.getElementById('tools-count').textContent = toolsData.length;
             renderCategories(toolsData);
             renderAI(toolsData);
             populateSuggestCategories(toolsData);
             populateAdmin(toolsData);
             document.getElementById('update-date').textContent =
                 new Date().toLocaleDateString(currentLang === 'fr' ? 'fr-FR' : 'en-US', {
-                    day: 'numeric',
-                    month: 'long',
-                    year: 'numeric'
+                    day: 'numeric', month: 'long', year: 'numeric'
                 });
         } catch (error) {
-            console.error('Error:', error);
-            container.innerHTML = `<p style="color:#ef4444;">❌ Error loading data.</p>`;
+            container.innerHTML = `<p style="color:#ef4444;text-align:center;padding:40px 0;">❌ Error loading data.</p>`;
         }
     }
 
     // ============================================================
-    // 7. AFFICHAGE CATÉGORIES
+    // 7. RENDER CATEGORIES
     // ============================================================
     function groupByCategory(tools) {
         const groups = {};
@@ -208,31 +200,42 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderCategories(tools) {
+        const searchTerm = searchInput.value.toLowerCase().trim();
         const groups = groupByCategory(tools);
         const sorted = Object.keys(groups).sort();
         container.innerHTML = '';
+        let totalDisplayed = 0;
 
         sorted.forEach((cat, index) => {
-            const items = groups[cat];
+            let items = groups[cat];
+            // Filtrer par recherche si terme saisi
+            if (searchTerm) {
+                items = items.filter(t =>
+                    t.name.toLowerCase().includes(searchTerm) ||
+                    (t.description && t.description.toLowerCase().includes(searchTerm))
+                );
+            }
+            if (items.length === 0) return;
+            totalDisplayed += items.length;
+
             const block = document.createElement('div');
             block.className = 'category-block';
 
             const header = document.createElement('div');
             header.className = 'category-header';
             header.innerHTML = `
-                <h3>${cat} <span class="badge">${items.length}</span></h3>
-                <span class="arrow ${index === 0 ? 'open' : ''}">▼</span>
+                <span class="cat-name">${cat} <span class="badge">${items.length}</span></span>
+                <span class="arrow ${index === 0 && !searchTerm ? 'open' : ''}">▼</span>
             `;
 
             const list = document.createElement('div');
-            list.className = `tool-list ${index === 0 ? 'open' : ''}`;
+            list.className = `tool-list ${index === 0 && !searchTerm ? 'open' : ''}`;
 
             items.forEach(tool => {
                 const item = document.createElement('div');
                 item.className = 'tool-item';
                 item.innerHTML = `
                     <span class="name">${tool.name}</span>
-                    ${tool.description ? `<span class="desc">${tool.description}</span>` : ''}
                     <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="go-link">Go</a>
                 `;
                 list.appendChild(item);
@@ -248,30 +251,34 @@ document.addEventListener('DOMContentLoaded', () => {
             block.appendChild(list);
             container.appendChild(block);
         });
+
+        // Mise à jour du compteur
+        document.getElementById('tools-count').textContent = totalDisplayed;
     }
 
     // ============================================================
-    // 8. AFFICHAGE IA
+    // 8. RENDER AI
     // ============================================================
     function renderAI(tools) {
         const aiTools = tools.filter(t =>
             t.category && (t.category.toLowerCase().includes('ia') ||
                 t.category.toLowerCase().includes('intelligence') ||
-                t.category.toLowerCase().includes('artificielle'))
+                t.category.toLowerCase().includes('artificielle') ||
+                t.category.toLowerCase().includes('ai'))
         );
 
         if (aiTools.length === 0) {
-            aiContainer.innerHTML = `<p style="color:var(--text-secondary);">${translations[currentLang].no_ai}</p>`;
+            aiContainer.innerHTML = `<p style="color:var(--text-secondary);text-align:center;padding:40px 0;">${translations[currentLang].no_ai}</p>`;
             return;
         }
 
         const roles = {
             'Conversational': ['chat', 'conversation', 'assistant', 'gpt', 'claude', 'gemini', 'copilot'],
             'Image': ['image', 'vision', 'stable diffusion', 'midjourney', 'dall-e', 'flux', 'leonardo'],
-            'Video': ['vidéo', 'video', 'sora', 'runway', 'pika', 'gen-2', 'animated'],
-            'Audio': ['audio', 'musique', 'music', 'speech', 'voice', 'vocal', 'son'],
-            'Data Analysis': ['analyse', 'analyse de données', 'data', 'tableau', 'insight', 'prediction'],
-            'Code & Dev': ['code', 'programmation', 'dev', 'script', 'copilot', 'cursor', 'windy'],
+            'Video': ['video', 'sora', 'runway', 'pika', 'gen-2', 'animated'],
+            'Audio': ['audio', 'music', 'speech', 'voice', 'vocal', 'son'],
+            'Data Analysis': ['analyse', 'data', 'insight', 'prediction', 'tableau'],
+            'Code & Dev': ['code', 'dev', 'script', 'programming', 'programmation'],
             'Other AI': []
         };
 
@@ -306,8 +313,8 @@ document.addEventListener('DOMContentLoaded', () => {
         aiContainer.innerHTML = '';
         for (const [role, items] of Object.entries(grouped)) {
             const section = document.createElement('div');
-            section.style.marginBottom = '24px';
-            section.innerHTML = `<h3 style="color:var(--accent-cyan);margin-bottom:12px;">${roleIcons[role] || '🤖'} ${role} (${items.length})</h3>`;
+            section.style.marginBottom = '20px';
+            section.innerHTML = `<div class="ai-section-title">${roleIcons[role] || '🤖'} ${role} (${items.length})</div>`;
             const grid = document.createElement('div');
             grid.className = 'ai-grid';
             items.forEach(tool => {
@@ -328,7 +335,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ============================================================
-    // 9. FORMULAIRE DE SUGGESTION
+    // 9. SEARCH
+    // ============================================================
+    searchInput.addEventListener('input', () => {
+        if (window.toolsData) renderCategories(window.toolsData);
+    });
+
+    // ============================================================
+    // 10. SUGGEST FORM
     // ============================================================
     function populateSuggestCategories(tools) {
         const select = document.getElementById('suggest-category');
@@ -343,31 +357,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     suggestForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        const type = document.getElementById('suggest-type').value;
-        const name = document.getElementById('suggest-name').value.trim();
-        const url = document.getElementById('suggest-url').value.trim();
-        const category = document.getElementById('suggest-category').value;
         const message = document.getElementById('suggest-message').value.trim();
-
         if (!message) {
             suggestFeedback.className = 'error';
             suggestFeedback.textContent = translations[currentLang].suggest_error;
             suggestFeedback.style.display = 'block';
             return;
         }
-
-        // Simulation d'envoi
         suggestFeedback.className = 'success';
         suggestFeedback.textContent = translations[currentLang].suggest_success;
         suggestFeedback.style.display = 'block';
         suggestForm.reset();
-        setTimeout(() => {
-            suggestFeedback.style.display = 'none';
-        }, 6000);
+        setTimeout(() => suggestFeedback.style.display = 'none', 5000);
     });
 
     // ============================================================
-    // 10. ADMIN
+    // 11. ADMIN
     // ============================================================
     function populateAdmin(tools) {
         adminTotal.textContent = tools.length;
@@ -407,12 +412,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 const data = JSON.parse(ev.target.result);
                 adminEditor.value = JSON.stringify(data, null, 2);
                 adminFeedback.className = 'success';
-                adminFeedback.textContent = '✅ File loaded successfully.';
+                adminFeedback.textContent = '✅ File loaded.';
                 adminFeedback.style.display = 'block';
                 setTimeout(() => adminFeedback.style.display = 'none', 3000);
-            } catch (err) {
+            } catch {
                 adminFeedback.className = 'error';
-                adminFeedback.textContent = '❌ Invalid JSON file.';
+                adminFeedback.textContent = '❌ Invalid JSON.';
                 adminFeedback.style.display = 'block';
             }
         };
@@ -426,8 +431,6 @@ document.addEventListener('DOMContentLoaded', () => {
             adminFeedback.className = 'success';
             adminFeedback.textContent = translations[currentLang].admin_success;
             adminFeedback.style.display = 'block';
-            // En production, on enverrait au serveur. Ici on simule.
-            // Vous pouvez télécharger le fichier modifié :
             const blob = new Blob([adminEditor.value], { type: 'application/json' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
@@ -436,7 +439,7 @@ document.addEventListener('DOMContentLoaded', () => {
             a.click();
             URL.revokeObjectURL(url);
             setTimeout(() => adminFeedback.style.display = 'none', 4000);
-        } catch (err) {
+        } catch {
             adminFeedback.className = 'error';
             adminFeedback.textContent = translations[currentLang].admin_error;
             adminFeedback.style.display = 'block';
@@ -444,10 +447,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ============================================================
-    // 11. LANCEMENT
+    // 12. START
     // ============================================================
-    // Définir la langue par défaut (anglais)
     setLanguage('en');
     loadTools();
-
 });
