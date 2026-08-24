@@ -4,39 +4,30 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
     const filterGroup = document.getElementById('categoryFilters');
     const noResults = document.getElementById('noResults');
-    const stats = document.getElementById('resultsStats');
+    const stats = document.getElementById('stats');
 
-    // Chargement des données
     async function loadTools() {
         try {
+            // CHEMIN CORRECT pour GitHub Pages
             const response = await fetch('/osint4me/data/tools.json');
-            if (!response.ok) throw new Error('Erreur de chargement');
-            toolsData = await response.json();
             
-            // Ajouter une catégorie par défaut si nécessaire
-            toolsData = toolsData.map(tool => ({
-                ...tool,
-                category: tool.category || 'Général',
-                description: tool.description || ''
-            }));
-
+            if (!response.ok) {
+                throw new Error('Fichier non trouvé');
+            }
+            
+            toolsData = await response.json();
+            console.log('Outils chargés :', toolsData.length);
+            
             populateFilters();
-            applyFilters();
+            displayTools(toolsData);
         } catch (error) {
-            console.error(error);
-            grid.innerHTML = `<p style="grid-column:1/-1; text-align:center; color:#f87171;">
-                ⚠️ Erreur : impossible de charger les outils.
-            </p>`;
+            console.error('Erreur :', error);
+            grid.innerHTML = '<p style="color:#f87171;">⚠️ Erreur de chargement des données</p>';
         }
     }
 
-    // Générer les filtres
     function populateFilters() {
-        // Récupérer toutes les catégories uniques
-        const categories = [...new Set(toolsData.map(t => t.category))].sort();
-        
-        // Vider les filtres existants
-        filterGroup.innerHTML = '';
+        const categories = [...new Set(toolsData.map(t => t.category))];
         
         // Bouton "Tous"
         const allBtn = document.createElement('button');
@@ -53,9 +44,20 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.dataset.category = cat;
             filterGroup.appendChild(btn);
         });
+
+        // Événements pour les filtres
+        filterGroup.addEventListener('click', (e) => {
+            if (e.target.classList.contains('filter-btn')) {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                applyFilters();
+            }
+        });
+
+        // Recherche en direct
+        searchInput.addEventListener('input', applyFilters);
     }
 
-    // Filtrer et afficher
     function applyFilters() {
         const searchTerm = searchInput.value.toLowerCase().trim();
         const activeFilter = document.querySelector('.filter-btn.active');
@@ -72,7 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
         updateStats(filtered.length);
     }
 
-    // Afficher les outils
     function displayTools(tools) {
         grid.innerHTML = '';
         noResults.style.display = 'none';
@@ -85,43 +86,20 @@ document.addEventListener('DOMContentLoaded', () => {
         tools.forEach(tool => {
             const card = document.createElement('div');
             card.className = 'tool-card';
-            card.dataset.category = tool.category; // Pour la couleur CSS
-
             card.innerHTML = `
                 <h3>${tool.name}</h3>
-                <span class="category-badge">${tool.category}</span>
+                <span class="category">${tool.category}</span>
                 ${tool.description ? `<p class="description">${tool.description}</p>` : ''}
-                <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="tool-link">
-                    🔗 Visiter
-                </a>
+                <a href="${tool.url}" target="_blank" rel="noopener noreferrer">🔗 Visiter</a>
             `;
             grid.appendChild(card);
         });
     }
 
     function updateStats(count) {
-        stats.textContent = `📊 ${count} outil${count > 1 ? 's' : ''} affiché${count > 1 ? 's' : ''} sur ${toolsData.length}`;
+        stats.textContent = `📊 ${count} outil${count > 1 ? 's' : ''} sur ${toolsData.length}`;
     }
 
-    // --- Événements ---
-    searchInput.addEventListener('input', applyFilters);
-
-    filterGroup.addEventListener('click', (e) => {
-        const btn = e.target.closest('.filter-btn');
-        if (!btn) return;
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        applyFilters();
-    });
-
-    // Mettre à jour la date dans le pied de page
-    const dateElement = document.getElementById('updateDate');
-    if (dateElement) {
-        dateElement.textContent = new Date().toLocaleDateString('fr-FR', {
-            day: 'numeric', month: 'long', year: 'numeric'
-        });
-    }
-
-    // Lancer l'application
+    // Lancer le chargement
     loadTools();
 });
