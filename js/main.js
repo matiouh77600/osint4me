@@ -1,54 +1,47 @@
 document.addEventListener('DOMContentLoaded', () => {
     let toolsData = [];
+    const grid = document.getElementById('toolsGrid');
+    const searchInput = document.getElementById('searchInput');
+    const filterGroup = document.getElementById('categoryFilters');
+    const noResults = document.getElementById('noResults');
+    const stats = document.getElementById('resultsStats');
 
-    // Fonction pour charger les données (depuis votre fichier JSON)
+    // Couleurs par catégorie (pour les cartes)
+    const categoryColors = {
+        'Email temporaire': 'var(--color-email)',
+        'Téléphone & SMS': 'var(--color-phone)',
+        'Assistant IA': 'var(--color-ai)',
+        'Développement': 'var(--color-dev)',
+        'Général': 'var(--color-general)'
+    };
+
     async function loadTools() {
         try {
-            // Assurez-vous que le chemin est correct
             const response = await fetch('data/tools.json');
+            if (!response.ok) throw new Error('Erreur de chargement');
             toolsData = await response.json();
-            // Ajouter une catégorie par défaut si absente
-            toolsData = toolsData.map(t => ({ ...t, category: t.category || 'Général' }));
-            displayTools(toolsData);
-            populateFilters(toolsData);
+            
+            toolsData = toolsData.map(tool => ({
+                ...tool,
+                category: tool.category || 'Général',
+                description: tool.description || ''
+            }));
+
+            populateFilters();
+            applyFilters();
         } catch (error) {
-            console.error('Erreur de chargement des données:', error);
-            document.getElementById('toolsGrid').innerHTML = '<p style="grid-column:1/-1; text-align:center; color:#f85149;">Erreur : Impossible de charger les outils.</p>';
+            grid.innerHTML = `<p style="grid-column:1/-1; text-align:center; color:#f87171;">
+                ⚠️ Erreur : impossible de charger les outils.
+            </p>`;
         }
     }
 
-    // Afficher les outils dans la grille
-    function displayTools(tools) {
-        const grid = document.getElementById('toolsGrid');
-        const noResults = document.getElementById('noResults');
-        grid.innerHTML = '';
-
-        if (tools.length === 0) {
-            noResults.style.display = 'block';
-            return;
-        }
-        noResults.style.display = 'none';
-
-        tools.forEach(tool => {
-            const card = document.createElement('div');
-            card.className = 'tool-card';
-            card.innerHTML = `
-                <h3>${tool.name}</h3>
-                <span class="category">${tool.category}</span><br>
-                <a href="${tool.url}" target="_blank" rel="noopener noreferrer">Visiter</a>
-            `;
-            grid.appendChild(card);
-        });
-    }
-
-    // Générer les filtres de catégorie
-    function populateFilters(tools) {
-        const categories = [...new Set(tools.map(t => t.category))].sort();
-        const filterGroup = document.getElementById('categoryFilters');
-        // Ajouter un bouton "Tous"
+    function populateFilters() {
+        const categories = [...new Set(toolsData.map(t => t.category))].sort();
+        
         const allBtn = document.createElement('button');
         allBtn.className = 'filter-btn active';
-        allBtn.textContent = 'Tous';
+        allBtn.textContent = '📌 Tous';
         allBtn.dataset.category = 'all';
         filterGroup.appendChild(allBtn);
 
@@ -61,31 +54,57 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Fonction de recherche et filtrage
-    function filterTools() {
-        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    function applyFilters() {
+        const searchTerm = searchInput.value.toLowerCase().trim();
         const activeFilter = document.querySelector('.filter-btn.active');
         const selectedCategory = activeFilter ? activeFilter.dataset.category : 'all';
 
         const filtered = toolsData.filter(tool => {
-            const matchesSearch = tool.name.toLowerCase().includes(searchTerm);
-            const matchesCategory = selectedCategory === 'all' || tool.category === selectedCategory;
-            return matchesSearch && matchesCategory;
+            const matchSearch = tool.name.toLowerCase().includes(searchTerm) ||
+                               tool.description.toLowerCase().includes(searchTerm);
+            const matchCategory = selectedCategory === 'all' || tool.category === selectedCategory;
+            return matchSearch && matchCategory;
         });
 
         displayTools(filtered);
+        stats.textContent = `📊 ${filtered.length} outil${filtered.length > 1 ? 's' : ''} affiché${filtered.length > 1 ? 's' : ''} sur ${toolsData.length}`;
     }
 
-    // Écouteurs d'événements
-    document.getElementById('searchInput').addEventListener('input', filterTools);
-    document.getElementById('categoryFilters').addEventListener('click', (e) => {
-        if (e.target.classList.contains('filter-btn')) {
-            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-            e.target.classList.add('active');
-            filterTools();
+    function displayTools(tools) {
+        grid.innerHTML = '';
+        noResults.style.display = 'none';
+
+        if (tools.length === 0) {
+            noResults.style.display = 'block';
+            return;
         }
+
+        tools.forEach(tool => {
+            const card = document.createElement('div');
+            card.className = 'tool-card';
+            card.dataset.category = tool.category; // Pour le CSS
+
+            card.innerHTML = `
+                <h3>${tool.name}</h3>
+                <span class="category-badge">${tool.category}</span>
+                ${tool.description ? `<p class="description">${tool.description}</p>` : ''}
+                <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="tool-link">
+                    🔗 Visiter
+                </a>
+            `;
+            grid.appendChild(card);
+        });
+    }
+
+    // Événements
+    searchInput.addEventListener('input', applyFilters);
+    filterGroup.addEventListener('click', (e) => {
+        const btn = e.target.closest('.filter-btn');
+        if (!btn) return;
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        applyFilters();
     });
 
-    // Chargement initial
     loadTools();
 });
