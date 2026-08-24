@@ -1,80 +1,4167 @@
 [
   {
     "name": "Onlinesim.net",
-    "url": "https://onlinesim.net",
-    "category": "Téléphone & SMS",
-    "description": "Recevoir des SMS temporaires pour vérifications"
+    "url": "https://onlinesim.net/",
+    "category": "Phone & SMS"
   },
   {
     "name": "DoNotPay",
-    "url": "https://donotpay.com",
-    "category": "Assistant IA",
-    "description": "Robot avocat pour contester des amendes et plus"
+    "url": "https://donotpay.com/learn/temporary-phone-number/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "VoIP Guide: VoIPSuite",
+    "url": "https://inteltechniques.com/voip.suite.html",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Twilio CLI Guide",
+    "url": "https://inteltechniques.com/voip.twilio.cli.html",
+    "category": "Phone & SMS"
   },
   {
     "name": "10minutemail.com",
-    "url": "https://10minutemail.com",
-    "category": "Email temporaire",
-    "description": "Adresse email jetable valable 10 minutes"
+    "url": "https://10minutemail.com/",
+    "category": "Email"
   },
   {
     "name": "AnonAddy",
-    "url": "https://anonaddy.com",
-    "category": "Email temporaire",
-    "description": "Créez des alias email anonymes"
+    "url": "https://anonaddy.com/",
+    "category": "Email"
   },
   {
     "name": "SimpleLogin",
-    "url": "https://simplelogin.io",
-    "category": "Email temporaire",
-    "description": "Protégez votre vraie adresse email"
+    "url": "https://simplelogin.io/",
+    "category": "Email"
   },
   {
     "name": "MailDrop",
-    "url": "https://maildrop.cc",
-    "category": "Email temporaire",
-    "description": "Boîte mail jetable sans inscription"
+    "url": "https://maildrop.cc/",
+    "category": "Email"
   },
   {
     "name": "Send text free",
-    "url": "https://www.textnow.com",
-    "category": "Téléphone & SMS",
-    "description": "Envoyez des SMS gratuits depuis le web"
+    "url": "https://globfone.com/send-text/",
+    "category": "Phone & SMS"
   },
   {
     "name": "SendaText",
-    "url": "https://sendatext.com",
-    "category": "Téléphone & SMS",
-    "description": "Envoyez un SMS à un numéro américain"
+    "url": "https://www.sendatext.co/",
+    "category": "Phone & SMS"
   },
   {
     "name": "Free Fax",
-    "url": "https://www.faxzero.com",
-    "category": "Téléphone & SMS",
-    "description": "Envoyez un fax gratuitement"
+    "url": "https://faxzero.com/",
+    "category": "General OSINT & Miscellaneous"
   },
   {
     "name": "Receive SMS Online",
-    "url": "https://receive-sms-online.info",
-    "category": "Téléphone & SMS",
-    "description": "Recevez des SMS en ligne sans inscription"
+    "url": "https://hs3x.com/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Receive SMS Online for FREE",
+    "url": "http://freesmsverification.com/",
+    "category": "Phone & SMS"
   },
   {
     "name": "Smstome.com",
-    "url": "https://smstome.com",
-    "category": "Téléphone & SMS",
-    "description": "Numéro de téléphone temporaire"
+    "url": "https://smstome.com/",
+    "category": "Phone & SMS"
   },
   {
     "name": "Amazon SNS",
-    "url": "https://aws.amazon.com/sns",
-    "category": "Développement",
-    "description": "Service de notifications d'Amazon Web Services"
+    "url": "https://aws.amazon.com/sns/",
+    "category": "Phone & SMS"
   },
   {
     "name": "Twilio",
-    "url": "https://www.twilio.com",
-    "category": "Développement",
-    "description": "API pour SMS, voix et authentification"
+    "url": "https://www.twilio.com/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "One-time Mobile by @OsintStash",
+    "url": "https://threader.app/thread/1199785692274077696",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Username Generator",
+    "url": "https://www.lastpass.com/features/username-generator",
+    "category": "Usernames"
+  },
+  {
+    "name": "Fake Name Generator",
+    "url": "https://www.fakenamegenerator.com/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Resume Generator",
+    "url": "https://thisresumedoesnotexist.com/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "International Name Generator",
+    "url": "https://www.behindthename.com/random/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Windows Phone IMEI Generator",
+    "url": "https://wpimeigenerator.github.io/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "IMEI Number Generator",
+    "url": "https://dyrk.org/tools/imei/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "US SSN / Driver License / State ID / Passport / Ta",
+    "url": "https://www.elfqrin.com/usssndriverlicenseidgen.php",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Washington State Driver's License Generator",
+    "url": "https://mmarvick.github.io/wa-drivers-license/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Fake Drivers License Generator",
+    "url": "https://fakeinfo.net/drivers-license-generator",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "This Rental Does Not Exist",
+    "url": "https://thisrentaldoesnotexist.com/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Face Photo Generator",
+    "url": "https://thispersondoesnotexist.com/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Random Face Generator",
+    "url": "https://fakeinfo.net/random-face-generator",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Credit Card Generator",
+    "url": "https://www.fakenamegenerator.com/credit-card-validator.php",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "PIC/CIC Code Database",
+    "url": "https://www.allredtech.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "SIN Generator",
+    "url": "https://www.fakenamegenerator.com/social-insurance-number.php",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "ABA Generator",
+    "url": "https://www.fakenamegenerator.com/aba-validator.php",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "VIN Generator",
+    "url": "https://www.fakenamegenerator.com/vehicle-identification-number.php",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "NINO Generator",
+    "url": "https://www.fakenamegenerator.com/national-insurance-number.php",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "SSN Generator",
+    "url": "https://www.fakenamegenerator.com/social-security-number.php",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "IID Generator by Georgy Bunin",
+    "url": "https://georgybu.github.io/IID_Generator/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "GUID/UUID and short GUID generator",
+    "url": "https://richardkundl.github.io/shortguid/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Nano ID CC",
+    "url": "https://zelark.github.io/nano-id-cc/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Generate SA ID Numbers",
+    "url": "https://chris927.github.io/generate-sa-idnumbers/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Decoding Social Security Numbers",
+    "url": "https://stevemorse.org/ssn/ssn.html",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Encoding and Decoding Driver's License Numbers",
+    "url": "https://stevemorse.org/dl/dl.html",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Dating Profile Generator",
+    "url": "https://www.dating-profile-generator.org.uk/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Fake Identity ID Random Name Generator",
+    "url": "https://www.elfqrin.com/fakeid.php",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Fake Company Name Generator",
+    "url": "https://fakeinfo.net/company-name-generator",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Twitter Profile Generator",
+    "url": "https://fakeinfo.net/fake-twitter-profile-generator",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Fake Tiktok Profile Generator",
+    "url": "https://fakeinfo.net/fake-tiktok-profile-gererator",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Fake Youtube Channel Generator",
+    "url": "https://fakeinfo.net/fake-youtube-channel-generator",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Resume Builder",
+    "url": "https://vinaysomawat.github.io/Resume-Builder/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Fake Generator Tools",
+    "url": "https://fauxid.com/tools",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Kasm",
+    "url": "https://kasmweb.com/",
+    "category": "Utilities & Miscellaneous"
+  },
+  {
+    "name": "Bluestacks",
+    "url": "https://www.bluestacks.com/",
+    "category": "Utilities & Miscellaneous"
+  },
+  {
+    "name": "Genymotion",
+    "url": "https://www.genymotion.com/",
+    "category": "Utilities & Miscellaneous"
+  },
+  {
+    "name": "PrimeOS",
+    "url": "https://www.primeos.in/",
+    "category": "Utilities & Miscellaneous"
+  },
+  {
+    "name": "BigNox",
+    "url": "https://www.bignox.com/",
+    "category": "Utilities & Miscellaneous"
+  },
+  {
+    "name": "Memuplay.com",
+    "url": "https://www.memuplay.com/",
+    "category": "Utilities & Miscellaneous"
+  },
+  {
+    "name": "Ldplayer.net",
+    "url": "https://www.ldplayer.net/",
+    "category": "Utilities & Miscellaneous"
+  },
+  {
+    "name": "unfurl",
+    "url": "https://dfir.blog/unfurl/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Wolfram|Alpha",
+    "url": "https://www.wolframalpha.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Cryptpad.fr",
+    "url": "https://cryptpad.fr/",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "Recontool.org",
+    "url": "https://recontool.org/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "MindMup 2",
+    "url": "https://app.mindmup.com/map/new",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Dotspotter",
+    "url": "https://www.forensicdots.de/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Encrypted Pastebin",
+    "url": "https://defuse.ca/pastebin.htm",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "PrivateBin",
+    "url": "https://privatebin.net/",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "Bin.disroot.org",
+    "url": "https://bin.disroot.org/",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "Framadrop",
+    "url": "https://framadrop.org/en/",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "Pad.riseup.net",
+    "url": "https://pad.riseup.net/",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "EtherCalc",
+    "url": "https://ethercalc.net/",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "Proofread Bot",
+    "url": "https://proofreadbot.com/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "Write.as",
+    "url": "https://write.as/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "Cryptee",
+    "url": "https://crypt.ee/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "dudle",
+    "url": "https://dudle.inf.tu-dresden.de/anonymous/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Airborn.io",
+    "url": "https://www.airborn.io/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "ZOOM URL Generator",
+    "url": "https://skyzh.github.io/zoom-url-generator/",
+    "category": "Utilities & Miscellaneous"
+  },
+  {
+    "name": "Tor2web",
+    "url": "https://www.tor2web.org/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "archive.is",
+    "url": "https://archive.is/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "Wayback Machine",
+    "url": "https://web.archive.org/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "waybackpy",
+    "url": "https://pypi.org/project/waybackpy/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "CachedPages",
+    "url": "http://www.cachedpages.com/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "Google Cached Pages of Any Website",
+    "url": "https://cachedview.com/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Oldweb.today",
+    "url": "http://oldweb.today/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "Unpaywall",
+    "url": "https://unpaywall.org/products/extension",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "DeepL",
+    "url": "https://www.deepl.com/translator",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "Project CSV",
+    "url": "https://projectcsv.github.io/",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "CSV to HTML",
+    "url": "https://codepen.io/RYJASM/pen/LVEWgV",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "Monaco Editor",
+    "url": "https://microsoft.github.io/monaco-editor/playground.html",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "Online FlowChart Editor",
+    "url": "https://mermaid-js.github.io/mermaid-live-editor/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "Markdown Editor",
+    "url": "https://markdown-editor.github.io/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "SQL Editor",
+    "url": "https://www.mycompiler.io/new/sql",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "SQLite Viewer",
+    "url": "https://inloop.github.io/sqlite-viewer/",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "OCR Text Extractor",
+    "url": "https://osint.sh/ocr/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Wetranscriber",
+    "url": "https://www.wetranscriber.com/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "Tophonetics.com",
+    "url": "https://tophonetics.com/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Google Translate",
+    "url": "https://translate.google.com/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "Multi Translate",
+    "url": "https://translate.mix.pink/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "Yandex.Translate",
+    "url": "https://translate.yandex.com/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "Bing Microsoft Translator",
+    "url": "https://www.bing.com/translator",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Reverso",
+    "url": "https://www.reverso.net/text_translation.aspx?lang=EN",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "Translate",
+    "url": "https://www.translatedict.com/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "text to speech online",
+    "url": "https://www.naturalreaders.com/online/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "TTSReader",
+    "url": "https://ttsreader.com/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "Online Sequencer",
+    "url": "https://onlinesequencer.net/",
+    "category": "Utilities & Miscellaneous"
+  },
+  {
+    "name": "FetchRSS",
+    "url": "https://fetchrss.com/",
+    "category": "Utilities & Miscellaneous"
+  },
+  {
+    "name": "Sci-hub",
+    "url": "https://sci-hub.st/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "Libgen.fun",
+    "url": "https://libgen.fun/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "Z-lib.org",
+    "url": "https://z-lib.org/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "PDF Drive",
+    "url": "https://www.pdfdrive.com/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "arXiv.org",
+    "url": "https://arxiv.org/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "bioRxiv.org",
+    "url": "https://www.biorxiv.org/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "Trantor.is",
+    "url": "https://trantor.is/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "Shadowlibraries.github.io",
+    "url": "https://shadowlibraries.github.io/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "Editor.typely.com",
+    "url": "https://editor.typely.com/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "MEGA",
+    "url": "https://mega.io/",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "transfer.sh",
+    "url": "https://transfer.sh/",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "Send",
+    "url": "https://send.actionsack.com/",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "Keep.sh",
+    "url": "https://keep.sh/",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "Upload | Disroot",
+    "url": "https://disroot.org/en/services/upload",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "BlackHole",
+    "url": "https://blackhole.run/",
+    "category": "Files, Documents & Collaboration"
+  },
+  {
+    "name": "CyberChef",
+    "url": "https://gchq.github.io/CyberChef/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "mitaka",
+    "url": "https://github.com/ninoseki/mitaka",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Frack",
+    "url": "https://github.com/sensepost/Frack",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "pywhat",
+    "url": "https://pypi.org/project/pywhat/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "theHarvester",
+    "url": "https://pypi.org/project/theHarvester/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Online Tools",
+    "url": "https://emn178.github.io/online-tools/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "Graphviz Online",
+    "url": "https://dreampuf.github.io/GraphvizOnline/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "CodePen",
+    "url": "https://codepen.io/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "Diceware Generator",
+    "url": "https://www.rempe.us/diceware/#eff",
+    "category": "Utilities & Miscellaneous"
+  },
+  {
+    "name": "Checkphish.ai",
+    "url": "https://checkphish.ai/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "x86 and x64 Intel Assembler",
+    "url": "https://defuse.ca/online-x86-assembler.htm",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "Big Number Calculator",
+    "url": "https://defuse.ca/big-number-calculator.htm",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "Text and File Hash Calculator",
+    "url": "https://defuse.ca/checksums.htm",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "HTML Sanitizer Tool",
+    "url": "https://defuse.ca/html-sanitize.htm",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "URL Decoder/Encoder",
+    "url": "https://meyerweb.com/eric/tools/dencoder/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "ODA - The Online Disassembler",
+    "url": "https://onlinedisassembler.com/odaweb/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "Disasm.pro",
+    "url": "https://disasm.pro/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Fotor",
+    "url": "https://www.fotor.com/photo-editor-app/editor/basic",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "Decompiler.com",
+    "url": "http://www.decompiler.com/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "Google Colaboratory",
+    "url": "https://colab.research.google.com/notebooks/intro.ipynb",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "Compiler Explorer",
+    "url": "https://godbolt.org/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "HTML editor",
+    "url": "https://onlinehtmleditor.dev/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "Online Color Picker",
+    "url": "https://colorpicker.me/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "Convert text to image file",
+    "url": "https://text2image.com/en/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "relational algebra calculator",
+    "url": "https://dbis-uibk.github.io/relax/calc/local/uibk/local/0",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "Data Structure : Infix Postfix Prefix - Converter ",
+    "url": "https://raj457036.github.io/Simple-Tools/prefixAndPostfixConvertor.html",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "RSA encryption, decryption and prime calculator",
+    "url": "https://canihavesomecoffee.github.io/js-rsa-tool/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "Tools.digitalmethods.net",
+    "url": "https://tools.digitalmethods.net/beta/searchEngineScraper/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "Steganography Online",
+    "url": "https://stylesuxx.github.io/steganography/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "Torrent to Magnet",
+    "url": "https://nutbread.github.io/t2m/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Anonymous YouTube Playlists",
+    "url": "https://neverducky.github.io/anonymous-youtube-playlists/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Vega Editor",
+    "url": "https://vega.github.io/editor/#/",
+    "category": "Text, Language & OCR"
+  },
+  {
+    "name": "DISA Code Template Generator",
+    "url": "https://duncanford.github.io/disa-code-generator",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Canary Tokens",
+    "url": "http://canarytokens.org/generate",
+    "category": "Threat Intelligence & Cybersecurity"
+  },
+  {
+    "name": "explainshell.com",
+    "url": "https://explainshell.com/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "Google Colaboratory",
+    "url": "https://colab.research.google.com/",
+    "category": "Technical & Developer Tools"
+  },
+  {
+    "name": "osint-cli-tool-skeleton",
+    "url": "https://pypi.org/project/osint-cli-tool-skeleton/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "CrackStation",
+    "url": "https://crackstation.net/",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "Hashmob Community",
+    "url": "https://hashmob.net/search",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "Hashes.com",
+    "url": "https://hashes.com/en/decrypt/hash",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "Online Password Hash Crack",
+    "url": "https://www.onlinehashcrack.com/",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "Md5 Decrypt & Encrypt",
+    "url": "https://md5decrypt.net/en/",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "MD5 reverse lookup",
+    "url": "https://md5.gromweb.com/",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "Ultimate Hashing",
+    "url": "https://md5hashing.net/",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "Hashes.org",
+    "url": "https://hashes.org/search.php",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "Media-downloader.net",
+    "url": "https://media-downloader.net/",
+    "category": "Media, Images & Metadata"
+  },
+  {
+    "name": "Imgur Album Downloader",
+    "url": "https://dschep.github.io/imgur-album-downloader/#/",
+    "category": "Media, Images & Metadata"
+  },
+  {
+    "name": "Export Comments",
+    "url": "https://exportcomments.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Image Extractor",
+    "url": "https://extract.pics/",
+    "category": "Media, Images & Metadata"
+  },
+  {
+    "name": "Loader.to",
+    "url": "https://loader.to/",
+    "category": "Media, Images & Metadata"
+  },
+  {
+    "name": "Commentexporter.com",
+    "url": "https://www.commentexporter.com/",
+    "category": "Media, Images & Metadata"
+  },
+  {
+    "name": "Link Gopher",
+    "url": "https://sites.google.com/site/linkgopher/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Page Links Extractor Tool",
+    "url": "https://shadowcrypt.net/tools/pagelinks",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Online Tool to Extract Links from any Web Page",
+    "url": "https://hackertarget.com/extract-links/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Privacy Services by Michael Bazzell",
+    "url": "https://inteltechniques.com/workbook.html",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Privacy Guides",
+    "url": "https://privacyguides.org/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Surveillance Self-Defense",
+    "url": "https://ssd.eff.org/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "gofoss.net",
+    "url": "https://gofoss.net/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Consumer Reports Security Planner",
+    "url": "https://securityplanner.consumerreports.org/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Security in a Box",
+    "url": "https://securityinabox.org/en/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "Counter-OSINT guide for Russians",
+    "url": "https://github.com/soxoj/counter-osint-guide-ru",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "PRISM Break",
+    "url": "https://prism-break.org/en/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "Security First - Umbrella",
+    "url": "https://secfirst.org/umbrella/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Matweb.info",
+    "url": "https://matweb.info/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Metacleaner.com",
+    "url": "https://metacleaner.com/",
+    "category": "Media, Images & Metadata"
+  },
+  {
+    "name": "Image Scrubber",
+    "url": "https://everestpipkin.github.io/image-scrubber/",
+    "category": "Media, Images & Metadata"
+  },
+  {
+    "name": "View Exif data online, remove Exif online",
+    "url": "http://www.verexif.com/en/",
+    "category": "Media, Images & Metadata"
+  },
+  {
+    "name": "Bitcoinprivacy.guide",
+    "url": "https://bitcoinprivacy.guide/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "LocalBitcoins",
+    "url": "https://localbitcoins.com/",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "Localmonero.co",
+    "url": "https://localmonero.co/",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "Bitonic",
+    "url": "https://bitonic.nl/en/",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "Paxful",
+    "url": "https://paxful.com/",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "Speech Jammer",
+    "url": "https://mynoise.net/NoiseMachines/audioJammerNoiseGenerator.php",
+    "category": "Utilities & Miscellaneous"
+  },
+  {
+    "name": "Stutterbox",
+    "url": "https://www.stutterbox.co.uk/",
+    "category": "Utilities & Miscellaneous"
+  },
+  {
+    "name": "StegOnline",
+    "url": "https://stegonline.georgeom.net/upload",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "The Hitchhiker’s Guide to Online Anonymity",
+    "url": "https://anonymousplanet.org/guide.html",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Signal",
+    "url": "https://signal.org/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "Element",
+    "url": "https://element.io/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "Briar",
+    "url": "https://briarproject.org/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "Jami.net",
+    "url": "https://jami.net/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "Jitsi Meet",
+    "url": "https://meet.jit.si/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "Rocket.Chat",
+    "url": "https://rocket.chat/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "Wire",
+    "url": "https://wire.com/en/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "Nekogram.app",
+    "url": "https://nekogram.app/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "Telegram",
+    "url": "https://www.telegram.org/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Brave Talk",
+    "url": "https://talk.brave.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "The Tor Project",
+    "url": "https://www.torproject.org/download/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "Brave Browser",
+    "url": "https://brave.com/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "Psiphon",
+    "url": "https://www.psiphon.ca/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "ProtonVPN",
+    "url": "https://protonvpn.com/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "hide.me VPN",
+    "url": "https://hide.me/en/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "AdGuard VPN",
+    "url": "https://adguard-vpn.com/en/welcome.html",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "I2P",
+    "url": "https://geti2p.net/en/download",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "VPN Services",
+    "url": "https://privacyguides.org/providers/vpn/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Browser Recommendations",
+    "url": "https://privacyguides.org/browsers/",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Getsession.org",
+    "url": "https://getsession.org/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "OH SHINT! Welcome Aboard",
+    "url": "https://ohshint.gitbook.io/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "OSINT Is A State Of Mind",
+    "url": "https://medium.com/secjuice/osint-as-a-mindset-7d42ad72113d",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "sinwindie/OSINT",
+    "url": "https://github.com/sinwindie/OSINT",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "New Online Investigation (OSINT) Resources – Intel",
+    "url": "https://inteltechniques.com/blog/2019/04/09/new-online-investigation-osint-resources/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Technisette",
+    "url": "https://www.technisette.com/p/home",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "OSINT Framework",
+    "url": "https://osintframework.com/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "jivoi/awesome-osint",
+    "url": "https://github.com/jivoi/awesome-osint",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "START CARING STOP SHARING",
+    "url": "https://medium.com/@Dutchosintguy/start-caring-stop-sharing-9c108d957b2c",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Osint Curious OSINT Resource List",
+    "url": "https://docs.google.com/document/d/14li22wAG2Wh2y0UhgBjbqEvZJCDsNZY8vpUAJ_jJ5X8/edit",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "OSINT Tools",
+    "url": "https://www.osinttechniques.com/osint-tools.html",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "OSINT tools for investigating websites",
+    "url": "https://www.aware-online.com/en/osint-tools/website-tools/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Shodan Cheat Sheet",
+    "url": "https://thedarksource.com/shodan-cheat-sheet/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Week in OSINT",
+    "url": "https://sector035.nl/articles/category:week-in-osint",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Osint.team",
+    "url": "https://osint.team/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "QueryTool",
+    "url": "https://github.com/oryon-osint/querytool",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Investigating the source code of a website",
+    "url": "https://www.aware-online.com/en/osint-tutorials/investigating-the-source-code-of-a-website/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Find open FTP Servers",
+    "url": "https://www.aware-online.com/en/osint-tutorials/find-open-ftp-servers/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Choose your wallet",
+    "url": "https://bitcoin.org/en/choose-your-wallet",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "10 Minute Tips",
+    "url": "https://osintcurio.us/10-minute-tips/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Webint Master",
+    "url": "https://webintmaster.com/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "DFIR Diva",
+    "url": "https://dfirdiva.com/hooked-on-osint/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Boolean Strings | Tools",
+    "url": "https://booleanstrings.com/tools/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "osintme.com",
+    "url": "https://www.osintme.com/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Jake Creps",
+    "url": "https://jakecreps.com/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "reKnowledge",
+    "url": "https://www.reknowledge.tech/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Bellingcat's Online Investigation Toolkit [bit.ly/",
+    "url": "https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ/edit#gid=930747607",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "@Ivan30394639 OSINT tools collection",
+    "url": "https://cipher387.github.io/osint_stuff_tool_collection/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "The Top 132 Osint Open Source Projects",
+    "url": "https://awesomeopensource.com/projects/osint",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "30 best OSINT extensions for Google Chrome – osint",
+    "url": "https://www.osintme.com/index.php/2021/06/30/30-best-osint-extensions-for-google-chrome/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Where Can I Find... - Free DFIR Related Training",
+    "url": "https://freetraining.dfirdiva.com/where-can-i-find",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Awesome Deblurring",
+    "url": "https://github.com/subeeshvasu/Awesome-Deblurring",
+    "category": "Media, Images & Metadata"
+  },
+  {
+    "name": "OSINT.SH",
+    "url": "https://osint.sh/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "OSINT Techniques",
+    "url": "https://www.osinttechniques.com/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "OSINT aka Atvirųjų šaltinių žvalgyba",
+    "url": "https://blog.parakomanai.lt/osint-387e80bdc901",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "CTI & OSINT Online Resources",
+    "url": "https://docs.google.com/spreadsheets/d/1klugQqw6POlBtuzon8S0b18-gpsDwX-5OYRrB7TyNEw/edit#gid=0",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Emsisoft Decryptor for Avaddon",
+    "url": "https://www.emsisoft.com/ransomware-decryption-tools/avaddon",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "hwosint (@harrywald80)",
+    "url": "https://twitter.com/harrywald80",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Stefanie Proto 🔍 (@sprp77)",
+    "url": "https://twitter.com/sprp77",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Awesomelists.top",
+    "url": "http://awesomelists.top/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "GitHub Awesome Search",
+    "url": "https://github.motakasoft.com/awesome/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Ph055a OSINT_Collection",
+    "url": "https://github.com/Ph055a/OSINT_Collection",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "MetaOSINT",
+    "url": "https://metaosint.github.io/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Osint.support",
+    "url": "https://osint.support/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Sprp77/My-Google-CSE",
+    "url": "https://github.com/Sprp77/My-Google-CSE/blob/master/List%201",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "How to Build an OSINT Super Machine for People Sur",
+    "url": "https://outline.com/GZbkZA",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "How to find anyone with an advanced LinkedIn Peopl",
+    "url": "https://nubela.co/blog/how-to-find-anyone-with-an-advanced-linkedin-people-search/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "OpenWeatherMap",
+    "url": "https://openweathermap.org/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Weather History & Data Archive",
+    "url": "https://www.wunderground.com/history",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "World Temperatures — Weather Around The World",
+    "url": "https://www.timeanddate.com/weather/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "AccuWeather",
+    "url": "https://www.accuweather.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Threatbutt",
+    "url": "https://threatbutt.com/map/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Cyberthreat Real-Time Map",
+    "url": "https://cybermap.kaspersky.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Live Cyber Attack Threat Map",
+    "url": "https://www.checkpoint.com/ThreatPortal/livemap.html",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Digital Attack Map",
+    "url": "https://www.digitalattackmap.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Cyber Threat Map",
+    "url": "https://www.fireeye.com/cyber-map/threat-map.html",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Bitdefender Threat Map",
+    "url": "https://threatmap.bitdefender.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Cyber Threat Intelligence",
+    "url": "https://pulsedive.com/",
+    "category": "Threat Intelligence & Cybersecurity"
+  },
+  {
+    "name": "Cisco Talos Intelligence Group",
+    "url": "https://talosintelligence.com/",
+    "category": "Threat Intelligence & Cybersecurity"
+  },
+  {
+    "name": "Fortinet Threat Map",
+    "url": "https://threatmap.fortiguard.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "FortiGuard",
+    "url": "http://www.fortiguard.com/",
+    "category": "Threat Intelligence & Cybersecurity"
+  },
+  {
+    "name": "ThreatMiner",
+    "url": "https://www.threatminer.org/",
+    "category": "Threat Intelligence & Cybersecurity"
+  },
+  {
+    "name": "cymon",
+    "url": "https://cymon.io/",
+    "category": "Threat Intelligence & Cybersecurity"
+  },
+  {
+    "name": "intelowlproject/IntelOwl",
+    "url": "https://github.com/intelowlproject/IntelOwl",
+    "category": "Threat Intelligence & Cybersecurity"
+  },
+  {
+    "name": "Visualizing Global Internet Performance",
+    "url": "https://www.akamai.com/us/en/solutions/intelligent-platform/visualizing-akamai/real-time-web-monitor.jsp",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "THREAT MAP by LookingGlass",
+    "url": "https://map.lookingglasscyber.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "NETSCOUT Cyber Threat Horizon",
+    "url": "https://horizon.netscout.com/",
+    "category": "Threat Intelligence & Cybersecurity"
+  },
+  {
+    "name": "APTnotes",
+    "url": "https://github.com/aptnotes/data",
+    "category": "Threat Intelligence & Cybersecurity"
+  },
+  {
+    "name": "https://cryptome.wikileaks.org/",
+    "url": "https://cryptome.wikileaks.org/",
+    "category": "Threat Intelligence & Cybersecurity"
+  },
+  {
+    "name": "Nextstrain",
+    "url": "https://nextstrain.org/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "How ICE Is Using Your Data — and What You Can Do A",
+    "url": "https://old.reddit.com/r/opsec/comments/1vws85o/how_ice_is_using_your_data_and_what_you_can_do/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "How to Opt-Out of Airlines Selling Your Travel Dat",
+    "url": "https://old.reddit.com/r/opsec/comments/1vws35s/how_to_optout_of_airlines_selling_your_travel/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Spare tire or other projections hide license plate",
+    "url": "https://old.reddit.com/r/opsec/comments/1vwoufj/spare_tire_or_other_projections_hide_license/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Secret Service visits man after instagram ~DM0:37",
+    "url": "https://old.reddit.com/r/opsec/comments/1vwl7w2/secret_service_visits_man_after_instagram_dm/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Anyone here actually get value from CALI?23 août",
+    "url": "https://old.reddit.com/r/PrivateInvestigators/comments/1vwgyk7/anyone_here_actually_get_value_from_cali/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Can hacker find the email address of my youtube or",
+    "url": "https://old.reddit.com/r/opsec/comments/1vvx7lv/can_hacker_find_the_email_address_of_my_youtube/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "compartmentalisation question22 août",
+    "url": "https://old.reddit.com/r/opsec/comments/1vvli53/compartmentalisation_question/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "California has to be one of the hardest states to ",
+    "url": "https://old.reddit.com/r/PrivateInvestigators/comments/1vuot7n/california_has_to_be_one_of_the_hardest_states_to/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "How to locate21 août",
+    "url": "https://old.reddit.com/r/PrivateInvestigators/comments/1vujnkb/how_to_locate/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Can I hire a PI for assistance?21 août",
+    "url": "https://old.reddit.com/r/PrivateInvestigators/comments/1vu5hk9/can_i_hire_a_pi_for_assistance/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "What OSINT tools do PI use when they conduct backg",
+    "url": "https://old.reddit.com/r/OSINT/comments/1vu4j8k/what_osint_tools_do_pi_use_when_they_conduct/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Hello! Help finding stalker!21 août",
+    "url": "https://old.reddit.com/r/PrivateInvestigators/comments/1vu2d4r/hello_help_finding_stalker/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "VPN21 août",
+    "url": "https://old.reddit.com/r/PrivacySecurityOSINT/comments/1vtxo57/vpn/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Opsec question20 août",
+    "url": "https://old.reddit.com/r/opsec/comments/1vtr2f6/opsec_question/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "How can I get arrest records?20 août",
+    "url": "https://old.reddit.com/r/PrivateInvestigators/comments/1vtpgl7/how_can_i_get_arrest_records/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Clearbit [Registration]",
+    "url": "https://dashboard.clearbit.com/lookup",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "FullContact API [Registration]",
+    "url": "https://dashboard.fullcontact.com/login",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Aeroleads.com [Registration]",
+    "url": "https://aeroleads.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Skype Resolver",
+    "url": "http://www.skypeipresolver.net/index.php",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "PSN Resolver",
+    "url": "https://playstationresolver.xyz/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Cloudflare Resolver",
+    "url": "http://www.skypeipresolver.net/cloudflare.php",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Cloudflare Resolver Tool",
+    "url": "https://shadowcrypt.net/tools/cloudflare",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Discord Resolver",
+    "url": "https://www.leaked.site/index.php?resolver/discord.0/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Xboxresolver.com",
+    "url": "https://xboxresolver.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "SEO Resources Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=005797772976587943970:i7q6z1kjm1w",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Hashatit",
+    "url": "https://www.hashatit.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Social Mentions",
+    "url": "https://www.social-searcher.com/media-monitoring/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Social Trends",
+    "url": "https://www.social-searcher.com/social-trends/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Mentionmapp Analytics",
+    "url": "https://mentionmapp.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Anonymous Ad Preview Tool",
+    "url": "https://ads.google.com/anon/AdPreview",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Semrush",
+    "url": "https://www.semrush.com/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Network Tool",
+    "url": "https://osome.iu.edu/tools/networks/#/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Trends Tool",
+    "url": "https://osome.iu.edu/tools/trends/#/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "CoVaxxy",
+    "url": "https://osome.iu.edu/tools/covaxxy",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "IntelTechniques OSINT",
+    "url": "https://inteltechniques.com/tools/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "SynapsInt",
+    "url": "https://synapsint.com/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "InfoTracer",
+    "url": "https://infotracer.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "MetaDefender",
+    "url": "https://metadefender.opswat.com/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Username Search",
+    "url": "https://usersearch.org/",
+    "category": "Usernames"
+  },
+  {
+    "name": "SpyTox",
+    "url": "https://www.spytox.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Effect Group",
+    "url": "https://effectgroup.io/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "osrframework",
+    "url": "https://pypi.org/project/osrframework/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Google Custom Search",
+    "url": "https://cse.google.com/cse?cx=017648920863780530960:lddgpbzqgoi",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "OSINT Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=006290531980334157382:qcaf4enph7i",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "LinkScope",
+    "url": "https://github.com/AccentuSoft/LinkScope_Client",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "IOA",
+    "url": "https://www.io-archive.org/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Criminal IP",
+    "url": "https://www.criminalip.io/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "IDCrawl",
+    "url": "https://www.idcrawl.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "WebMii",
+    "url": "https://webmii.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "Tools",
+    "url": "https://intelx.io/tools?tab=person",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "TruePeopleSearch",
+    "url": "https://www.truepeoplesearch.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "Free People Search",
+    "url": "https://www.peoplefinder.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "fastpeoplesearch",
+    "url": "https://fastpeoplesearch.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "Yandex People Search",
+    "url": "https://yandex.ru/people",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "FamilyTree",
+    "url": "https://www.familytreenow.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "People Search",
+    "url": "http://itools.com/search/people-search",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "People Search Engine",
+    "url": "https://cse.google.com/cse?cx=14db36e158cd791c0",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "Dating Sites Search Engine",
+    "url": "https://cse.google.com/cse?cx=c7b340447e1e12653",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "192",
+    "url": "https://www.192.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "International",
+    "url": "https://www.infobel.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "People search Tool",
+    "url": "https://www.aware-online.com/en/osint-tools/people-search-tool/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "PeekYou",
+    "url": "https://www.peekyou.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "White Pages",
+    "url": "https://www.whitepages.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "New Canada 411",
+    "url": "https://www.canada411.ca/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "411",
+    "url": "http://411.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "TruthFinder",
+    "url": "https://www.truthfinder.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "zaba search",
+    "url": "https://www.zabasearch.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "Thats them",
+    "url": "https://thatsthem.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "People search",
+    "url": "https://radaris.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "No.1 Free People Search",
+    "url": "http://www.yasni.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "Gofindwho.com",
+    "url": "https://gofindwho.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "xlek",
+    "url": "https://xlek.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Ufind.name",
+    "url": "https://ufind.name/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "WhatsMyName Web",
+    "url": "https://whatsmyname.app/",
+    "category": "Usernames"
+  },
+  {
+    "name": "Username Checker",
+    "url": "https://analyzeid.com/username/",
+    "category": "Usernames"
+  },
+  {
+    "name": "Username Search",
+    "url": "https://www.idcrawl.com/username",
+    "category": "Usernames"
+  },
+  {
+    "name": "Tools",
+    "url": "https://intelx.io/tools?tab=username",
+    "category": "Usernames"
+  },
+  {
+    "name": "maigret",
+    "url": "https://pypi.org/project/maigret/",
+    "category": "Usernames"
+  },
+  {
+    "name": "sherlock",
+    "url": "https://github.com/sherlock-project/sherlock",
+    "category": "Usernames"
+  },
+  {
+    "name": "socialscan",
+    "url": "https://pypi.org/project/socialscan/",
+    "category": "Usernames"
+  },
+  {
+    "name": "socid-extractor",
+    "url": "https://pypi.org/project/socid-extractor/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "social-analyzer",
+    "url": "https://pypi.org/project/social-analyzer/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "KnowEm",
+    "url": "https://knowem.com/",
+    "category": "Usernames"
+  },
+  {
+    "name": "Check Usernames",
+    "url": "https://checkusernames.com/",
+    "category": "Usernames"
+  },
+  {
+    "name": "Username Checker",
+    "url": "https://checkuser.org/",
+    "category": "Usernames"
+  },
+  {
+    "name": "Namechk",
+    "url": "https://namechk.com/",
+    "category": "Usernames"
+  },
+  {
+    "name": "Lullar Com",
+    "url": "https://com.lullar.com/",
+    "category": "Usernames"
+  },
+  {
+    "name": "SearchPOF.com",
+    "url": "https://searchpof.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "OSINT Toolkit",
+    "url": "https://one-plus.github.io/EmailUsername",
+    "category": "Usernames"
+  },
+  {
+    "name": "Username search tool",
+    "url": "https://www.aware-online.com/en/osint-tools/username-search-tool/",
+    "category": "Usernames"
+  },
+  {
+    "name": "snoop",
+    "url": "https://github.com/snooppr/snoop",
+    "category": "Usernames"
+  },
+  {
+    "name": "quidam",
+    "url": "https://pypi.org/project/quidam/",
+    "category": "Usernames"
+  },
+  {
+    "name": "Identificator.space",
+    "url": "https://identificator.space/",
+    "category": "Usernames"
+  },
+  {
+    "name": "Epieos Email Lookup",
+    "url": "https://epieos.com/",
+    "category": "Email"
+  },
+  {
+    "name": "Intelligence X",
+    "url": "https://intelx.io/tools?tab=email",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "holehe",
+    "url": "https://pypi.org/project/holehe/",
+    "category": "Email"
+  },
+  {
+    "name": "Infoga",
+    "url": "http://github.com/m4ll0k/Infoga",
+    "category": "Email"
+  },
+  {
+    "name": "email2phonenumber",
+    "url": "https://github.com/martinvigo/email2phonenumber",
+    "category": "Email"
+  },
+  {
+    "name": "Trumail",
+    "url": "https://trumail.io/",
+    "category": "Email"
+  },
+  {
+    "name": "Email Verifier",
+    "url": "https://hunter.io/email-verifier",
+    "category": "Email"
+  },
+  {
+    "name": "Verify Email",
+    "url": "https://verify-email.org/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Reverse Whois",
+    "url": "https://osint.sh/reversewhois/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Email Dossier",
+    "url": "https://centralops.net/co/emaildossier.aspx",
+    "category": "Email"
+  },
+  {
+    "name": "Email Format",
+    "url": "https://www.email-format.com/",
+    "category": "Email"
+  },
+  {
+    "name": "Email Header Analyzer",
+    "url": "https://mxtoolbox.com/EmailHeaders.aspx",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "E-mail search tool",
+    "url": "https://www.aware-online.com/osint-tools/e-mail-search-tool/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Proofy",
+    "url": "https://proofy.io/",
+    "category": "Email"
+  },
+  {
+    "name": "Email Permutator",
+    "url": "http://metricsparrow.com/toolkit/email-permutator/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Phonebook.cz",
+    "url": "https://phonebook.cz/",
+    "category": "Email"
+  },
+  {
+    "name": "Email Breach Analysis",
+    "url": "https://www.hotsheet.com/inoitsu/",
+    "category": "Email"
+  },
+  {
+    "name": "Emailrep.io",
+    "url": "https://emailrep.io/",
+    "category": "Email"
+  },
+  {
+    "name": "Email Finder",
+    "url": "https://osint.sh/email/",
+    "category": "Email"
+  },
+  {
+    "name": "EmailHarvester",
+    "url": "https://pypi.org/project/EmailHarvester/",
+    "category": "Email"
+  },
+  {
+    "name": "h8mail",
+    "url": "https://pypi.org/project/h8mail/",
+    "category": "Email"
+  },
+  {
+    "name": "WhatBreach",
+    "url": "https://github.com/Ekultek/WhatBreach",
+    "category": "Email"
+  },
+  {
+    "name": "buster",
+    "url": "https://github.com/sham00n/buster",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Anymailfinder.com",
+    "url": "https://anymailfinder.com/",
+    "category": "Email"
+  },
+  {
+    "name": "ProtOSINT",
+    "url": "https://github.com/pixelbubble/ProtOSINT",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "IntelTechniques Telephone",
+    "url": "https://inteltechniques.com/tools/Telephone.html",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "PhoneInfoga",
+    "url": "https://demo.phoneinfoga.crvx.fr/",
+    "category": "Email"
+  },
+  {
+    "name": "Reverse Phone Lookup",
+    "url": "https://www.idcrawl.com/phone",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "ignorant",
+    "url": "https://pypi.org/project/ignorant/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "PhoneInfoga",
+    "url": "https://github.com/sundowndev/PhoneInfoga",
+    "category": "Email"
+  },
+  {
+    "name": "Moriarty-Project",
+    "url": "https://github.com/AzizKpln/Moriarty-Project",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "collector",
+    "url": "https://github.com/galihap76/collector",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Truecaller Search Engine",
+    "url": "https://cse.google.com/cse?cx=c46b76bce1848d976",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Nuwber",
+    "url": "https://nuwber.com/",
+    "category": "People & Identity Search"
+  },
+  {
+    "name": "Who Called Me",
+    "url": "https://www.whocalledme.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Phone number search Tool",
+    "url": "https://www.aware-online.com/en/osint-tools/phone-number-search-tool/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Validnumber.com",
+    "url": "https://validnumber.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Reverse Phone Lookup",
+    "url": "https://www.zlookup.com/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Reverse Phone Lookup",
+    "url": "https://www.reversephonecheck.com/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Truecaller",
+    "url": "https://www.truecaller.com/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Phone Number Lookup Tool",
+    "url": "https://shadowcrypt.net/tools/phone",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "SYNC.me",
+    "url": "https://sync.me/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "OpenCelliD",
+    "url": "https://opencellid.org/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "CellTower Locator",
+    "url": "http://www.cell2gps.com/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Find GSM base stations cell id coordinates",
+    "url": "https://cellidfinder.com/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Phone Scoop",
+    "url": "https://www.phonescoop.com/phones/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "GSM Arena",
+    "url": "https://www.gsmarena.com/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Fcc.io",
+    "url": "http://fcc.io/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Oldphonebook.com",
+    "url": "http://www.oldphonebook.com/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "carrier lookup",
+    "url": "https://www.carrierlookup.com/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Free Reverse Phone Lookup",
+    "url": "https://spydialer.com/default.aspx",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Phonerator",
+    "url": "https://www.martinvigo.com/tools/phonerator/",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Hunt Intelligence",
+    "url": "https://www.huntintel.io/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "snscrape",
+    "url": "https://pypi.org/project/snscrape/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Social Profiles Finder",
+    "url": "https://www.social-searcher.com/search-users/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Who posted what?",
+    "url": "https://whopostedwhat.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "VK Search Engine",
+    "url": "https://cse.google.com/cse?cx=f5e7cd4c6e33954ec",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Skype Search Engine",
+    "url": "https://www.skypli.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Vimeo search tool",
+    "url": "https://www.aware-online.com/en/osint-tools/vimeo-search-tool/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Kribrum.io",
+    "url": "https://kribrum.io/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Graphtreon.com",
+    "url": "https://graphtreon.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Social Search Engine",
+    "url": "https://www.socialsearchengine.org/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Instagram, Reddit & Snapchat",
+    "url": "https://one-plus.github.io/Instagram",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Google to search profiles on Dribbble",
+    "url": "https://recruitin.net/dribbble.php",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Google to search profiles on Xing",
+    "url": "https://recruitin.net/xing.php",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "OSINT & SOCMINT Tooling",
+    "url": "https://osint.support/chrome-extensions/2019/09/29/osint-socmint-tooling.html",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "IntelTechniques Facebook",
+    "url": "https://inteltechniques.com/tools/Facebook.html",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Facebook Search Engine",
+    "url": "https://cse.google.com/cse?cx=95ae46262a5f2958e",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Facebook Photo Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=013991603413798772546:jyvyp2ppxma",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Facebook Scraped Data search",
+    "url": "http://4wbwa6vcpvcr3vvf4qkhppgy56urmjcj2vagu2iqgp3z656xcmfdbiqd.onion.pet/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Facebook Search",
+    "url": "https://www.sowsearch.info/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Facebook Search",
+    "url": "https://www.social-searcher.com/facebook-search/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Facebook Video Downloader",
+    "url": "https://fbdown.github.io/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Facebook Search Tool",
+    "url": "https://www.aware-online.com/osint-tools/facebook-search-tool/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Find My Facebook ID",
+    "url": "https://commentpicker.com/find-facebook-id.php",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Facebook Geo",
+    "url": "https://www.osintcombine.com/facebook-geo-pages",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Facebook Friends List Generator",
+    "url": "https://osint.support/chrome-extensions/2019/10/20/facebook-friends-list-generator.html",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Facebook Entity Id Parser",
+    "url": "https://osint.support/chrome-extensions/2019/09/08/facebook-entity-id-parser.html",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Facebook Profile Id Grabber",
+    "url": "https://osint.support/chrome-extensions/2019/09/01/facebook-profile-id-grabber.html",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Facebook Email Reverse Lookup",
+    "url": "https://osint.support/chrome-extensions/2019/09/01/facebook-email-reverse-lookup.html",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Facebook Profile Directory",
+    "url": "https://www.facebook.com/directory/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Have I Been Zucked?",
+    "url": "https://haveibeenzucked.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "IntelTechniques Twitter",
+    "url": "https://inteltechniques.com/tools/Twitter.html",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Nitter.hu",
+    "url": "https://nitter.hu/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Nitter.it",
+    "url": "https://nitter.it/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "BirdHunt",
+    "url": "https://birdhunt.co/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Nitter Instances",
+    "url": "https://xnaas.github.io/nitter-instances/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "twint",
+    "url": "https://pypi.org/project/twint/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twitter Search Engine",
+    "url": "https://cse.google.com/cse?cx=5857bab69c8b8e37e",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Tweet Finder",
+    "url": "https://cse.google.com/cse/publicurl?cx=016621447308871563343:u4r_fupvs-e",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twitter Photo Search",
+    "url": "https://cse.google.com/cse/publicurl?cx=006290531980334157382:_ltcjq0robu",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Tweet Archive Search",
+    "url": "https://cse.google.com/cse/publicurl?cx=005797772976587943970:kffjgylvzwu",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twitter Advanced Search",
+    "url": "https://twitter.com/search-advanced",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twitter / Profiles Directory",
+    "url": "https://twitter.com/i/directory/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "TweetBeaver",
+    "url": "https://tweetbeaver.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twitter search tool",
+    "url": "https://www.aware-online.com/en/osint-tools/twitter-search-tool/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Google to search profiles on Twitter",
+    "url": "https://recruitin.net/twitter.php",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Tweettioc.com",
+    "url": "http://tweettioc.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Search Twitter Bios and Profiles",
+    "url": "https://followerwonk.com/bio",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "The one million tweet map",
+    "url": "https://onemilliontweetmap.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Tweet Binder",
+    "url": "https://www.tweetbinder.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twitter Search",
+    "url": "https://one-plus.github.io/Twitter",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twitter Monitoring",
+    "url": "https://one-plus.github.io/TwitterMonitor",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Thread Reader",
+    "url": "https://threadreaderapp.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Search Twitter Users",
+    "url": "https://pushshift.io/twitter-user-search/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Find Twitter Followers",
+    "url": "http://searchfortweets1.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Getdewey.co",
+    "url": "https://getdewey.co/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "geosocial footprint",
+    "url": "http://geosocialfootprint.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "tweetmap",
+    "url": "https://www.omnisci.com/demos/tweetmap",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "DoesFollow",
+    "url": "https://doesfollow.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Sleeping Time",
+    "url": "http://sleepingtime.org/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Twitter Analytics",
+    "url": "https://foller.me/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Tweet Topic Explorer",
+    "url": "http://tweettopicexplorer.neoformix.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "TruthNest",
+    "url": "https://app.truthnest.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "getdaytrends",
+    "url": "https://getdaytrends.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Twitter Trending Hashtags and Topics",
+    "url": "https://www.trendsmap.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Socialbearing",
+    "url": "https://socialbearing.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Twiangulate: analyzing the connections between fri",
+    "url": "http://twiangulate.com/search/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "First Tweet",
+    "url": "http://ctrlq.org/first/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twittertrails.com",
+    "url": "http://twittertrails.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Download and Export Twitter Followers into Excel f",
+    "url": "https://www.vicinitas.io/free-tools/download-twitter-followers",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Simplescraper OSINT",
+    "url": "https://airtable.com/shrceHfvukijgln9q/",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "Invidious Instances",
+    "url": "https://docs.invidious.io/instances/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "YouTube video upload time",
+    "url": "https://www.aware-online.com/en/osint-tutorials/youtube-video-upload-time/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "yt-dlp",
+    "url": "https://pypi.org/project/yt-dlp/",
+    "category": "Media, Images & Metadata"
+  },
+  {
+    "name": "youtube-dl",
+    "url": "https://ytdl.actionsack.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Location Search",
+    "url": "https://mattw.io/youtube-geofind/location",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "YouTube Metadata Bulk",
+    "url": "https://mattw.io/youtube-metadata/bulk",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Hadzy.com",
+    "url": "https://hadzy.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Youtube channel ID",
+    "url": "https://commentpicker.com/youtube-channel-id.php",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Extract Meta Data YouTube",
+    "url": "https://citizenevidence.amnestyusa.org/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Youtube Geo Search Tool",
+    "url": "https://youtube.github.io/geo-search-tool/search.html",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Youtube Channel Search",
+    "url": "https://asif633.github.io/youtube-channel-search/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "YouTube search tool",
+    "url": "https://www.aware-online.com/en/osint-tools/youtube-search-tool/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Yout",
+    "url": "https://yout.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "YouTube Comment Finder",
+    "url": "https://ytcomment.kmcat.uk/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Youtube, Periscope, Twitch & Dailymotion",
+    "url": "https://one-plus.github.io/Youtube",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Unlistedvideos.com",
+    "url": "https://unlistedvideos.com/",
+    "category": "Media, Images & Metadata"
+  },
+  {
+    "name": "Youtube Comments Downloader",
+    "url": "https://youtubecommentsdownloader.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "teddit",
+    "url": "https://teddit.net/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Reddit Search",
+    "url": "https://camas.unddit.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Karma Decay",
+    "url": "http://karmadecay.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "redditsfinder",
+    "url": "https://pypi.org/project/redditsfinder/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "SocialGrep",
+    "url": "https://www.socialgrep.com/search",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Reddit Search Tool",
+    "url": "https://redditsearchtool.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Search Reddit",
+    "url": "https://bmai.dev/reddit/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Reddit Archive",
+    "url": "https://ihsoyct.github.io/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Chearch",
+    "url": "https://adhesivecheese.github.io/chearch/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "NY Dolls.org",
+    "url": "https://nydolls.org/author",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Reveddit.com",
+    "url": "https://www.reveddit.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Reddit Downloader",
+    "url": "https://redditdownloader.github.io/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Redective",
+    "url": "https://www.redective.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Reddit_Persona",
+    "url": "https://github.com/n2itn/reddit_persona",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Uncensor.cc",
+    "url": "https://uncensor.cc/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Reddit Search Engine",
+    "url": "https://cse.google.com/cse?cx=0728740ab68a619ba",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Reddit Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=017261104271573007538:bbzhlah6n4o",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Reddit User Analyser",
+    "url": "https://reddit-user-analyser.netlify.app/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "reddit search",
+    "url": "https://www.redditsearch.io/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Reddit search tool",
+    "url": "https://www.aware-online.com/en/osint-tools/reddit-search-tool/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Pholder",
+    "url": "https://pholder.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "RedditMetis",
+    "url": "https://redditmetis.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Search Reddit Comments by User",
+    "url": "https://www.redditcommentsearch.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Reddit Investigator",
+    "url": "https://www.redditinvestigator.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "pushshift.io",
+    "url": "https://pushshift.io/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Pushshift API Guide",
+    "url": "https://github.com/pushshift/api",
+    "category": "Identity & Generators"
+  },
+  {
+    "name": "Searcheddit",
+    "url": "http://searcheddit.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Removeddit",
+    "url": "https://removeddit.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Deaditarchive.netlify.app",
+    "url": "https://deaditarchive.netlify.app/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Map of Reddit",
+    "url": "https://anvaka.github.io/map-of-reddit/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "reddit visualization",
+    "url": "https://yasiv.com/reddit",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "ReSavr",
+    "url": "https://www.resavr.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Redditle.com",
+    "url": "https://redditle.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Libredd.it",
+    "url": "https://libredd.it/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "LinkedIn Search",
+    "url": "https://recruitin.net/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "LinkedIn X-Ray Search Tool",
+    "url": "https://www.lisearcher.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "LinkedProspect",
+    "url": "https://linkedprospect.com/linkedin-boolean-search-tool/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "LinkedIn Search Engine",
+    "url": "https://cse.google.com/cse?cx=daaf18e804f81bed0",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "LinkedIn Search Engine (with Images)",
+    "url": "https://cse.google.com/cse?cx=40126f0af1aff84f8",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Chartloop",
+    "url": "https://buildorgchart.herokuapp.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Proxycurl",
+    "url": "https://nubela.co/proxycurl/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "nqntnqnqmb",
+    "url": "https://pypi.org/project/nqntnqnqmb/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "LinkedIn Email Reverse Lookup",
+    "url": "https://osint.support/chrome-extensions/2019/09/03/linkedin-email-reverse-lookup.html",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Google+ Photo Custom Search",
+    "url": "https://cse.google.com/cse/publicurl?cx=006205189065513216365:uo99tr1fxjq",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "GHunt",
+    "url": "https://github.com/mxrch/GHunt",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Google Social Search",
+    "url": "https://www.social-searcher.com/google-social-search/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Google+ & LinkedIn",
+    "url": "https://one-plus.github.io/G+Link",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Discord User Search",
+    "url": "https://discordhub.com/user/search",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Discord Me",
+    "url": "https://discord.me/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Enlarge Discord avatars",
+    "url": "https://discordzoom.com/en/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Discord History Tracker",
+    "url": "https://dht.chylex.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "DiscordOSINT",
+    "url": "https://github.com/atoncehussein/DiscordOSINT",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "DiscordServers",
+    "url": "https://discordservers.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "DISBOARD",
+    "url": "https://disboard.org/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Discord Servers Portal",
+    "url": "https://www.discordportal.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Discord ID Lookup",
+    "url": "https://discord.id/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Discord Center",
+    "url": "https://discord.center/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Discord Bots",
+    "url": "https://discordbotlist.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Discord Bots",
+    "url": "https://top.gg/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Discord Bots",
+    "url": "https://discord.bots.gg/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "TwitchTracker",
+    "url": "https://twitchtracker.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twitch.fckdmca.com",
+    "url": "https://twitch.fckdmca.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twitch Payout Search",
+    "url": "https://sizeof.cat/project/twitch-payout-search/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Search for a Twitch channel",
+    "url": "https://sullygnome.com/channelsearch",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Searchstream.live",
+    "url": "https://searchstream.live/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Twitch Tools",
+    "url": "https://twitch-tools.rootonline.de/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Username Availability",
+    "url": "https://cactus.tools/twitch/username",
+    "category": "Usernames"
+  },
+  {
+    "name": "Check channel badges",
+    "url": "https://cactus.tools/twitch/badges",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Check Twitch follow length",
+    "url": "https://cactus.tools/twitch/followage",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twitch Following",
+    "url": "https://cactus.tools/twitch/following",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "All Twitch Streamers Search",
+    "url": "https://twitchstats.net/allstreamers",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twitchmetrics.net",
+    "url": "https://www.twitchmetrics.net/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twitch Username Search",
+    "url": "https://twitchusernames.com/",
+    "category": "Usernames"
+  },
+  {
+    "name": "Bibliogram.art",
+    "url": "https://bibliogram.art/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Bibliogram",
+    "url": "https://bib.actionsack.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "InstaHunt",
+    "url": "https://instahunt.co/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Instagram Deep Photo Search Engine",
+    "url": "https://cse.google.com/cse?cx=017261104271573007538:ffk_jpt64gy",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Instagram analyzer and viewer",
+    "url": "https://gramho.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Find Instagram User ID",
+    "url": "https://codeofaninja.com/tools/find-instagram-user-id/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Instagram User ID",
+    "url": "https://commentpicker.com/instagram-user-id.php",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Searchmy.bio",
+    "url": "https://www.searchmy.bio/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Statflux",
+    "url": "http://statflux.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Gramsize.com",
+    "url": "https://gramsize.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "toutatis",
+    "url": "https://pypi.org/project/toutatis/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "instalooter",
+    "url": "https://pypi.org/project/instalooter/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "instaloader",
+    "url": "https://pypi.org/project/instaloader/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "chatter",
+    "url": "https://github.com/visualbasic6/chatter",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "osi.ig",
+    "url": "https://github.com/th3unkn0n/osi.ig",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Osintgram",
+    "url": "https://github.com/Datalux/Osintgram",
+    "category": "OSINT Resources & Training"
+  },
+  {
+    "name": "SoIG",
+    "url": "https://github.com/yezz123/SoIG",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "yesitsme",
+    "url": "https://github.com/blackeko/yesitsme",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Instagram Location Search",
+    "url": "https://github.com/bellingcat/instagram-location-search",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Telegago",
+    "url": "https://cse.google.com/cse?&cx=006368593537057042503:efxu7xprihg#gsc.tab=0",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Telegram Search",
+    "url": "https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Telegram Search. Search for posts",
+    "url": "https://tgstat.com/search",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Lyzem Blog",
+    "url": "https://lyzem.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Search.buzz.im",
+    "url": "https://search.buzz.im/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Telegram Usernames Finder",
+    "url": "https://socialfinder.app/list/Telegram",
+    "category": "Usernames"
+  },
+  {
+    "name": "Telegram Channels List",
+    "url": "https://tlgrm.eu/channels",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Readergram.com",
+    "url": "https://readergram.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Ixgram",
+    "url": "https://www.telegramgroup1.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Find Telegram Channels/Bots/Groups",
+    "url": "https://xtea.io/ts_en.html",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Telegram Group: Find Telegram Channels, Bots & Gro",
+    "url": "https://www.telegram-group.com/en/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "TelegramDB.org",
+    "url": "https://telegramdb.org/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Global Telegram Database",
+    "url": "https://t.me/s/privatelinks",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Telegram Search Engine",
+    "url": "https://clickbee.me/Telegram-Search-Engine.html",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Nekogram X",
+    "url": "https://f-droid.org/packages/nekox.messenger/",
+    "category": "Privacy, OPSEC & Secure Communications"
+  },
+  {
+    "name": "telegram-phone-number-checker",
+    "url": "https://github.com/bellingcat/telegram-phone-number-checker",
+    "category": "Phone & SMS"
+  },
+  {
+    "name": "Ghostcodes.com",
+    "url": "https://www.ghostcodes.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Snap Map",
+    "url": "https://map.snapchat.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Snapdex",
+    "url": "https://snapdex.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "SnapScraper",
+    "url": "https://rhematt.github.io/Snap-Scraper/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "snapmap-archiver",
+    "url": "https://pypi.org/project/snapmap-archiver/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Snapchat User Search",
+    "url": "https://sovip.io/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "SnapChat Search (ENTER-USERNAME-HERE)",
+    "url": "https://feelinsonice.appspot.com/web/deeplink/snapcode?username=ENTER-USERNAME-HERE&size=400&type=SVG",
+    "category": "Usernames"
+  },
+  {
+    "name": "Search.noc.social",
+    "url": "https://search.noc.social/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Mastodon Search Engine",
+    "url": "https://cse.google.com/cse?cx=334aec4c3c73ed945",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "TIKTOK Search Engine",
+    "url": "https://cse.google.com/cse?cx=011444696387487602669:aqf7d9w73om",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "TikTok User Search",
+    "url": "https://vidnice.com/search/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "TikTok downloader",
+    "url": "https://tiktokd.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "TikTok hashtag analysis toolset",
+    "url": "https://github.com/bellingcat/tiktok-hashtag-analysis",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Steam Community :: Search",
+    "url": "https://steamcommunity.com/search/users/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Steam ID Finder",
+    "url": "https://steamidfinder.com/lookup/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "steamdb.info/calculator",
+    "url": "https://steamdb.info/calculator/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Clubhouse Database",
+    "url": "https://clubhousedb.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Rooms of Clubhouse",
+    "url": "https://roomsofclubhouse.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "ClubSearch -- search Clubhouse rooms",
+    "url": "https://clubsearch.io/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Onlysearch.co",
+    "url": "https://onlysearch.co/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "OnlyFinder",
+    "url": "https://onlyfinder.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Search OnlyFans profiles",
+    "url": "https://hubite.com/onlyfans-search/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Fansmetrics.com",
+    "url": "https://fansmetrics.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Findr.fans",
+    "url": "https://findr.fans/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "SimilarFans",
+    "url": "https://similarfans.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Bot Sentinel Dashboard ‹ Bot Sentinel",
+    "url": "https://botsentinel.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Botometer by OSoMe",
+    "url": "https://botometer.osome.iu.edu/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "FollowerAudit",
+    "url": "https://www.followeraudit.com/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Twitter Bot Checker",
+    "url": "https://circleboom.com/twitter-management-tool/twitter-circle-tool/twitter-bot-checker",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "BotSlayer",
+    "url": "https://osome.iu.edu/tools/botslayer",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Blogs Search Engine",
+    "url": "https://cse.google.com/cse?cx=013991603413798772546:8c1g6f0frp8#gsc.tab=0",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "WordPress Custom Search",
+    "url": "https://cse.google.com/cse?cx=011081986282915606282:w8bndhohpi0",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "WordPress Content Snatcher",
+    "url": "https://cse.google.com/cse/publicurl?cx=011081986282915606282:w8bndhohpi0",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "OSINT Blogs Search Engine",
+    "url": "https://cse.google.com/cse?cx=fd4729049350a76d0",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "News Search Engine",
+    "url": "https://cse.google.com/cse?cx=013991603413798772546:fvmtax6anhd",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Mailing List Archives Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=013991603413798772546:sipriovnbxq",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Google News",
+    "url": "https://news.google.com/",
+    "category": "News & Verification"
+  },
+  {
+    "name": "News Search",
+    "url": "https://upstract.com/search",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Newslookup.com",
+    "url": "http://newslookup.com/",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Welcome to Dealstrap!",
+    "url": "http://correctsearch.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Beautiful News",
+    "url": "https://informationisbeautiful.net/beautifulnews/",
+    "category": "News & Verification"
+  },
+  {
+    "name": "GoodGopher.com",
+    "url": "https://goodgopher.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Newsnow",
+    "url": "https://www.newsnow.co.uk/",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Wintria",
+    "url": "http://www.wintria.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Mereku.com",
+    "url": "https://mereku.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Newspapers.com",
+    "url": "https://www.newspapers.com/",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Newspaper Archive",
+    "url": "https://www.gastearsivi.com/en/",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Talkwalker",
+    "url": "https://www.talkwalker.com/alerts",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Google Alerts",
+    "url": "https://www.google.com/alerts",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Paperball.news",
+    "url": "https://paperball.news/",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Hoaxy: How claims spread online",
+    "url": "https://hoaxy.osome.iu.edu/",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Snopes",
+    "url": "https://www.snopes.com/?s=",
+    "category": "News & Verification"
+  },
+  {
+    "name": "ReviewMeta",
+    "url": "https://reviewmeta.com/",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Verification Handbook",
+    "url": "https://datajournalism.com/read/handbook/verification-1",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Truth or Fiction",
+    "url": "https://www.truthorfiction.com/",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Debunking False Stories Archives",
+    "url": "https://www.factcheck.org/fake-news/",
+    "category": "News & Verification"
+  },
+  {
+    "name": "Fact-Checking",
+    "url": "https://reporterslab.org/fact-checking/",
+    "category": "News & Verification"
+  },
+  {
+    "name": "IntelTechniques Search Engine",
+    "url": "https://inteltechniques.com/tools/Search.html",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Google Advanced Search",
+    "url": "https://www.google.com/advanced_search",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Searx",
+    "url": "https://searx.info/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Bing",
+    "url": "https://www.bing.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Yandex",
+    "url": "https://yandex.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "MetaGer: Privacy Protected Search",
+    "url": "https://metager3.de/en/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Duck Duck Go",
+    "url": "https://duckduckgo.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Search Engines Index",
+    "url": "https://www.searchenginesindex.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "carrot2",
+    "url": "https://search.carrot2.org/#/search/web",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Qwant",
+    "url": "https://www.qwant.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Startpage",
+    "url": "https://startpage.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "swisscows",
+    "url": "https://swisscows.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Crossref",
+    "url": "https://search.crossref.org/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "Brave Search",
+    "url": "https://search.brave.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Mojeek",
+    "url": "https://www.mojeek.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Yahoo Search",
+    "url": "https://search.yahoo.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Baidu",
+    "url": "https://www.baidu.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Ecosia",
+    "url": "https://www.ecosia.org/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Dogpile",
+    "url": "https://www.dogpile.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Zoo Search",
+    "url": "https://www.metacrawler.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "App Store and iTunes search engine",
+    "url": "https://fnd.io/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Ask",
+    "url": "https://www.search.ask.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "ZorexEye",
+    "url": "http://zorexeye.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Yassen.com",
+    "url": "http://yassen.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Flippity",
+    "url": "https://www.flippity.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "keys.openpgp.org",
+    "url": "https://keys.openpgp.org/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "MIT PGP Key Server",
+    "url": "https://pgp.mit.edu/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Ipse.io",
+    "url": "https://www.ipse.io/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Ipfs-search.com",
+    "url": "https://ipfs-search.com/#/search",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Debate.cards",
+    "url": "http://debate.cards/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Argumentsearch.com",
+    "url": "http://argumentsearch.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Meganzsearch.com",
+    "url": "https://www.meganzsearch.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Engine.presearch.org",
+    "url": "https://engine.presearch.org/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Blockscan.com",
+    "url": "https://blockscan.com/",
+    "category": "Cryptography, Hashes & Crypto"
+  },
+  {
+    "name": "Publc.com",
+    "url": "https://publc.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "GoPit Search Engine - Home",
+    "url": "https://www.gopit.com/socialsearch/index.php?type=Social",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "The best document search engine",
+    "url": "http://www.doc-txt.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "CachedViews.com",
+    "url": "https://cachedviews.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "MAC Address Lookup",
+    "url": "https://maclookup.app/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "sploitus",
+    "url": "https://sploitus.com/",
+    "category": "Threat Intelligence & Cybersecurity"
+  },
+  {
+    "name": "https://vulmon.com/",
+    "url": "https://vulmon.com/",
+    "category": "Threat Intelligence & Cybersecurity"
+  },
+  {
+    "name": "Vulnerability & Exploit Database",
+    "url": "https://www.rapid7.com/db/",
+    "category": "Threat Intelligence & Cybersecurity"
+  },
+  {
+    "name": "Recon",
+    "url": "http://recon222tttn4ob7ujdhbn3s4gjre7netvzybuvbq2bcqwltkiqinhad.onion.pet/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Google & Bing",
+    "url": "https://one-plus.github.io/GoogleBing",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Bookmarks",
+    "url": "https://one-plus.github.io/Bookmarks",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Boardreader - Forum Search",
+    "url": "https://boardreader.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Libgen.rs",
+    "url": "http://libgen.rs/",
+    "category": "Archives, Libraries & Research"
+  },
+  {
+    "name": "Stacksearch",
+    "url": "https://stacksear.ch/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "SearchTempest",
+    "url": "https://www.searchtempest.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "2lingual",
+    "url": "https://2lingual.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "SEQE - Search Engines Query Engine",
+    "url": "https://seqe.me/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Milled",
+    "url": "https://milled.com/search",
+    "category": "News & Verification"
+  },
+  {
+    "name": "btdig",
+    "url": "https://btdig.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Monster Crawler Search",
+    "url": "http://monstercrawler.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Arabo.com",
+    "url": "http://arabo.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Google Scholar",
+    "url": "https://scholar.google.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Million Short",
+    "url": "https://millionshort.com/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "BeVigil",
+    "url": "https://bevigil.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "WordPress.com",
+    "url": "https://en.search.wordpress.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Octosearch.dootech.com",
+    "url": "https://octosearch.dootech.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Search craigslist",
+    "url": "http://searchcraigslist.org/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Public AWS S3 & Azure Search",
+    "url": "https://buckets.grayhatwarfare.com/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Public Buckets",
+    "url": "https://osint.sh/buckets/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "URL Shorteners Search",
+    "url": "https://shorteners.grayhatwarfare.com/",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Mywoodle.com",
+    "url": "https://mywoodle.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Search Atlas",
+    "url": "https://searchatlas.org/",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Google to search profiles on Stack Overflow",
+    "url": "https://recruitin.net/stackoverflow.php",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Binparcel.com",
+    "url": "https://binparcel.com/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Homepage Search Engine",
+    "url": "https://cse.google.com/cse?cx=005797772976587943970:3tu7im1-rdg#gsc.tab=0",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Amazon Cloud Search Engine",
+    "url": "https://cse.google.com/cse?cx=005797772976587943970:g-6ohngosio#gsc.tab=0",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Google CSE instances Search Engine",
+    "url": "https://cse.google.com/cse?cx=009462381166450434430:vggeu3dhhgg#gsc.tab=0",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Robots.txt Search Engine",
+    "url": "https://cse.google.com/cse?cx=013991603413798772546:zu7epjqvunu",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Short URL Search Engine",
+    "url": "https://cse.google.com/cse?cx=017261104271573007538:magh-vr6t6g#gsc.tab=0",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Wikispaces Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=005797772976587943970:afbre9pr2ly",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Dog Bites Search Engine",
+    "url": "https://cse.google.com/cse?cx=partner-pub-8216357153102971:3267723418",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Google Domain Hacker",
+    "url": "https://cse.google.com/cse/publicurl?cx=005797772976587943970:ca2hiy6hmri",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Google Drive Folder Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=013991603413798772546:nwzqlcysx_w",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Chrome Extension Archive Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=000501358716561852263:h-5uyshsclq",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Github with Awesome-List Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=017261104271573007538:fqn_jyftcdq",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Better Chrome Web Store Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=006205189065513216365:pn3lumi80ne",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "App Store Custom Search Engine",
+    "url": "https://cse.google.com/cse/publicurl?cx=006205189065513216365:aqogom-kfne",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "*.Google.com Hack Attack",
+    "url": "https://cse.google.com/cse/publicurl?cx=017648920863780530960:lddgpbzqgoi",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Search by FileType",
+    "url": "https://cse.google.com/cse/publicurl?cx=013991603413798772546:mu-oio3a980",
+    "category": "Web, Domains & Network"
+  },
+  {
+    "name": "Search Engine Finder",
+    "url": "https://cse.google.com/cse?cx=016621447308871563343:nyvaorurd5l",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Mindmap Search Engine",
+    "url": "http://cse.google.com/cse?cx=013991603413798772546:gj6rx9spox8#gsc.tab=0",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Slack/Discord/Zoom Invites Search",
+    "url": "https://cse.google.com/cse?cx=8e26eca532ec2cba3",
+    "category": "Social Media & SOCMINT"
+  },
+  {
+    "name": "Cloud Bucket Search Engine",
+    "url": "https://cse.google.com/cse?cx=d80f8518b11b1438e",
+    "category": "Search Engines & Discovery"
+  },
+  {
+    "name": "Google Maps",
+    "url": "https://www.google.com/maps",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Bing Maps",
+    "url": "https://www.bing.com/maps",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Yandex.Maps",
+    "url": "https://yandex.com/maps/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Generate a panorama",
+    "url": "https://www.udeuschle.de/panoramas/makepanoramas_en.htm",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Mapillary",
+    "url": "https://www.mapillary.com/app/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Geonarra.com",
+    "url": "https://www.geonarra.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Waze",
+    "url": "https://www.waze.com/live-map",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "百度地图",
+    "url": "https://map.baidu.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "DigitalGlobe",
+    "url": "https://discover.digitalglobe.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "MapQuest",
+    "url": "https://www.mapquest.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "OpenStreetMap",
+    "url": "https://www.openstreetmap.org/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Maps.descarteslabs.com",
+    "url": "https://maps.descarteslabs.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "ArcGIS Wildfire Map",
+    "url": "https://www.arcgis.com/home/webmap/viewer.html?webmap=df8bcc10430f48878b01c96e907a1fc3#!",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Living Atlas of the World | ArcGIS",
+    "url": "https://livingatlas.arcgis.com/en/browse/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "FIRMS",
+    "url": "https://firms.modaps.eosdis.nasa.gov/map/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "COVID-19 Map",
+    "url": "https://coronavirus.jhu.edu/map.html",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Ukraine Interactive map",
+    "url": "https://liveuamap.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Satellites.pro",
+    "url": "https://satellites.pro/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Military bases around the world. - uMap",
+    "url": "https://umap.openstreetmap.fr/en/map/military-bases-around-the-world_510207",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Wikimapia",
+    "url": "http://wikimapia.org/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Map of Syrian Civil War",
+    "url": "https://syria.liveuamap.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Radio Garden",
+    "url": "http://radio.garden/search",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Windy",
+    "url": "https://www.windy.com/-Webcams/webcams",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Gpx File Editor",
+    "url": "https://gpx.studio/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "OALLEY",
+    "url": "https://www.oalley.net/app/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "fgdc_gp_demos's public fiddles",
+    "url": "https://jsfiddle.net/user/fgdc_gp_demos/fiddles/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "KartaView",
+    "url": "https://kartaview.org/map/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Google Map Search Engine",
+    "url": "https://cse.google.com/cse?cx=013991603413798772546:mofb1uoaebi",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Power Plants in the United States",
+    "url": "https://www.arcgis.com/apps/dashboards/201fc98c0d74482d8b3acb0c4cc47f16",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "UK Onshore Oil and Gas Activity",
+    "url": "https://www.arcgis.com/apps/webappviewer/index.html?id=29c31fa4b00248418e545d222e57ddaa",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Walmart Store Status",
+    "url": "https://www.arcgis.com/apps/dashboards/4e573c79e1224081805165d25b4f33c7",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "MODIS Wildfire",
+    "url": "https://www.arcgis.com/apps/dashboards/bf5df3a49a624521844a2e5e1ec7df05",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Earthquake Watch",
+    "url": "https://www.arcgis.com/apps/dashboards/c8af9c5411814584b460cc87cb7c3780",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "InciWeb",
+    "url": "https://inciweb.nwcg.gov/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Earth",
+    "url": "https://earth.nullschool.net/#current",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "US Labor Strike Map",
+    "url": "https://www.google.com/maps/d/viewer?mid=1hE1nDR-Ff_sVgOS67IteJSxGZlvqIP3k",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Active Agency Map",
+    "url": "https://www.google.com/maps/d/viewer?mid=1eYVDPh5itXq5acDT9b0BVeQwmESBa4cB",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Ontario GiveSendGo Donors",
+    "url": "https://www.google.com/maps/d/viewer?mid=1heAgrb9bDuk287yqseyvhZ7-U_kz64hM",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Live-action-map.com",
+    "url": "https://www.live-action-map.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "awesome-maps-ukraine",
+    "url": "https://github.com/Symbian9/awesome-maps-ukraine",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Допомога",
+    "url": "https://dopomoha.pl/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Ukraine Live Cams",
+    "url": "https://nagix.github.io/ukraine-livecams",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Ukraine War Map/Heatmap",
+    "url": "https://ruarq.github.io/ukraine-war-heatmap",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Live map of London Underground trains",
+    "url": "https://traintimes.org.uk/map/tube/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Livecorona.co.kr",
+    "url": "https://livecorona.co.kr/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "TfL JamCams",
+    "url": "https://www.tfljamcams.net/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Cesium Stories",
+    "url": "https://cesium.com/ion/stories/viewer/?id=8be6f99c-0d4c-46ce-91a3-313e3cac62fe",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "GeoNames",
+    "url": "https://www.geonames.org/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Geoseer.net",
+    "url": "https://www.geoseer.net/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "GeoINT Search",
+    "url": "https://cse.google.com/cse?cx=015328649639895072395:sbv3zyxzmji#gsc.tab=0",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "GeoIP Tracker tool",
+    "url": "https://shadowcrypt.net/tools/geoip",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Earth Engine Dataset",
+    "url": "https://developers.google.com/earth-engine/datasets/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "GeoPlatform Portal",
+    "url": "https://www.geoplatform.gov/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Inspire-geoportal.eu",
+    "url": "http://www.inspire-geoportal.eu/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "FAO Map Catalog",
+    "url": "https://data.apps.fao.org/map/catalog/srv/eng/catalog.search#/home",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Datacore-gn.unepgrid.ch",
+    "url": "https://datacore-gn.unepgrid.ch/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "ISRIC Data Hub",
+    "url": "https://data.isric.org/geonetwork/srv/eng/catalog.search#/home",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "geocreepy",
+    "url": "http://www.geocreepy.com/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "US Crisis Monitor",
+    "url": "https://acleddata.com/special-projects/us-crisis-monitor/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "Toronto Live",
+    "url": "https://apps.esri.ca/torontolive/",
+    "category": "General OSINT & Miscellaneous"
+  },
+  {
+    "name": "Residential Fire Fatalities in Indiana",
+    "url": "https://www.arcgis.com/apps/dashboards/4d1289ab105145a1b1f80c1ad3cf19fb",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "geoprotests API",
+    "url": "https://rapidapi.com/gisfromscratch/api/geoprotests/",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "geoint-py",
+    "url": "https://github.com/gisfromscratch/geoint-py",
+    "category": "Maps & Geolocation"
+  },
+  {
+    "name": "geoclustering",
+    "url": "https://pypi.org/project/geoclustering/",
+    "category": "Maps & Geolocation"
   }
 ]
