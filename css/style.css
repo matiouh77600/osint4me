@@ -14,12 +14,14 @@
   --radius: 16px;
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   
-  /* Couleurs par catégorie */
+  /* Couleurs par catégorie - adaptez selon vos catégories */
   --color-email: #3b82f6;
   --color-phone: #8b5cf6;
   --color-ai: #06b6d4;
   --color-dev: #f59e0b;
   --color-general: #64748b;
+  --color-social: #ec4899;
+  --color-people: #14b8a6;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -166,11 +168,14 @@ body {
   transition: opacity var(--transition);
 }
 
-/* Couleurs spécifiques */
+/* Associez vos catégories à des couleurs */
 .tool-card[data-category="Email temporaire"]::before { background: var(--color-email); opacity: 0.8; }
 .tool-card[data-category="Téléphone & SMS"]::before { background: var(--color-phone); opacity: 0.8; }
 .tool-card[data-category="Assistant IA"]::before { background: var(--color-ai); opacity: 0.8; }
 .tool-card[data-category="Développement"]::before { background: var(--color-dev); opacity: 0.8; }
+.tool-card[data-category="Réseaux sociaux"]::before { background: var(--color-social); opacity: 0.8; }
+.tool-card[data-category="Recherche de personnes"]::before { background: var(--color-people); opacity: 0.8; }
+/* Ajoutez d'autres catégories ici */
 
 .tool-card:hover {
   transform: translateY(-6px);
