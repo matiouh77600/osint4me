@@ -232,16 +232,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // ============================================================
     // 8. FAVICON HELPER
     // ============================================================
-    function getFaviconHtml(url, name) {
-        if (!url) return '';
-        try {
-            const domain = new URL(url).hostname;
-            const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
-            return `<img src="${faviconUrl}" alt="${name}" class="favicon" loading="lazy" onerror="this.style.display='none'" />`;
-        } catch {
-            return '';
-        }
+function getFaviconHtml(url, name) {
+    if (!url) return '';
+    try {
+        const domain = new URL(url).hostname;
+        const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+        return `<img src="${faviconUrl}" alt="${name}" class="favicon" loading="lazy" onerror="this.style.display='none'" />`;
+    } catch {
+        return '';
     }
+}
 
     // ============================================================
     // 9. RENDER CATEGORIES
@@ -256,83 +256,84 @@ document.addEventListener('DOMContentLoaded', () => {
         return groups;
     }
 
-    function renderCategories(tools) {
-        if (!tools) return;
-        
-        const searchTerm = searchInput.value.toLowerCase().trim();
-        const groups = groupByCategory(tools);
-        const sorted = Object.keys(groups).sort();
-        container.innerHTML = '';
-        let totalDisplayed = 0;
+function renderCategories(tools) {
+    if (!tools) return;
+    
+    const searchTerm = searchInput.value.toLowerCase().trim();
+    const groups = groupByCategory(tools);
+    const sorted = Object.keys(groups).sort();
+    container.innerHTML = '';
+    let totalDisplayed = 0;
 
-        sorted.forEach((cat, index) => {
-            let items = groups[cat];
-            if (searchTerm) {
-                items = items.filter(t =>
-                    t.name.toLowerCase().includes(searchTerm) ||
-                    (t.description && t.description.toLowerCase().includes(searchTerm)) ||
-                    (t.tags && t.tags.some(tag => tag.toLowerCase().includes(searchTerm)))
-                );
+    sorted.forEach((cat, index) => {
+        let items = groups[cat];
+        if (searchTerm) {
+            items = items.filter(t =>
+                t.name.toLowerCase().includes(searchTerm) ||
+                (t.description && t.description.toLowerCase().includes(searchTerm)) ||
+                (t.tags && Array.isArray(t.tags) && t.tags.some(tag => tag.toLowerCase().includes(searchTerm)))
+            );
+        }
+        if (items.length === 0) return;
+        totalDisplayed += items.length;
+
+        const block = document.createElement('div');
+        block.className = 'category-block';
+
+        const header = document.createElement('div');
+        header.className = 'category-header';
+        header.innerHTML = `
+            <span class="cat-name">${cat} <span class="badge">${items.length}</span></span>
+            <span class="arrow ${index === 0 && !searchTerm ? 'open' : ''}">▼</span>
+        `;
+
+        const list = document.createElement('div');
+        list.className = `tool-list ${index === 0 && !searchTerm ? 'open' : ''}`;
+
+        items.forEach(tool => {
+            const item = document.createElement('div');
+            item.className = 'tool-item';
+            
+            const faviconHtml = getFaviconHtml(tool.url, tool.name);
+            const description = tool.description ? `<div class="tool-description">${escapeHtml(tool.description)}</div>` : '';
+            
+            // === CORRECTION POUR LES TAGS ===
+            let tagsHtml = '';
+            if (tool.tags && Array.isArray(tool.tags) && tool.tags.length > 0) {
+                tagsHtml = `<div class="tool-tags">${tool.tags.map(tag => `<span class="tag">#${escapeHtml(tag)}</span>`).join('')}</div>`;
             }
-            if (items.length === 0) return;
-            totalDisplayed += items.length;
-
-            const block = document.createElement('div');
-            block.className = 'category-block';
-
-            const header = document.createElement('div');
-            header.className = 'category-header';
-            header.innerHTML = `
-                <span class="cat-name">${cat} <span class="badge">${items.length}</span></span>
-                <span class="arrow ${index === 0 && !searchTerm ? 'open' : ''}">▼</span>
-            `;
-
-            const list = document.createElement('div');
-            list.className = `tool-list ${index === 0 && !searchTerm ? 'open' : ''}`;
-
-            items.forEach(tool => {
-                const item = document.createElement('div');
-                item.className = 'tool-item';
-                
-                const faviconHtml = getFaviconHtml(tool.url, tool.name);
-                const description = tool.description ? `<div class="tool-description">${escapeHtml(tool.description)}</div>` : '';
-                
-                let tagsHtml = '';
-                if (tool.tags && tool.tags.length > 0) {
-                    tagsHtml = `<div class="tool-tags">${tool.tags.map(tag => `<span class="tag">#${escapeHtml(tag)}</span>`).join('')}</div>`;
-                }
-                
-                const trustedBadge = tool.trusted ? `<span class="trusted-badge"><i class="fas fa-check-circle"></i> ${translations[currentLang].trusted_badge}</span>` : '';
-                
-                item.innerHTML = `
-                    <div class="tool-info">
-                        <div class="tool-header">
-                            <span class="name">${faviconHtml} ${escapeHtml(tool.name)}</span>
-                            ${trustedBadge}
-                        </div>
-                        ${description}
-                        ${tagsHtml}
+            // =================================
+            
+            const trustedBadge = tool.trusted ? `<span class="trusted-badge"><i class="fas fa-check-circle"></i> ${translations[currentLang].trusted_badge}</span>` : '';
+            
+            item.innerHTML = `
+                <div class="tool-info">
+                    <div class="tool-header">
+                        <span class="name">${faviconHtml} ${escapeHtml(tool.name)}</span>
+                        ${trustedBadge}
                     </div>
-                    <a href="${safeUrl(tool.url)}" target="_blank" rel="noopener noreferrer" class="go-link">${translations[currentLang].go_button}</a>
-                `;
-                list.appendChild(item);
-            });
-
-            header.addEventListener('click', () => {
-                const isOpen = list.classList.contains('open');
-                list.classList.toggle('open');
-                header.querySelector('.arrow').classList.toggle('open');
-            });
-
-            block.appendChild(header);
-            block.appendChild(list);
-            container.appendChild(block);
+                    ${description}
+                    ${tagsHtml}
+                </div>
+                <a href="${safeUrl(tool.url)}" target="_blank" rel="noopener noreferrer" class="go-link">${translations[currentLang].go_button}</a>
+            `;
+            list.appendChild(item);
         });
 
-        const toolsCountEl = document.getElementById('tools-count');
-        if (toolsCountEl) toolsCountEl.textContent = totalDisplayed;
-    }
+        header.addEventListener('click', () => {
+            const isOpen = list.classList.contains('open');
+            list.classList.toggle('open');
+            header.querySelector('.arrow').classList.toggle('open');
+        });
 
+        block.appendChild(header);
+        block.appendChild(list);
+        container.appendChild(block);
+    });
+
+    const toolsCountEl = document.getElementById('tools-count');
+    if (toolsCountEl) toolsCountEl.textContent = totalDisplayed;
+}
     // ============================================================
     // 10. RENDER AI
     // ============================================================
