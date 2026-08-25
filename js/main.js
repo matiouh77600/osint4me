@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // ============================================================
-    // 1. TRADUCTIONS
+    // 1. TRADUCTIONS.v1.1
     // ============================================================
     const translations = {
         en: {
