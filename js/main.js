@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentLang = 'en';
     let toolsData = [];
-    const DATA_URL = '/osint4me/data/tools.json';
+    const DATA_URL = 'tools.json'; // Modifié pour correspondre à ton chemin
 
     // ============================================================
     // 2. DOM ELEMENTS
@@ -187,7 +187,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ============================================================
-    // 7. RENDER CATEGORIES
+    // 7. FAVICON HELPER
+    // ============================================================
+    function getFaviconHtml(url, name) {
+        if (!url) return '';
+        try {
+            const domain = new URL(url).hostname;
+            const faviconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+            return `<img src="${faviconUrl}" alt="${name}" class="favicon" loading="lazy" onerror="this.style.display='none'" />`;
+        } catch {
+            return '';
+        }
+    }
+
+    // ============================================================
+    // 8. RENDER CATEGORIES (avec favicons)
     // ============================================================
     function groupByCategory(tools) {
         const groups = {};
@@ -234,8 +248,12 @@ document.addEventListener('DOMContentLoaded', () => {
             items.forEach(tool => {
                 const item = document.createElement('div');
                 item.className = 'tool-item';
+                
+                // Récupération du favicon
+                const faviconHtml = getFaviconHtml(tool.url, tool.name);
+                
                 item.innerHTML = `
-                    <span class="name">${tool.name}</span>
+                    <span class="name">${faviconHtml} ${tool.name}</span>
                     <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="go-link">Go</a>
                 `;
                 list.appendChild(item);
@@ -257,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ============================================================
-    // 8. RENDER AI
+    // 9. RENDER AI
     // ============================================================
     function renderAI(tools) {
         const aiTools = tools.filter(t =>
@@ -335,14 +353,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ============================================================
-    // 9. SEARCH
+    // 10. SEARCH
     // ============================================================
     searchInput.addEventListener('input', () => {
         if (window.toolsData) renderCategories(window.toolsData);
     });
 
     // ============================================================
-    // 10. SUGGEST FORM
+    // 11. SUGGEST FORM
     // ============================================================
     function populateSuggestCategories(tools) {
         const select = document.getElementById('suggest-category');
@@ -372,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ============================================================
-    // 11. ADMIN
+    // 12. ADMIN
     // ============================================================
     function populateAdmin(tools) {
         adminTotal.textContent = tools.length;
@@ -447,7 +465,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ============================================================
-    // 12. START
+    // 13. START
     // ============================================================
     setLanguage('en');
     loadTools();
