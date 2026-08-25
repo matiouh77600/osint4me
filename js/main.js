@@ -213,63 +213,87 @@ document.addEventListener('DOMContentLoaded', () => {
         return groups;
     }
 
-    function renderCategories(tools) {
-        const searchTerm = searchInput.value.toLowerCase().trim();
-        const groups = groupByCategory(tools);
-        const sorted = Object.keys(groups).sort();
-        container.innerHTML = '';
-        let totalDisplayed = 0;
+    // ============================================================
+// 8. RENDER CATEGORIES (avec favicons ET descriptions)
+// ============================================================
+function renderCategories(tools) {
+    const searchTerm = searchInput.value.toLowerCase().trim();
+    const groups = groupByCategory(tools);
+    const sorted = Object.keys(groups).sort();
+    container.innerHTML = '';
+    let totalDisplayed = 0;
 
-        sorted.forEach((cat, index) => {
-            let items = groups[cat];
-            // Filtrer par recherche si terme saisi
-            if (searchTerm) {
-                items = items.filter(t =>
-                    t.name.toLowerCase().includes(searchTerm) ||
-                    (t.description && t.description.toLowerCase().includes(searchTerm))
-                );
+    sorted.forEach((cat, index) => {
+        let items = groups[cat];
+        if (searchTerm) {
+            items = items.filter(t =>
+                t.name.toLowerCase().includes(searchTerm) ||
+                (t.description && t.description.toLowerCase().includes(searchTerm))
+            );
+        }
+        if (items.length === 0) return;
+        totalDisplayed += items.length;
+
+        const block = document.createElement('div');
+        block.className = 'category-block';
+
+        const header = document.createElement('div');
+        header.className = 'category-header';
+        header.innerHTML = `
+            <span class="cat-name">${cat} <span class="badge">${items.length}</span></span>
+            <span class="arrow ${index === 0 && !searchTerm ? 'open' : ''}">▼</span>
+        `;
+
+        const list = document.createElement('div');
+        list.className = `tool-list ${index === 0 && !searchTerm ? 'open' : ''}`;
+
+        items.forEach(tool => {
+            const item = document.createElement('div');
+            item.className = 'tool-item';
+            
+            const faviconHtml = getFaviconHtml(tool.url, tool.name);
+            
+            // AJOUT DE LA DESCRIPTION
+            const description = tool.description ? `<div class="tool-description">${tool.description}</div>` : '';
+            
+            // Affichage des tags si présents
+            let tagsHtml = '';
+            if (tool.tags && tool.tags.length > 0) {
+                tagsHtml = `<div class="tool-tags">${tool.tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}</div>`;
             }
-            if (items.length === 0) return;
-            totalDisplayed += items.length;
-
-            const block = document.createElement('div');
-            block.className = 'category-block';
-
-            const header = document.createElement('div');
-            header.className = 'category-header';
-            header.innerHTML = `
-                <span class="cat-name">${cat} <span class="badge">${items.length}</span></span>
-                <span class="arrow ${index === 0 && !searchTerm ? 'open' : ''}">▼</span>
+            
+            // Badge "Approuvé" si trusted
+            const trustedBadge = tool.trusted ? `<span class="trusted-badge"><i class="fas fa-check-circle"></i> Approuvé</span>` : '';
+            
+            item.innerHTML = `
+                <div class="tool-info">
+                    <div class="tool-header">
+                        <span class="name">${faviconHtml} ${tool.name}</span>
+                        ${trustedBadge}
+                    </div>
+                    ${description}
+                    ${tagsHtml}
+                </div>
+                <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="go-link">Go</a>
             `;
-
-            const list = document.createElement('div');
-            list.className = `tool-list ${index === 0 && !searchTerm ? 'open' : ''}`;
-
-            items.forEach(tool => {
-                const item = document.createElement('div');
-                item.className = 'tool-item';
-                
-                // Récupération du favicon
-                const faviconHtml = getFaviconHtml(tool.url, tool.name);
-                
-                item.innerHTML = `
-                    <span class="name">${faviconHtml} ${tool.name}</span>
-                    <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="go-link">Go</a>
-                `;
-                list.appendChild(item);
-            });
-
-            header.addEventListener('click', () => {
-                const isOpen = list.classList.contains('open');
-                list.classList.toggle('open');
-                header.querySelector('.arrow').classList.toggle('open');
-            });
-
-            block.appendChild(header);
-            block.appendChild(list);
-            container.appendChild(block);
+            list.appendChild(item);
         });
 
+        header.addEventListener('click', () => {
+            const isOpen = list.classList.contains('open');
+            list.classList.toggle('open');
+            header.querySelector('.arrow').classList.toggle('open');
+        });
+
+        block.appendChild(header);
+        block.appendChild(list);
+        container.appendChild(block);
+    });
+
+    document.getElementById('tools-count').textContent = totalDisplayed;
+}
+
+          
         // Mise à jour du compteur
         document.getElementById('tools-count').textContent = totalDisplayed;
     }
