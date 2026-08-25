@@ -541,6 +541,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // ============================================================
     // 14. START
     // ============================================================
-    setLanguage('en');
+    setLanguage('fr');
     loadTools();
 });
