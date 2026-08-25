@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentLang = 'en';
     let toolsData = [];
-    const DATA_URL = '/osint4me/data/tools.json';
+    const DATA_URL = './data/tools.json';
 
     // ============================================================
     // 2. DOM ELEMENTS
