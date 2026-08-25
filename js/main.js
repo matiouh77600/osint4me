@@ -636,4 +636,9 @@ function renderCategories(tools) {
     // ============================================================
     setLanguage('fr');
     loadTools();
+
+// === AJOUTE CES LIGNES POUR LE DÉBOGAGE ===
+window.setLanguage = setLanguage;
+window.translations = translations;
+console.log('✅ Site chargé - Utilise setLanguage("en") ou setLanguage("fr")');
 });
