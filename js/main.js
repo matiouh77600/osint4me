@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentLang = 'en';
     let toolsData = [];
-    const DATA_URL = './data/tools.json'; // Modifié pour correspondre à ton chemin
+    const DATA_URL = './tools.json'; // Modifie selon l'emplacement de ton tools.json
 
     // ============================================================
     // 2. DOM ELEMENTS
@@ -104,7 +104,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateVisitorCount() {
         let count = parseInt(localStorage.getItem('osint4me_visitors') || '0') + 1;
         localStorage.setItem('osint4me_visitors', count.toString());
-        document.getElementById('visitor-count').textContent = count;
+        const visitorEl = document.getElementById('visitor-count');
+        if (visitorEl) visitorEl.textContent = count;
     }
     updateVisitorCount();
 
@@ -125,9 +126,10 @@ document.addEventListener('DOMContentLoaded', () => {
             navBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             Object.keys(pages).forEach(key => {
-                pages[key].classList.toggle('active', key === page);
+                if (pages[key]) {
+                    pages[key].classList.toggle('active', key === page);
+                }
             });
-            // Focus sur la recherche si page home
             if (page === 'home') setTimeout(() => searchInput.focus(), 100);
         });
     });
@@ -168,21 +170,41 @@ document.addEventListener('DOMContentLoaded', () => {
     // ============================================================
     async function loadTools() {
         try {
+            console.log('📁 Chargement depuis:', DATA_URL);
             const response = await fetch(DATA_URL);
-            if (!response.ok) throw new Error('File not found');
+            if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+            
             toolsData = await response.json();
+            console.log('✅ Données chargées:', toolsData.length, 'outils');
+            
             window.toolsData = toolsData;
-            document.getElementById('tools-count').textContent = toolsData.length;
+            
+            const toolsCountEl = document.getElementById('tools-count');
+            if (toolsCountEl) toolsCountEl.textContent = toolsData.length;
+            
             renderCategories(toolsData);
             renderAI(toolsData);
             populateSuggestCategories(toolsData);
             populateAdmin(toolsData);
-            document.getElementById('update-date').textContent =
-                new Date().toLocaleDateString(currentLang === 'fr' ? 'fr-FR' : 'en-US', {
-                    day: 'numeric', month: 'long', year: 'numeric'
-                });
+            
+            const updateDateEl = document.getElementById('update-date');
+            if (updateDateEl) {
+                updateDateEl.textContent = new Date().toLocaleDateString(
+                    currentLang === 'fr' ? 'fr-FR' : 'en-US', {
+                        day: 'numeric', month: 'long', year: 'numeric'
+                    }
+                );
+            }
         } catch (error) {
-            container.innerHTML = `<p style="color:#ef4444;text-align:center;padding:40px 0;">❌ Error loading data.</p>`;
+            console.error('❌ Erreur:', error);
+            if (container) {
+                container.innerHTML = `
+                    <p style="color:#ef4444;text-align:center;padding:40px 0;">
+                        ❌ Error loading data.<br>
+                        <small style="color:var(--text-muted);">${error.message}</small>
+                    </p>
+                `;
+            }
         }
     }
 
@@ -201,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ============================================================
-    // 8. RENDER CATEGORIES (avec favicons)
+    // 8. RENDER CATEGORIES (avec favicons ET descriptions)
     // ============================================================
     function groupByCategory(tools) {
         const groups = {};
@@ -213,95 +235,89 @@ document.addEventListener('DOMContentLoaded', () => {
         return groups;
     }
 
-    // ============================================================
-// 8. RENDER CATEGORIES (avec favicons ET descriptions)
-// ============================================================
-function renderCategories(tools) {
-    const searchTerm = searchInput.value.toLowerCase().trim();
-    const groups = groupByCategory(tools);
-    const sorted = Object.keys(groups).sort();
-    container.innerHTML = '';
-    let totalDisplayed = 0;
+    function renderCategories(tools) {
+        if (!tools) return;
+        
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        const groups = groupByCategory(tools);
+        const sorted = Object.keys(groups).sort();
+        container.innerHTML = '';
+        let totalDisplayed = 0;
 
-    sorted.forEach((cat, index) => {
-        let items = groups[cat];
-        if (searchTerm) {
-            items = items.filter(t =>
-                t.name.toLowerCase().includes(searchTerm) ||
-                (t.description && t.description.toLowerCase().includes(searchTerm))
-            );
-        }
-        if (items.length === 0) return;
-        totalDisplayed += items.length;
-
-        const block = document.createElement('div');
-        block.className = 'category-block';
-
-        const header = document.createElement('div');
-        header.className = 'category-header';
-        header.innerHTML = `
-            <span class="cat-name">${cat} <span class="badge">${items.length}</span></span>
-            <span class="arrow ${index === 0 && !searchTerm ? 'open' : ''}">▼</span>
-        `;
-
-        const list = document.createElement('div');
-        list.className = `tool-list ${index === 0 && !searchTerm ? 'open' : ''}`;
-
-        items.forEach(tool => {
-            const item = document.createElement('div');
-            item.className = 'tool-item';
-            
-            const faviconHtml = getFaviconHtml(tool.url, tool.name);
-            
-            // AJOUT DE LA DESCRIPTION
-            const description = tool.description ? `<div class="tool-description">${tool.description}</div>` : '';
-            
-            // Affichage des tags si présents
-            let tagsHtml = '';
-            if (tool.tags && tool.tags.length > 0) {
-                tagsHtml = `<div class="tool-tags">${tool.tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}</div>`;
+        sorted.forEach((cat, index) => {
+            let items = groups[cat];
+            if (searchTerm) {
+                items = items.filter(t =>
+                    t.name.toLowerCase().includes(searchTerm) ||
+                    (t.description && t.description.toLowerCase().includes(searchTerm)) ||
+                    (t.tags && t.tags.some(tag => tag.toLowerCase().includes(searchTerm)))
+                );
             }
-            
-            // Badge "Approuvé" si trusted
-            const trustedBadge = tool.trusted ? `<span class="trusted-badge"><i class="fas fa-check-circle"></i> Approuvé</span>` : '';
-            
-            item.innerHTML = `
-                <div class="tool-info">
-                    <div class="tool-header">
-                        <span class="name">${faviconHtml} ${tool.name}</span>
-                        ${trustedBadge}
-                    </div>
-                    ${description}
-                    ${tagsHtml}
-                </div>
-                <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="go-link">Go</a>
+            if (items.length === 0) return;
+            totalDisplayed += items.length;
+
+            const block = document.createElement('div');
+            block.className = 'category-block';
+
+            const header = document.createElement('div');
+            header.className = 'category-header';
+            header.innerHTML = `
+                <span class="cat-name">${cat} <span class="badge">${items.length}</span></span>
+                <span class="arrow ${index === 0 && !searchTerm ? 'open' : ''}">▼</span>
             `;
-            list.appendChild(item);
+
+            const list = document.createElement('div');
+            list.className = `tool-list ${index === 0 && !searchTerm ? 'open' : ''}`;
+
+            items.forEach(tool => {
+                const item = document.createElement('div');
+                item.className = 'tool-item';
+                
+                const faviconHtml = getFaviconHtml(tool.url, tool.name);
+                const description = tool.description ? `<div class="tool-description">${escapeHtml(tool.description)}</div>` : '';
+                
+                let tagsHtml = '';
+                if (tool.tags && tool.tags.length > 0) {
+                    tagsHtml = `<div class="tool-tags">${tool.tags.map(tag => `<span class="tag">#${escapeHtml(tag)}</span>`).join('')}</div>`;
+                }
+                
+                const trustedBadge = tool.trusted ? `<span class="trusted-badge"><i class="fas fa-check-circle"></i> Approuvé</span>` : '';
+                
+                item.innerHTML = `
+                    <div class="tool-info">
+                        <div class="tool-header">
+                            <span class="name">${faviconHtml} ${escapeHtml(tool.name)}</span>
+                            ${trustedBadge}
+                        </div>
+                        ${description}
+                        ${tagsHtml}
+                    </div>
+                    <a href="${safeUrl(tool.url)}" target="_blank" rel="noopener noreferrer" class="go-link">Go</a>
+                `;
+                list.appendChild(item);
+            });
+
+            header.addEventListener('click', () => {
+                const isOpen = list.classList.contains('open');
+                list.classList.toggle('open');
+                header.querySelector('.arrow').classList.toggle('open');
+            });
+
+            block.appendChild(header);
+            block.appendChild(list);
+            container.appendChild(block);
         });
 
-        header.addEventListener('click', () => {
-            const isOpen = list.classList.contains('open');
-            list.classList.toggle('open');
-            header.querySelector('.arrow').classList.toggle('open');
-        });
-
-        block.appendChild(header);
-        block.appendChild(list);
-        container.appendChild(block);
-    });
-
-    document.getElementById('tools-count').textContent = totalDisplayed;
-}
-
-          
-        // Mise à jour du compteur
-        document.getElementById('tools-count').textContent = totalDisplayed;
+        const toolsCountEl = document.getElementById('tools-count');
+        if (toolsCountEl) toolsCountEl.textContent = totalDisplayed;
     }
 
     // ============================================================
     // 9. RENDER AI
     // ============================================================
     function renderAI(tools) {
+        if (!tools) return;
+        
         const aiTools = tools.filter(t =>
             t.category && (t.category.toLowerCase().includes('ia') ||
                 t.category.toLowerCase().includes('intelligence') ||
@@ -364,10 +380,10 @@ function renderCategories(tools) {
                 card.className = 'ai-card';
                 card.innerHTML = `
                     <div class="ai-icon">${roleIcons[role] || '🤖'}</div>
-                    <h3>${tool.name}</h3>
+                    <h3>${escapeHtml(tool.name)}</h3>
                     <div class="ai-role">${role}</div>
-                    ${tool.description ? `<div class="ai-desc">${tool.description}</div>` : ''}
-                    <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="go-link">Go</a>
+                    ${tool.description ? `<div class="ai-desc">${escapeHtml(tool.description)}</div>` : ''}
+                    <a href="${safeUrl(tool.url)}" target="_blank" rel="noopener noreferrer" class="go-link">Go</a>
                 `;
                 grid.appendChild(card);
             });
@@ -383,11 +399,21 @@ function renderCategories(tools) {
         if (window.toolsData) renderCategories(window.toolsData);
     });
 
+    // Raccourci clavier Ctrl+K pour focus recherche
+    document.addEventListener('keydown', (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+            e.preventDefault();
+            searchInput.focus();
+        }
+    });
+
     // ============================================================
     // 11. SUGGEST FORM
     // ============================================================
     function populateSuggestCategories(tools) {
+        if (!tools) return;
         const select = document.getElementById('suggest-category');
+        if (!select) return;
         const cats = [...new Set(tools.map(t => t.category))].sort();
         cats.forEach(cat => {
             const opt = document.createElement('option');
@@ -417,6 +443,7 @@ function renderCategories(tools) {
     // 12. ADMIN
     // ============================================================
     function populateAdmin(tools) {
+        if (!tools) return;
         adminTotal.textContent = tools.length;
         const cats = [...new Set(tools.map(t => t.category))].filter(Boolean);
         adminCategories.textContent = cats.length;
@@ -489,7 +516,30 @@ function renderCategories(tools) {
     });
 
     // ============================================================
-    // 13. START
+    // 13. UTILITAIRES
+    // ============================================================
+    function escapeHtml(value) {
+        return String(value ?? '')
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
+
+    function safeUrl(value) {
+        if (!value) return '#';
+        try {
+            const url = new URL(value, window.location.href);
+            if (url.protocol === 'http:' || url.protocol === 'https:') {
+                return url.href;
+            }
+        } catch {}
+        return '#';
+    }
+
+    // ============================================================
+    // 14. START
     // ============================================================
     setLanguage('en');
     loadTools();
