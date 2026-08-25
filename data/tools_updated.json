@@ -1,0 +1,1001 @@
+[
+  {
+    "Intelligence_Artificial": {
+      "assistants_textuels_et_recherche": [
+        {
+          "name": "ChatGPT",
+          "url": "https://chat.openai.com/",
+          "category": "Polyvalent, référence rédaction"
+        },
+        {
+          "name": "Claude",
+          "url": "https://claude.ai/",
+          "category": "Excellence analyse longs documents"
+        },
+        {
+          "name": "Gemini",
+          "url": "https://gemini.google.com/",
+          "category": "Intégré écosystème Google, gros contexte"
+        },
+        {
+          "name": "Mistral Le Chat",
+          "url": "https://chat.mistral.ai/",
+          "category": "IA française souveraine"
+        },
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/",
+          "category": "Recherche avec sources citées"
+        },
+        {
+          "name": "DeepSeek",
+          "url": "https://chat.deepseek.com/",
+          "category": "Open source, illimité, code"
+        }
+      ],
+      "generation_images_et_video": [
+        {
+          "name": "ChatGPT Images",
+          "url": "https://chat.openai.com/",
+          "category": "Résolution 2K (intégré à ChatGPT)"
+        },
+        {
+          "name": "Leonardo AI",
+          "url": "https://leonardo.ai/",
+          "category": "Contrôle style avancé"
+        },
+        {
+          "name": "Bing Image Creator",
+          "url": "https://www.bing.com/create",
+          "category": "Gratuit, basé DALL-E"
+        },
+        {
+          "name": "Veo 3.1",
+          "url": "Disponible via Google AI Studio",
+          "category": "Vidéo audio synchronisé"
+        },
+        {
+          "name": "Runway",
+          "url": "https://app.runwayml.com/",
+          "category": "Standard professionnel vidéo"
+        }
+      ],
+      "developpement_et_productivite": [
+        {
+          "name": "GitHub Copilot",
+          "url": "Intégré à VS Code",
+          "category": "2 000 complétions/mois gratuites"
+        },
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/",
+          "category": "Éditeur IA-natif, plan Hobby gratuit"
+        },
+        {
+          "name": "NotebookLM",
+          "url": "https://notebooklm.google.com/",
+          "category": "Analyse documents, podcasts"
+        },
+        {
+          "name": "DeepL",
+          "url": "https://www.deepl.com/",
+          "category": "Traduction précise"
+        },
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com/",
+          "category": "IA locale, gratuite et illimitée"
+        },
+        {
+          "name": "Onlinesim.net",
+          "url": "https://onlinesim.net/",
+          "category": "Phone & SMS"
+        },
+        {
+          "name": "DoNotPay",
+          "url": "https://donotpay.com/learn/temporary-phone-number/",
+          "category": "Phone & SMS"
+        },
+        {
+          "name": "VoIP Guide: VoIPSuite",
+          "url": "https://inteltechniques.com/voip.suite.html",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Twilio CLI Guide",
+          "url": "https://inteltechniques.com/voip.twilio.cli.html",
+          "category": "Phone & SMS"
+        },
+        {
+          "name": "10minutemail.com",
+          "url": "https://10minutemail.com/",
+          "category": "Email"
+        },
+        {
+          "name": "AnonAddy",
+          "url": "https://anonaddy.com/",
+          "category": "Email"
+        },
+        {
+          "name": "SimpleLogin",
+          "url": "https://simplelogin.io/",
+          "category": "Email"
+        },
+        {
+          "name": "MailDrop",
+          "url": "https://maildrop.cc/",
+          "category": "Email"
+        },
+        {
+          "name": "Send text free",
+          "url": "https://globfone.com/send-text/",
+          "category": "Phone & SMS"
+        },
+        {
+          "name": "SendaText",
+          "url": "https://www.sendatext.co/",
+          "category": "Phone & SMS"
+        },
+        {
+          "name": "Free Fax",
+          "url": "https://faxzero.com/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "Receive SMS Online",
+          "url": "https://hs3x.com/",
+          "category": "Phone & SMS"
+        },
+        {
+          "name": "Receive SMS Online for FREE",
+          "url": "http://freesmsverification.com/",
+          "category": "Phone & SMS"
+        },
+        {
+          "name": "Smstome.com",
+          "url": "https://smstome.com/",
+          "category": "Phone & SMS"
+        },
+        {
+          "name": "Amazon SNS",
+          "url": "https://aws.amazon.com/sns/",
+          "category": "Phone & SMS"
+        },
+        {
+          "name": "Twilio",
+          "url": "https://www.twilio.com/",
+          "category": "Phone & SMS"
+        },
+        {
+          "name": "One-time Mobile by @OsintStash",
+          "url": "https://threader.app/thread/1199785692274077696",
+          "category": "Phone & SMS"
+        },
+        {
+          "name": "Username Generator",
+          "url": "https://www.lastpass.com/features/username-generator",
+          "category": "Usernames"
+        },
+        {
+          "name": "Fake Name Generator",
+          "url": "https://www.fakenamegenerator.com/",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Resume Generator",
+          "url": "https://thisresumedoesnotexist.com/",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "International Name Generator",
+          "url": "https://www.behindthename.com/random/",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Windows Phone IMEI Generator",
+          "url": "https://wpimeigenerator.github.io/",
+          "category": "Phone & SMS"
+        },
+        {
+          "name": "IMEI Number Generator",
+          "url": "https://dyrk.org/tools/imei/",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "US SSN / Driver License / State ID / Passport / Ta",
+          "url": "https://www.elfqrin.com/usssndriverlicenseidgen.php",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Washington State Driver's License Generator",
+          "url": "https://mmarvick.github.io/wa-drivers-license/",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Fake Drivers License Generator",
+          "url": "https://fakeinfo.net/drivers-license-generator",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "This Rental Does Not Exist",
+          "url": "https://thisrentaldoesnotexist.com/",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Face Photo Generator",
+          "url": "https://thispersondoesnotexist.com/",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Random Face Generator",
+          "url": "https://fakeinfo.net/random-face-generator",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Credit Card Generator",
+          "url": "https://www.fakenamegenerator.com/credit-card-validator.php",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "PIC/CIC Code Database",
+          "url": "https://www.allredtech.com/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "SIN Generator",
+          "url": "https://www.fakenamegenerator.com/social-insurance-number.php",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "ABA Generator",
+          "url": "https://www.fakenamegenerator.com/aba-validator.php",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "VIN Generator",
+          "url": "https://www.fakenamegenerator.com/vehicle-identification-number.php",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "NINO Generator",
+          "url": "https://www.fakenamegenerator.com/national-insurance-number.php",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "SSN Generator",
+          "url": "https://www.fakenamegenerator.com/social-security-number.php",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "IID Generator by Georgy Bunin",
+          "url": "https://georgybu.github.io/IID_Generator/",
+          "category": "Maps & Geolocation"
+        },
+        {
+          "name": "GUID/UUID and short GUID generator",
+          "url": "https://richardkundl.github.io/shortguid/",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Nano ID CC",
+          "url": "https://zelark.github.io/nano-id-cc/",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Generate SA ID Numbers",
+          "url": "https://chris927.github.io/generate-sa-idnumbers/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "Decoding Social Security Numbers",
+          "url": "https://stevemorse.org/ssn/ssn.html",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Encoding and Decoding Driver's License Numbers",
+          "url": "https://stevemorse.org/dl/dl.html",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Dating Profile Generator",
+          "url": "https://www.dating-profile-generator.org.uk/",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Fake Identity ID Random Name Generator",
+          "url": "https://www.elfqrin.com/fakeid.php",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Fake Company Name Generator",
+          "url": "https://fakeinfo.net/company-name-generator",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Twitter Profile Generator",
+          "url": "https://fakeinfo.net/fake-twitter-profile-generator",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Fake Tiktok Profile Generator",
+          "url": "https://fakeinfo.net/fake-tiktok-profile-gererator",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Fake Youtube Channel Generator",
+          "url": "https://fakeinfo.net/fake-youtube-channel-generator",
+          "category": "Social Media & SOCMINT"
+        },
+        {
+          "name": "Resume Builder",
+          "url": "https://vinaysomawat.github.io/Resume-Builder/",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Fake Generator Tools",
+          "url": "https://fauxid.com/tools",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Kasm",
+          "url": "https://kasmweb.com/",
+          "category": "Utilities & Miscellaneous"
+        },
+        {
+          "name": "Bluestacks",
+          "url": "https://www.bluestacks.com/",
+          "category": "Utilities & Miscellaneous"
+        },
+        {
+          "name": "Genymotion",
+          "url": "https://www.genymotion.com/",
+          "category": "Utilities & Miscellaneous"
+        },
+        {
+          "name": "PrimeOS",
+          "url": "https://www.primeos.in/",
+          "category": "Utilities & Miscellaneous"
+        },
+        {
+          "name": "BigNox",
+          "url": "https://www.bignox.com/",
+          "category": "Utilities & Miscellaneous"
+        },
+        {
+          "name": "Memuplay.com",
+          "url": "https://www.memuplay.com/",
+          "category": "Utilities & Miscellaneous"
+        },
+        {
+          "name": "Ldplayer.net",
+          "url": "https://www.ldplayer.net/",
+          "category": "Utilities & Miscellaneous"
+        },
+        {
+          "name": "unfurl",
+          "url": "https://dfir.blog/unfurl/",
+          "category": "Web, Domains & Network"
+        },
+        {
+          "name": "Wolfram|Alpha",
+          "url": "https://www.wolframalpha.com/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "Cryptpad.fr",
+          "url": "https://cryptpad.fr/",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "Recontool.org",
+          "url": "https://recontool.org/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "MindMup 2",
+          "url": "https://app.mindmup.com/map/new",
+          "category": "Maps & Geolocation"
+        },
+        {
+          "name": "Dotspotter",
+          "url": "https://www.forensicdots.de/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "Encrypted Pastebin",
+          "url": "https://defuse.ca/pastebin.htm",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "PrivateBin",
+          "url": "https://privatebin.net/",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "Bin.disroot.org",
+          "url": "https://bin.disroot.org/",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "Framadrop",
+          "url": "https://framadrop.org/en/",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "Pad.riseup.net",
+          "url": "https://pad.riseup.net/",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "EtherCalc",
+          "url": "https://ethercalc.net/",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "Proofread Bot",
+          "url": "https://proofreadbot.com/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "Write.as",
+          "url": "https://write.as/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "Cryptee",
+          "url": "https://crypt.ee/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "dudle",
+          "url": "https://dudle.inf.tu-dresden.de/anonymous/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "Airborn.io",
+          "url": "https://www.airborn.io/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "ZOOM URL Generator",
+          "url": "https://skyzh.github.io/zoom-url-generator/",
+          "category": "Utilities & Miscellaneous"
+        },
+        {
+          "name": "Tor2web",
+          "url": "https://www.tor2web.org/",
+          "category": "Privacy, OPSEC & Secure Communications"
+        },
+        {
+          "name": "archive.is",
+          "url": "https://archive.is/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "Wayback Machine",
+          "url": "https://web.archive.org/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "waybackpy",
+          "url": "https://pypi.org/project/waybackpy/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "CachedPages",
+          "url": "http://www.cachedpages.com/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "Google Cached Pages of Any Website",
+          "url": "https://cachedview.com/",
+          "category": "Web, Domains & Network"
+        },
+        {
+          "name": "Oldweb.today",
+          "url": "http://oldweb.today/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "Unpaywall",
+          "url": "https://unpaywall.org/products/extension",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "DeepL",
+          "url": "https://www.deepl.com/translator",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "Project CSV",
+          "url": "https://projectcsv.github.io/",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "CSV to HTML",
+          "url": "https://codepen.io/RYJASM/pen/LVEWgV",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "Monaco Editor",
+          "url": "https://microsoft.github.io/monaco-editor/playground.html",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "Online FlowChart Editor",
+          "url": "https://mermaid-js.github.io/mermaid-live-editor/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "Markdown Editor",
+          "url": "https://markdown-editor.github.io/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "SQL Editor",
+          "url": "https://www.mycompiler.io/new/sql",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "SQLite Viewer",
+          "url": "https://inloop.github.io/sqlite-viewer/",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "OCR Text Extractor",
+          "url": "https://osint.sh/ocr/",
+          "category": "OSINT Resources & Training"
+        },
+        {
+          "name": "Wetranscriber",
+          "url": "https://www.wetranscriber.com/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "Tophonetics.com",
+          "url": "https://tophonetics.com/",
+          "category": "Phone & SMS"
+        },
+        {
+          "name": "Google Translate",
+          "url": "https://translate.google.com/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "Multi Translate",
+          "url": "https://translate.mix.pink/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "Yandex.Translate",
+          "url": "https://translate.yandex.com/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "Bing Microsoft Translator",
+          "url": "https://www.bing.com/translator",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "Reverso",
+          "url": "https://www.reverso.net/text_translation.aspx?lang=EN",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "Translate",
+          "url": "https://www.translatedict.com/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "text to speech online",
+          "url": "https://www.naturalreaders.com/online/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "TTSReader",
+          "url": "https://ttsreader.com/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "Online Sequencer",
+          "url": "https://onlinesequencer.net/",
+          "category": "Utilities & Miscellaneous"
+        },
+        {
+          "name": "FetchRSS",
+          "url": "https://fetchrss.com/",
+          "category": "Utilities & Miscellaneous"
+        },
+        {
+          "name": "Sci-hub",
+          "url": "https://sci-hub.st/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "Libgen.fun",
+          "url": "https://libgen.fun/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "Z-lib.org",
+          "url": "https://z-lib.org/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "PDF Drive",
+          "url": "https://www.pdfdrive.com/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "arXiv.org",
+          "url": "https://arxiv.org/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "bioRxiv.org",
+          "url": "https://www.biorxiv.org/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "Trantor.is",
+          "url": "https://trantor.is/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "Shadowlibraries.github.io",
+          "url": "https://shadowlibraries.github.io/",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "Editor.typely.com",
+          "url": "https://editor.typely.com/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "MEGA",
+          "url": "https://mega.io/",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "transfer.sh",
+          "url": "https://transfer.sh/",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "Send",
+          "url": "https://send.actionsack.com/",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "Keep.sh",
+          "url": "https://keep.sh/",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "Upload | Disroot",
+          "url": "https://disroot.org/en/services/upload",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "BlackHole",
+          "url": "https://blackhole.run/",
+          "category": "Files, Documents & Collaboration"
+        },
+        {
+          "name": "CyberChef",
+          "url": "https://gchq.github.io/CyberChef/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "mitaka",
+          "url": "https://github.com/ninoseki/mitaka",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Frack",
+          "url": "https://github.com/sensepost/Frack",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "pywhat",
+          "url": "https://pypi.org/project/pywhat/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "theHarvester",
+          "url": "https://pypi.org/project/theHarvester/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "Online Tools",
+          "url": "https://emn178.github.io/online-tools/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "Graphviz Online",
+          "url": "https://dreampuf.github.io/GraphvizOnline/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "CodePen",
+          "url": "https://codepen.io/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "Diceware Generator",
+          "url": "https://www.rempe.us/diceware/#eff",
+          "category": "Utilities & Miscellaneous"
+        },
+        {
+          "name": "Checkphish.ai",
+          "url": "https://checkphish.ai/",
+          "category": "Web, Domains & Network"
+        },
+        {
+          "name": "x86 and x64 Intel Assembler",
+          "url": "https://defuse.ca/online-x86-assembler.htm",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "Big Number Calculator",
+          "url": "https://defuse.ca/big-number-calculator.htm",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "Text and File Hash Calculator",
+          "url": "https://defuse.ca/checksums.htm",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "HTML Sanitizer Tool",
+          "url": "https://defuse.ca/html-sanitize.htm",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "URL Decoder/Encoder",
+          "url": "https://meyerweb.com/eric/tools/dencoder/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "ODA - The Online Disassembler",
+          "url": "https://onlinedisassembler.com/odaweb/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "Disasm.pro",
+          "url": "https://disasm.pro/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "Fotor",
+          "url": "https://www.fotor.com/photo-editor-app/editor/basic",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "Decompiler.com",
+          "url": "http://www.decompiler.com/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "Google Colaboratory",
+          "url": "https://colab.research.google.com/notebooks/intro.ipynb",
+          "category": "Archives, Libraries & Research"
+        },
+        {
+          "name": "Compiler Explorer",
+          "url": "https://godbolt.org/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "HTML editor",
+          "url": "https://onlinehtmleditor.dev/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "Online Color Picker",
+          "url": "https://colorpicker.me/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "Convert text to image file",
+          "url": "https://text2image.com/en/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "relational algebra calculator",
+          "url": "https://dbis-uibk.github.io/relax/calc/local/uibk/local/0",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "Data Structure : Infix Postfix Prefix - Converter ",
+          "url": "https://raj457036.github.io/Simple-Tools/prefixAndPostfixConvertor.html",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "RSA encryption, decryption and prime calculator",
+          "url": "https://canihavesomecoffee.github.io/js-rsa-tool/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "Tools.digitalmethods.net",
+          "url": "https://tools.digitalmethods.net/beta/searchEngineScraper/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "Steganography Online",
+          "url": "https://stylesuxx.github.io/steganography/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "Torrent to Magnet",
+          "url": "https://nutbread.github.io/t2m/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "Anonymous YouTube Playlists",
+          "url": "https://neverducky.github.io/anonymous-youtube-playlists/",
+          "category": "Social Media & SOCMINT"
+        },
+        {
+          "name": "Vega Editor",
+          "url": "https://vega.github.io/editor/#/",
+          "category": "Text, Language & OCR"
+        },
+        {
+          "name": "DISA Code Template Generator",
+          "url": "https://duncanford.github.io/disa-code-generator",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "Canary Tokens",
+          "url": "http://canarytokens.org/generate",
+          "category": "Threat Intelligence & Cybersecurity"
+        },
+        {
+          "name": "explainshell.com",
+          "url": "https://explainshell.com/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "Google Colaboratory",
+          "url": "https://colab.research.google.com/",
+          "category": "Technical & Developer Tools"
+        },
+        {
+          "name": "osint-cli-tool-skeleton",
+          "url": "https://pypi.org/project/osint-cli-tool-skeleton/",
+          "category": "OSINT Resources & Training"
+        },
+        {
+          "name": "CrackStation",
+          "url": "https://crackstation.net/",
+          "category": "Cryptography, Hashes & Crypto"
+        },
+        {
+          "name": "Hashmob Community",
+          "url": "https://hashmob.net/search",
+          "category": "Cryptography, Hashes & Crypto"
+        },
+        {
+          "name": "Hashes.com",
+          "url": "https://hashes.com/en/decrypt/hash",
+          "category": "Cryptography, Hashes & Crypto"
+        },
+        {
+          "name": "Online Password Hash Crack",
+          "url": "https://www.onlinehashcrack.com/",
+          "category": "Cryptography, Hashes & Crypto"
+        },
+        {
+          "name": "Md5 Decrypt & Encrypt",
+          "url": "https://md5decrypt.net/en/",
+          "category": "Cryptography, Hashes & Crypto"
+        },
+        {
+          "name": "MD5 reverse lookup",
+          "url": "https://md5.gromweb.com/",
+          "category": "Cryptography, Hashes & Crypto"
+        },
+        {
+          "name": "Ultimate Hashing",
+          "url": "https://md5hashing.net/",
+          "category": "Cryptography, Hashes & Crypto"
+        },
+        {
+          "name": "Hashes.org",
+          "url": "https://hashes.org/search.php",
+          "category": "Cryptography, Hashes & Crypto"
+        },
+        {
+          "name": "Media-downloader.net",
+          "url": "https://media-downloader.net/",
+          "category": "Media, Images & Metadata"
+        },
+        {
+          "name": "Imgur Album Downloader",
+          "url": "https://dschep.github.io/imgur-album-downloader/#/",
+          "category": "Media, Images & Metadata"
+        },
+        {
+          "name": "Export Comments",
+          "url": "https://exportcomments.com/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "Image Extractor",
+          "url": "https://extract.pics/",
+          "category": "Media, Images & Metadata"
+        },
+        {
+          "name": "Loader.to",
+          "url": "https://loader.to/",
+          "category": "Media, Images & Metadata"
+        },
+        {
+          "name": "Commentexporter.com",
+          "url": "https://www.commentexporter.com/",
+          "category": "Media, Images & Metadata"
+        },
+        {
+          "name": "Link Gopher",
+          "url": "https://sites.google.com/site/linkgopher/",
+          "category": "Web, Domains & Network"
+        },
+        {
+          "name": "Page Links Extractor Tool",
+          "url": "https://shadowcrypt.net/tools/pagelinks",
+          "category": "Web, Domains & Network"
+        },
+        {
+          "name": "Online Tool to Extract Links from any Web Page",
+          "url": "https://hackertarget.com/extract-links/",
+          "category": "Web, Domains & Network"
+        },
+        {
+          "name": "Privacy Services by Michael Bazzell",
+          "url": "https://inteltechniques.com/workbook.html",
+          "category": "OSINT Resources & Training"
+        },
+        {
+          "name": "Privacy Guides",
+          "url": "https://privacyguides.org/",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "Surveillance Self-Defense",
+          "url": "https://ssd.eff.org/",
+          "category": "Privacy, OPSEC & Secure Communications"
+        },
+        {
+          "name": "gofoss.net",
+          "url": "https://gofoss.net/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "Consumer Reports Security Planner",
+          "url": "https://securityplanner.consumerreports.org/",
+          "category": "General OSINT & Miscellaneous"
+        },
+        {
+          "name": "Security in a Box",
+          "url": "https://securityinabox.org/en/",
+          "category": "Privacy, OPSEC & Secure Communications"
+        },
+        {
+          "name": "Counter-OSINT guide for Russians",
+          "url": "https://github.com/soxoj/counter-osint-guide-ru",
+          "category": "Identity & Generators"
+        },
+        {
+          "name": "PRISM Break",
+          "url": "https://prism-break.org/en/",
+          "category": "Privacy, OPSEC & Secure Communications"
+        },
+        {
+          "name": "Security First - Umbrella",
+          "url": "https://secfirst.org/umbrella/",
