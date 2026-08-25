@@ -4163,5 +4163,86 @@
     "name": "geoclustering",
     "url": "https://pypi.org/project/geoclustering/",
     "category": "Maps & Geolocation"
-  }
+  },
+{
+ "name": "ChatGPT",
+          "url": "https://chat.openai.com/",
+          "category": "IA : Polyvalent, référence rédaction"
+        },
+        {
+          "name": "Claude",
+          "url": "https://claude.ai/",
+          "category": "IA : Excellence analyse longs documents"
+        },
+        {
+          "name": "Gemini",
+          "url": "https://gemini.google.com/",
+          "category": "IA : Intégré écosystème Google, gros contexte"
+        },
+        {
+          "name": "Mistral Le Chat",
+          "url": "https://chat.mistral.ai/",
+          "category": "IA : française souveraine"
+        },
+        {
+          "name": "Perplexity",
+          "url": "https://www.perplexity.ai/",
+          "category": "IA : Recherche avec sources citées"
+        },
+        {
+          "name": "DeepSeek",
+          "url": "https://chat.deepseek.com/",
+          "category": "IA : Open source, illimité, code"
+        },
+{
+          "name": "ChatGPT Images",
+          "url": "https://chat.openai.com/",
+          "category": "IA : Résolution 2K (intégré à ChatGPT)"
+        },
+        {
+          "name": "Leonardo AI",
+          "url": "https://leonardo.ai/",
+          "category": "IA : Contrôle style avancé"
+        },
+        {
+          "name": "Bing Image Creator",
+          "url": "https://www.bing.com/create",
+          "category": "IA : Gratuit, basé DALL-E"
+        },
+        {
+          "name": "Veo 3.1",
+          "url": "Disponible via Google AI Studio",
+          "category": "IA : Vidéo audio synchronisé"
+        },
+        {
+          "name": "Runway",
+          "url": "https://app.runwayml.com/",
+          "category": "IA : Standard professionnel vidéo"
+        },
+{
+          "name": "GitHub Copilot",
+          "url": "Intégré à VS Code",
+          "category": "IA : 2 000 complétions/mois gratuites"
+        },
+        {
+          "name": "Cursor",
+          "url": "https://cursor.com/",
+          "category": "IA : Éditeur IA-natif, plan Hobby gratuit"
+        },
+        {
+          "name": "NotebookLM",
+          "url": "https://notebooklm.google.com/",
+          "category": "IA : Analyse documents, podcasts"
+        },
+        {
+          "name": "DeepL",
+          "url": "https://www.deepl.com/",
+          "category": "IA : Traduction précise"
+        },
+        {
+          "name": "Ollama",
+          "url": "https://ollama.com/",
+          "category": "IA : locale, gratuite et illimitée"
+        }
+         
 ]
