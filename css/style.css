@@ -724,3 +724,33 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* ===== FAVICONS ===== */
+.tool-item .favicon {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-right: 10px;
+    flex-shrink: 0;
+    background: var(--bg-card);
+    padding: 2px;
+    object-fit: contain;
+    border: 1px solid var(--border-color);
+}
+
+.tool-item .name {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    flex: 1;
+}
+
+/* Fallback si l'icône ne charge pas */
+.tool-item .favicon[style*="display: none"] {
+    display: none !important;
+}
+
+/* Animation douce au chargement */
+.tool-item .favicon {
+    animation: fadeIn 0.3s ease;
+}
