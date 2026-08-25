@@ -87,10 +87,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentLang = 'fr';
     let toolsData = [];
-    const DATA_URL = './data/tools.json';
 
     // ============================================================
-    // 2. DOM ELEMENTS
+    // 2. URL HELPER - Retourne le bon fichier selon la langue
+    // ============================================================
+    function getDataUrl() {
+        return currentLang === 'fr' ? './data/tools_fr.json' : './data/tools_en.json';
+    }
+
+    // ============================================================
+    // 3. DOM ELEMENTS
     // ============================================================
     const container = document.getElementById('categories-container');
     const aiContainer = document.getElementById('ai-container');
@@ -103,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
 
     // ============================================================
-    // 3. VISITOR COUNTER
+    // 4. VISITOR COUNTER
     // ============================================================
     function updateVisitorCount() {
         let count = parseInt(localStorage.getItem('osint4me_visitors') || '0') + 1;
@@ -114,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
     updateVisitorCount();
 
     // ============================================================
-    // 4. NAVIGATION
+    // 5. NAVIGATION
     // ============================================================
     const navBtns = document.querySelectorAll('.nav-btn');
     const pages = {
@@ -139,43 +145,54 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ============================================================
-    // 5. LANGUAGE
+    // 6. LANGUAGE
     // ============================================================
     function setLanguage(lang) {
         currentLang = lang;
         document.documentElement.lang = lang;
+
+        // Mettre à jour les boutons de langue
         document.querySelectorAll('.lang-btn').forEach(btn => {
             btn.classList.toggle('active', btn.dataset.lang === lang);
         });
+
+        // Traduire les textes statiques
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const key = el.dataset.i18n;
             if (translations[lang] && translations[lang][key]) {
                 el.textContent = translations[lang][key];
             }
         });
+
+        // Traduire les placeholders
         document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
             const key = el.dataset.i18nPlaceholder;
             if (translations[lang] && translations[lang][key]) {
                 el.placeholder = translations[lang][key];
             }
         });
-        if (window.toolsData) {
-            renderCategories(window.toolsData);
-            renderAI(window.toolsData);
-        }
+
+        // Recharger les données avec la bonne langue
+        loadTools();
     }
 
+    // Gestionnaires d'événements pour les boutons de langue
     document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            const lang = this.dataset.lang;
+            setLanguage(lang);
+        });
     });
 
     // ============================================================
-    // 6. LOAD DATA
+    // 7. LOAD DATA
     // ============================================================
     async function loadTools() {
         try {
-            console.log('📁 Chargement depuis:', DATA_URL);
-            const response = await fetch(DATA_URL);
+            const url = getDataUrl();
+            console.log('📁 Chargement depuis:', url);
+            const response = await fetch(url);
             if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
             
             toolsData = await response.json();
@@ -213,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ============================================================
-    // 7. FAVICON HELPER
+    // 8. FAVICON HELPER
     // ============================================================
     function getFaviconHtml(url, name) {
         if (!url) return '';
@@ -227,7 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ============================================================
-    // 8. RENDER CATEGORIES
+    // 9. RENDER CATEGORIES
     // ============================================================
     function groupByCategory(tools) {
         const groups = {};
@@ -317,7 +334,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ============================================================
-    // 9. RENDER AI
+    // 10. RENDER AI
     // ============================================================
     function renderAI(tools) {
         if (!tools) return;
@@ -398,7 +415,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ============================================================
-    // 10. SEARCH
+    // 11. SEARCH
     // ============================================================
     searchInput.addEventListener('input', () => {
         if (window.toolsData) renderCategories(window.toolsData);
@@ -412,7 +429,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ============================================================
-    // 11. SUGGEST FORM
+    // 12. SUGGEST FORM
     // ============================================================
     function populateSuggestCategories(tools) {
         if (!tools) return;
@@ -444,7 +461,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ============================================================
-    // 12. ADMIN
+    // 13. ADMIN
     // ============================================================
     function populateAdmin(tools) {
         if (!tools) return;
@@ -520,7 +537,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ============================================================
-    // 13. UTILITAIRES
+    // 14. UTILITAIRES
     // ============================================================
     function escapeHtml(value) {
         return String(value ?? '')
@@ -543,12 +560,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ============================================================
-    // 14. START
+    // 15. START
     // ============================================================
     setLanguage('fr');
-    loadTools();
+    // loadTools() est appelé dans setLanguage()
 
-    // Rendre les fonctions accessibles globalement
+    // Rendre les fonctions accessibles globalement pour le débogage
     window.setLanguage = setLanguage;
     window.translations = translations;
     console.log('✅ OSINT4Me chargé - Utilise setLanguage("en") ou setLanguage("fr")');
