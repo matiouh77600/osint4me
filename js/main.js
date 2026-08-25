@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentLang = 'en';
     let toolsData = [];
-    const DATA_URL = 'tools.json'; // Modifié pour correspondre à ton chemin
+    const DATA_URL = './data/tools.json'; // Modifié pour correspondre à ton chemin
 
     // ============================================================
     // 2. DOM ELEMENTS
