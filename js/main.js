@@ -85,6 +85,51 @@ document.addEventListener('DOMContentLoaded', () => {
     let toolsData = [];
     const DATA_URL = './data/tools.json'; // Modifie selon l'emplacement de ton tools.json
 
+// ============================================================
+// 1.5. FONCTION DE TRADUCTION AUTOMATIQUE
+// ============================================================
+async function translateText(text, targetLang) {
+    // Si la langue cible est le français, pas besoin de traduire
+    if (targetLang === 'fr' || !text) return text;
+    
+    try {
+        // Utiliser l'API Google Translate (gratuite, sans clé)
+        const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=fr&tl=${targetLang}&dt=t&q=${encodeURIComponent(text)}`;
+        const response = await fetch(url);
+        
+        if (!response.ok) throw new Error('Erreur de traduction');
+        
+        const data = await response.json();
+        // Extraire le texte traduit
+        let translated = '';
+        for (let i = 0; i < data[0].length; i++) {
+            translated += data[0][i][0];
+        }
+        return translated || text;
+    } catch (error) {
+        console.warn('Erreur de traduction:', error);
+        return text; // Retourner le texte original en cas d'erreur
+    }
+}
+
+// ============================================================
+// 1.6. CACHE DE TRADUCTION
+// ============================================================
+const translationCache = {};
+
+async function translateWithCache(text, targetLang) {
+    if (targetLang === 'fr' || !text) return text;
+    
+    const cacheKey = `${text}_${targetLang}`;
+    if (translationCache[cacheKey]) {
+        return translationCache[cacheKey];
+    }
+    
+    const translated = await translateText(text, targetLang);
+    translationCache[cacheKey] = translated;
+    return translated;
+}
+    
     // ============================================================
     // 2. DOM ELEMENTS
     // ============================================================
@@ -137,33 +182,35 @@ document.addEventListener('DOMContentLoaded', () => {
     // ============================================================
     // 5. LANGUAGE
     // ============================================================
-    function setLanguage(lang) {
-        currentLang = lang;
-        document.documentElement.lang = lang;
-        document.querySelectorAll('.lang-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.lang === lang);
-        });
-        document.querySelectorAll('[data-i18n]').forEach(el => {
-            const key = el.dataset.i18n;
-            if (translations[lang] && translations[lang][key]) {
-                el.textContent = translations[lang][key];
-            }
-        });
-        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-            const key = el.dataset.i18nPlaceholder;
-            if (translations[lang] && translations[lang][key]) {
-                el.placeholder = translations[lang][key];
-            }
-        });
-        if (window.toolsData) {
-            renderCategories(window.toolsData);
-            renderAI(window.toolsData);
-        }
-    }
-
+  function setLanguage(lang) {
+    currentLang = lang;
+    document.documentElement.lang = lang;
     document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
+        btn.classList.toggle('active', btn.dataset.lang === lang);
     });
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        if (translations[lang] && translations[lang][key]) {
+            el.textContent = translations[lang][key];
+        }
+    });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+        const key = el.dataset.i18nPlaceholder;
+        if (translations[lang] && translations[lang][key]) {
+            el.placeholder = translations[lang][key];
+        }
+    });
+    if (window.toolsData) {
+        // Réinitialiser les traductions en cache pour forcer la retraduction
+        Object.keys(translationCache).forEach(key => {
+            if (key.endsWith(`_${lang}`)) {
+                delete translationCache[key];
+            }
+        });
+        renderCategories(window.toolsData);
+        renderAI(window.toolsData);
+    }
+}
 
     // ============================================================
     // 6. LOAD DATA
@@ -234,163 +281,204 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         return groups;
     }
+function renderCategories(tools) {
+    if (!tools) return;
+    
+    const searchTerm = searchInput.value.toLowerCase().trim();
+    const groups = groupByCategory(tools);
+    const sorted = Object.keys(groups).sort();
+    container.innerHTML = '';
+    let totalDisplayed = 0;
 
-    function renderCategories(tools) {
-        if (!tools) return;
-        
-        const searchTerm = searchInput.value.toLowerCase().trim();
-        const groups = groupByCategory(tools);
-        const sorted = Object.keys(groups).sort();
-        container.innerHTML = '';
-        let totalDisplayed = 0;
+    sorted.forEach((cat, index) => {
+        let items = groups[cat];
+        if (searchTerm) {
+            items = items.filter(t =>
+                t.name.toLowerCase().includes(searchTerm) ||
+                (t.description && t.description.toLowerCase().includes(searchTerm)) ||
+                (t.tags && t.tags.some(tag => tag.toLowerCase().includes(searchTerm)))
+            );
+        }
+        if (items.length === 0) return;
+        totalDisplayed += items.length;
 
-        sorted.forEach((cat, index) => {
-            let items = groups[cat];
-            if (searchTerm) {
-                items = items.filter(t =>
-                    t.name.toLowerCase().includes(searchTerm) ||
-                    (t.description && t.description.toLowerCase().includes(searchTerm)) ||
-                    (t.tags && t.tags.some(tag => tag.toLowerCase().includes(searchTerm)))
-                );
-            }
-            if (items.length === 0) return;
-            totalDisplayed += items.length;
+        const block = document.createElement('div');
+        block.className = 'category-block';
 
-            const block = document.createElement('div');
-            block.className = 'category-block';
+        const header = document.createElement('div');
+        header.className = 'category-header';
+        header.innerHTML = `
+            <span class="cat-name">${cat} <span class="badge">${items.length}</span></span>
+            <span class="arrow ${index === 0 && !searchTerm ? 'open' : ''}">▼</span>
+        `;
 
-            const header = document.createElement('div');
-            header.className = 'category-header';
-            header.innerHTML = `
-                <span class="cat-name">${cat} <span class="badge">${items.length}</span></span>
-                <span class="arrow ${index === 0 && !searchTerm ? 'open' : ''}">▼</span>
-            `;
+        const list = document.createElement('div');
+        list.className = `tool-list ${index === 0 && !searchTerm ? 'open' : ''}`;
 
-            const list = document.createElement('div');
-            list.className = `tool-list ${index === 0 && !searchTerm ? 'open' : ''}`;
-
-            items.forEach(tool => {
-                const item = document.createElement('div');
-                item.className = 'tool-item';
-                
-                const faviconHtml = getFaviconHtml(tool.url, tool.name);
-                const description = tool.description ? `<div class="tool-description">${escapeHtml(tool.description)}</div>` : '';
-                
-                let tagsHtml = '';
-                if (tool.tags && tool.tags.length > 0) {
-                    tagsHtml = `<div class="tool-tags">${tool.tags.map(tag => `<span class="tag">#${escapeHtml(tag)}</span>`).join('')}</div>`;
+        items.forEach(tool => {
+            const item = document.createElement('div');
+            item.className = 'tool-item';
+            
+            const faviconHtml = getFaviconHtml(tool.url, tool.name);
+            
+            // === DESCRIPTION AVEC TRADUCTION AUTO ===
+            let descriptionHtml = '';
+            if (tool.description) {
+                // Si langue = français, afficher direct
+                // Sinon, traduire automatiquement
+                let descriptionText = tool.description;
+                if (currentLang !== 'fr') {
+                    // Utiliser la fonction de traduction avec cache
+                    // On va stocker la traduction dans l'objet tool pour éviter de retraduire
+                    const cacheKey = `desc_${tool.id}_${currentLang}`;
+                    if (!tool._translations) tool._translations = {};
+                    if (!tool._translations[currentLang]) {
+                        // Traduire et stocker
+                        translateWithCache(descriptionText, currentLang).then(translated => {
+                            tool._translations[currentLang] = translated;
+                            // Re-render après traduction
+                            renderCategories(tools);
+                        });
+                        descriptionText = '⏳ Traduction en cours...';
+                    } else {
+                        descriptionText = tool._translations[currentLang];
+                    }
                 }
-                
-                const trustedBadge = tool.trusted ? `<span class="trusted-badge"><i class="fas fa-check-circle"></i> Approuvé</span>` : '';
-                
-                item.innerHTML = `
-                    <div class="tool-info">
-                        <div class="tool-header">
-                            <span class="name">${faviconHtml} ${escapeHtml(tool.name)}</span>
-                            ${trustedBadge}
-                        </div>
-                        ${description}
-                        ${tagsHtml}
+                descriptionHtml = `<div class="tool-description">${escapeHtml(descriptionText)}</div>`;
+            }
+            // ===================================
+            
+            let tagsHtml = '';
+            if (tool.tags && tool.tags.length > 0) {
+                tagsHtml = `<div class="tool-tags">${tool.tags.map(tag => `<span class="tag">#${escapeHtml(tag)}</span>`).join('')}</div>`;
+            }
+            
+            const trustedBadge = tool.trusted ? `<span class="trusted-badge"><i class="fas fa-check-circle"></i> ${translations[currentLang].trusted_badge}</span>` : '';
+            
+            item.innerHTML = `
+                <div class="tool-info">
+                    <div class="tool-header">
+                        <span class="name">${faviconHtml} ${escapeHtml(tool.name)}</span>
+                        ${trustedBadge}
                     </div>
-                    <a href="${safeUrl(tool.url)}" target="_blank" rel="noopener noreferrer" class="go-link">Go</a>
-                `;
-                list.appendChild(item);
-            });
-
-            header.addEventListener('click', () => {
-                const isOpen = list.classList.contains('open');
-                list.classList.toggle('open');
-                header.querySelector('.arrow').classList.toggle('open');
-            });
-
-            block.appendChild(header);
-            block.appendChild(list);
-            container.appendChild(block);
+                    ${descriptionHtml}
+                    ${tagsHtml}
+                </div>
+                <a href="${safeUrl(tool.url)}" target="_blank" rel="noopener noreferrer" class="go-link">${translations[currentLang].go_button}</a>
+            `;
+            list.appendChild(item);
         });
 
-        const toolsCountEl = document.getElementById('tools-count');
-        if (toolsCountEl) toolsCountEl.textContent = totalDisplayed;
-    }
+        header.addEventListener('click', () => {
+            const isOpen = list.classList.contains('open');
+            list.classList.toggle('open');
+            header.querySelector('.arrow').classList.toggle('open');
+        });
+
+        block.appendChild(header);
+        block.appendChild(list);
+        container.appendChild(block);
+    });
+
+    const toolsCountEl = document.getElementById('tools-count');
+    if (toolsCountEl) toolsCountEl.textContent = totalDisplayed;
+}
 
     // ============================================================
     // 9. RENDER AI
     // ============================================================
-    function renderAI(tools) {
-        if (!tools) return;
-        
-        const aiTools = tools.filter(t =>
-            t.category && (t.category.toLowerCase().includes('ia') ||
-                t.category.toLowerCase().includes('intelligence') ||
-                t.category.toLowerCase().includes('artificielle') ||
-                t.category.toLowerCase().includes('ai'))
-        );
+  function renderAI(tools) {
+    if (!tools) return;
+    
+    const aiTools = tools.filter(t =>
+        t.category && (t.category.toLowerCase().includes('ia') ||
+            t.category.toLowerCase().includes('intelligence') ||
+            t.category.toLowerCase().includes('artificielle') ||
+            t.category.toLowerCase().includes('ai'))
+    );
 
-        if (aiTools.length === 0) {
-            aiContainer.innerHTML = `<p style="color:var(--text-secondary);text-align:center;padding:40px 0;">${translations[currentLang].no_ai}</p>`;
-            return;
+    if (aiTools.length === 0) {
+        aiContainer.innerHTML = `<p style="color:var(--text-secondary);text-align:center;padding:40px 0;">${translations[currentLang].no_ai}</p>`;
+        return;
+    }
+
+    const roles = {
+        'Conversational': ['chat', 'conversation', 'assistant', 'gpt', 'claude', 'gemini', 'copilot'],
+        'Image': ['image', 'vision', 'stable diffusion', 'midjourney', 'dall-e', 'flux', 'leonardo'],
+        'Video': ['video', 'sora', 'runway', 'pika', 'gen-2', 'animated'],
+        'Audio': ['audio', 'music', 'speech', 'voice', 'vocal', 'son'],
+        'Data Analysis': ['analyse', 'data', 'insight', 'prediction', 'tableau'],
+        'Code & Dev': ['code', 'dev', 'script', 'programming', 'programmation'],
+        'Other AI': []
+    };
+
+    const roleIcons = {
+        'Conversational': '💬',
+        'Image': '🎨',
+        'Video': '🎬',
+        'Audio': '🎵',
+        'Data Analysis': '📊',
+        'Code & Dev': '💻',
+        'Other AI': '🤖'
+    };
+
+    const grouped = {};
+    aiTools.forEach(tool => {
+        const lower = (tool.name + ' ' + (tool.description || '')).toLowerCase();
+        let assigned = false;
+        for (const [role, keywords] of Object.entries(roles)) {
+            if (keywords.some(k => lower.includes(k))) {
+                if (!grouped[role]) grouped[role] = [];
+                grouped[role].push(tool);
+                assigned = true;
+                break;
+            }
         }
+        if (!assigned) {
+            if (!grouped['Other AI']) grouped['Other AI'] = [];
+            grouped['Other AI'].push(tool);
+        }
+    });
 
-        const roles = {
-            'Conversational': ['chat', 'conversation', 'assistant', 'gpt', 'claude', 'gemini', 'copilot'],
-            'Image': ['image', 'vision', 'stable diffusion', 'midjourney', 'dall-e', 'flux', 'leonardo'],
-            'Video': ['video', 'sora', 'runway', 'pika', 'gen-2', 'animated'],
-            'Audio': ['audio', 'music', 'speech', 'voice', 'vocal', 'son'],
-            'Data Analysis': ['analyse', 'data', 'insight', 'prediction', 'tableau'],
-            'Code & Dev': ['code', 'dev', 'script', 'programming', 'programmation'],
-            'Other AI': []
-        };
-
-        const roleIcons = {
-            'Conversational': '💬',
-            'Image': '🎨',
-            'Video': '🎬',
-            'Audio': '🎵',
-            'Data Analysis': '📊',
-            'Code & Dev': '💻',
-            'Other AI': '🤖'
-        };
-
-        const grouped = {};
-        aiTools.forEach(tool => {
-            const lower = (tool.name + ' ' + (tool.description || '')).toLowerCase();
-            let assigned = false;
-            for (const [role, keywords] of Object.entries(roles)) {
-                if (keywords.some(k => lower.includes(k))) {
-                    if (!grouped[role]) grouped[role] = [];
-                    grouped[role].push(tool);
-                    assigned = true;
-                    break;
+    aiContainer.innerHTML = '';
+    for (const [role, items] of Object.entries(grouped)) {
+        const section = document.createElement('div');
+        section.style.marginBottom = '20px';
+        section.innerHTML = `<div class="ai-section-title">${roleIcons[role] || '🤖'} ${role} (${items.length})</div>`;
+        const grid = document.createElement('div');
+        grid.className = 'ai-grid';
+        items.forEach(tool => {
+            const card = document.createElement('div');
+            card.className = 'ai-card';
+            
+            // Description avec traduction
+            let descriptionText = tool.description || '';
+            if (currentLang !== 'fr' && tool.description) {
+                if (!tool._translations) tool._translations = {};
+                if (!tool._translations[currentLang]) {
+                    translateWithCache(descriptionText, currentLang).then(translated => {
+                        tool._translations[currentLang] = translated;
+                        renderAI(tools);
+                    });
+                    descriptionText = '⏳ Traduction en cours...';
+                } else {
+                    descriptionText = tool._translations[currentLang];
                 }
             }
-            if (!assigned) {
-                if (!grouped['Other AI']) grouped['Other AI'] = [];
-                grouped['Other AI'].push(tool);
-            }
+            
+            card.innerHTML = `
+                <div class="ai-icon">${roleIcons[role] || '🤖'}</div>
+                <h3>${escapeHtml(tool.name)}</h3>
+                <div class="ai-role">${role}</div>
+                ${descriptionText ? `<div class="ai-desc">${escapeHtml(descriptionText)}</div>` : ''}
+                <a href="${safeUrl(tool.url)}" target="_blank" rel="noopener noreferrer" class="go-link">${translations[currentLang].go_button}</a>
+            `;
+            grid.appendChild(card);
         });
-
-        aiContainer.innerHTML = '';
-        for (const [role, items] of Object.entries(grouped)) {
-            const section = document.createElement('div');
-            section.style.marginBottom = '20px';
-            section.innerHTML = `<div class="ai-section-title">${roleIcons[role] || '🤖'} ${role} (${items.length})</div>`;
-            const grid = document.createElement('div');
-            grid.className = 'ai-grid';
-            items.forEach(tool => {
-                const card = document.createElement('div');
-                card.className = 'ai-card';
-                card.innerHTML = `
-                    <div class="ai-icon">${roleIcons[role] || '🤖'}</div>
-                    <h3>${escapeHtml(tool.name)}</h3>
-                    <div class="ai-role">${role}</div>
-                    ${tool.description ? `<div class="ai-desc">${escapeHtml(tool.description)}</div>` : ''}
-                    <a href="${safeUrl(tool.url)}" target="_blank" rel="noopener noreferrer" class="go-link">Go</a>
-                `;
-                grid.appendChild(card);
-            });
-            section.appendChild(grid);
-            aiContainer.appendChild(section);
-        }
+        section.appendChild(grid);
+        aiContainer.appendChild(section);
     }
+}
 
     // ============================================================
     // 10. SEARCH
