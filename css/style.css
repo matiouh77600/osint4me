@@ -724,37 +724,7 @@ footer {
         grid-template-columns: 1fr;
     }
 }
-/* ===== FAVICONS ===== */
-.tool-item .favicon {
-    width: 18px;
-    height: 18px;
-    border-radius: 4px;
-    vertical-align: middle;
-    margin-right: 10px;
-    flex-shrink: 0;
-    background: var(--bg-card);
-    padding: 2px;
-    object-fit: contain;
-    border: 1px solid var(--border-color);
-}
-
-.tool-item .name {
-    display: flex;
-    align-items: center;
-    gap: 0;
-    flex: 1;
-}
-
-/* Fallback si l'icône ne charge pas */
-.tool-item .favicon[style*="display: none"] {
-    display: none !important;
-}
-
-/* Animation douce au chargement */
-.tool-item .favicon {
-    animation: fadeIn 0.3s ease;
-}
-/* ===== DESCRIPTIONS ET TAGS ===== */
+/* ===== FAVICONS, DESCRIPTIONS & TAGS ===== */
 .tool-item {
     display: flex;
     justify-content: space-between;
@@ -795,67 +765,6 @@ footer {
     gap: 0;
 }
 
-.tool-item .tool-description {
-    color: var(--text-secondary);
-    font-size: 0.8rem;
-    margin-top: 3px;
-    line-height: 1.4;
-    padding-left: 0;
-}
-
-.tool-item .tool-tags {
-    display: flex;
-    gap: 4px;
-    flex-wrap: wrap;
-    margin-top: 4px;
-}
-
-.tool-item .tag {
-    background: var(--bg-primary);
-    color: var(--text-muted);
-    font-size: 0.6rem;
-    padding: 1px 10px;
-    border-radius: 30px;
-    border: 1px solid var(--border-color);
-    font-weight: 500;
-    letter-spacing: 0.3px;
-}
-
-.tool-item .trusted-badge {
-    color: var(--accent-green);
-    font-size: 0.7rem;
-    font-weight: 600;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    background: rgba(52, 211, 153, 0.1);
-    padding: 1px 10px;
-    border-radius: 30px;
-    border: 1px solid rgba(52, 211, 153, 0.2);
-}
-
-.tool-item .trusted-badge i {
-    font-size: 0.65rem;
-}
-
-.tool-item .go-link {
-    background: var(--accent-blue);
-    color: #fff !important;
-    padding: 4px 16px;
-    border-radius: 30px;
-    font-size: 0.7rem;
-    font-weight: 600;
-    transition: all var(--transition);
-    white-space: nowrap;
-    text-decoration: none;
-    flex-shrink: 0;
-}
-
-.tool-item .go-link:hover {
-    background: var(--accent-purple);
-    transform: scale(1.04);
-}
-
 /* Favicon */
 .tool-item .favicon {
     width: 18px;
@@ -874,11 +783,97 @@ footer {
     display: none !important;
 }
 
-/* Animation au chargement */
+/* Description */
+.tool-item .tool-description {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    margin-top: 3px;
+    line-height: 1.4;
+    padding-left: 0;
+}
+
+/* Tags */
+.tool-item .tool-tags {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+}
+
+.tool-item .tag {
+    background: var(--bg-primary);
+    color: var(--text-muted);
+    font-size: 0.6rem;
+    padding: 1px 10px;
+    border-radius: 30px;
+    border: 1px solid var(--border-color);
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+/* Badge Approuvé */
+.tool-item .trusted-badge {
+    color: var(--accent-green);
+    font-size: 0.7rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(52, 211, 153, 0.1);
+    padding: 1px 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(52, 211, 153, 0.2);
+}
+
+.tool-item .trusted-badge i {
+    font-size: 0.65rem;
+}
+
+/* Bouton Go */
+.tool-item .go-link {
+    background: var(--accent-blue);
+    color: #fff !important;
+    padding: 4px 16px;
+    border-radius: 30px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    transition: all var(--transition);
+    white-space: nowrap;
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.tool-item .go-link:hover {
+    background: var(--accent-purple);
+    transform: scale(1.04);
+}
+
+/* Animation */
 .tool-item .favicon {
     animation: fadeIn 0.3s ease;
 }
 
+/* ===== RESPONSIVE MOBILE ===== */
+@media (max-width: 600px) {
+    .tool-item {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+        padding: 12px;
+    }
+    
+    .tool-item .tool-header {
+        flex-wrap: wrap;
+    }
+    
+    .tool-item .go-link {
+        align-self: flex-start;
+    }
+    
+    .tool-item .tool-description {
+        font-size: 0.75rem;
+    }
+}
 /* ===== RESPONSIVE ===== */
 @media (max-width: 600px) {
     .tool-item {
